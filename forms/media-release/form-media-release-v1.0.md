@@ -5,7 +5,7 @@
 **Status:** Draft
 **Last Reviewed:** 1 May 2025
 **Approved By:** Safeguarding Lead
-**Applies To:** Parent and Guardian Participants
+**Applies To:** Parents and Guardians of Minor Participants
 **Jurisdiction:** The Republic of The Gambia
 
 ---
