@@ -1,4 +1,4 @@
-# Parent and Guardian Consent Form — AIWA Programme Participation
+# Parent and Guardian Permission Form — AIWA Programme
 
 **Document Type:** Form — Parental Consent
 **Version:** v1.0
@@ -10,125 +10,106 @@
 
 ---
 
-## AIWA PROGRAMME PARTICIPATION CONSENT FORM
+## AIWA PROGRAMME PERMISSION FORM
 ### For Parents and Guardians
 
-**Programme:** [PROGRAM_NAME]
 **School:** [SCHOOL_NAME]
+**Programme:** [PROGRAM_NAME]
 **Academic Year:** [ACADEMIC_YEAR]
 
 ---
 
-### Section 1: About This Programme
+Dear Parent / Guardian,
 
-AI West Africa (AIWA) is an educational initiative that works with schools in The Gambia to
-support literacy, writing, and publishing skills among young people.
+AI West Africa (AIWA) is working with **[SCHOOL_NAME]** to run a programme for students
+called **[PROGRAM_NAME]**.
 
-AIWA has been invited by [SCHOOL_NAME] to deliver **[PROGRAM_NAME]** during the [ACADEMIC_YEAR]
-academic year.
-
-The programme will run from **[PILOT_START_DATE]** to **[PILOT_END_DATE]**.
-
-Activities will include:
-
-- Reading and writing workshops
-- Storytelling and creative writing sessions
-- Group discussion and collaborative projects
-- Opportunities to contribute to AIWA's educational publications (with separate consent)
-
-All programme sessions will take place on school premises during [WORKSHOP_SCHEDULE].
+This programme runs from **[PROGRAMME_START_DATE]** to **[PROGRAMME_END_DATE]**, during
+school hours, on **[WORKSHOP_SCHEDULE]**.
 
 ---
 
-### Section 2: Your Child's Participation
+### What Will Students Do?
 
-Participation in this programme is entirely voluntary.
+In this programme, students will:
 
-Your child may withdraw from the programme at any time without consequence to their standing
-at school.
+- Read stories, poems, and other writing together
+- Write their own stories, poems, and creative pieces
+- Share ideas and work together as a group
+- Learn how books and publications are made
+- Develop confidence in speaking, storytelling, and expressing themselves
 
-The programme does not replace any part of the school's regular curriculum.
-
----
-
-### Section 3: Photographs and Media
-
-*AIWA may wish to take photographs or short video recordings of programme sessions
-for educational documentation purposes.*
-
-This is handled separately. If AIWA wishes to photograph or film your child, you will be
-asked to complete a separate **Media Release Form**. No photographs or recordings of your
-child will be taken without your explicit additional consent.
+All sessions take place at school. There are no fees.
 
 ---
 
-### Section 4: Your Child's Written Work
+### Joining Is a Choice
 
-*If your child produces written work (stories, poems, essays) during the programme and
-AIWA wishes to publish that work, you will be asked to sign a separate
-**Publishing and Attribution Agreement**.*
+Your child does not have to join this programme.
 
-No work produced by your child will be published without your separate written consent.
-
----
-
-### Section 5: Data and Privacy
-
-AIWA will collect and hold the following information about your child and your family
-for the purpose of administering the programme:
-
-- Your child's name, class, and age
-- Your name and contact information
-- Records of your child's attendance and participation
-
-This information will:
-- Be kept securely and confidentially
-- Not be shared with third parties without your consent (except as required by law)
-- Be used only for educational programme administration and safeguarding purposes
-- Be retained in accordance with AIWA's Data Privacy Policy retention schedule
-
-You have the right to request access to, or deletion of, information held about you and
-your child. To make such a request, contact: [AIWA_CONTACT_EMAIL]
+If you give permission now and later change your mind, your child can leave at any time.
+This will not cause any problem at school.
 
 ---
 
-### Section 6: Safeguarding
+### Photos and Videos
 
-AIWA is committed to the safety and wellbeing of all young people.
+If AIWA wants to take photos or video of your child during programme activities,
+we will ask you separately before doing so.
 
-AIWA operates under a **Student Safeguarding Policy** which is available on request.
-
-If you have any concern about your child's welfare in relation to this programme,
-please contact: [AIWA_CONTACT_EMAIL] or [AIWA_CONTACT_PHONE]
+Your permission here does **not** cover photos or videos.
 
 ---
 
-### Section 7: Consent Declaration
+### Your Child's Written Work
 
-Please read this form carefully before signing.
+If your child writes something during the programme and AIWA wants to print or
+share it publicly, we will ask you again separately before doing anything.
 
-I, **[GUARDIAN_NAME]**, confirm that:
-
-☐ I am the parent / legal guardian of **[PARTICIPANT_NAME]**, date of birth **[PARTICIPANT_DATE_OF_BIRTH]**
-
-☐ I have read and understood the information provided about the [PROGRAM_NAME]
-
-☐ I understand that my child's participation is voluntary and may be withdrawn at any time
-
-☐ I understand that separate consent will be sought before any photographs, recordings,
-  or publications involving my child are made
-
-☐ I consent to my child participating in the **[PROGRAM_NAME]** at [SCHOOL_NAME]
+Your child's written work belongs to your child.
 
 ---
 
-**Guardian Full Name:** ___________________________________
+### Keeping Your Child Safe
 
-**Relationship to Child:** [GUARDIAN_RELATIONSHIP]
+AIWA has a safeguarding policy to protect all young people.
+All AIWA facilitators are vetted before working with students.
+Sessions are always held in open, visible spaces at school.
 
-**Contact Phone Number:** [GUARDIAN_CONTACT_PHONE]
+If you ever have any concern about your child's welfare, please contact us:
 
-**Contact Email (optional):** [GUARDIAN_CONTACT_EMAIL]
+📞 [AIWA_CONTACT_PHONE]
+✉ [AIWA_CONTACT_EMAIL]
+
+---
+
+### Your Information
+
+We will keep your child's name, class, and your contact details.
+This information is used only to run the programme safely.
+It is not shared with other organisations.
+
+---
+
+### Permission
+
+Please complete the section below and return to the school.
+
+---
+
+☐ **YES** — I give permission for my child to take part in [PROGRAM_NAME]
+
+☐ **NO** — I do not give permission at this time
+
+---
+
+**Child's Name:** ___________________________________
+
+**Parent / Guardian Name:** ___________________________________
+
+**Relationship to Child:** ___________________________________
+
+**Phone Number:** ___________________________________
 
 **Signature:** ______________________________
 

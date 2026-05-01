@@ -1,16 +1,16 @@
-# School Pilot Partnership Agreement
+# School Partnership Agreement
 
 **Document Type:** Template — Contract
 **Version:** v1.0
 **Status:** Draft
 **Last Reviewed:** 1 May 2025
-**Approved By:** Programme Director
-**Applies To:** All Pilot Schools
+**Approved By:** Pending — Programme Director
+**Applies To:** All Partner Schools
 **Jurisdiction:** The Republic of The Gambia
 
 ---
 
-## SCHOOL PILOT PARTNERSHIP AGREEMENT
+## SCHOOL PARTNERSHIP AGREEMENT
 
 **Between:**
 
@@ -40,9 +40,9 @@ and the West African region.
 of the Ministry of Basic and Secondary Education (MoBSE), The Gambia.
 
 1.3 The parties wish to enter into a formal partnership to implement the [PROGRAM_NAME]
-at [SCHOOL_NAME] during the [ACADEMIC_YEAR] academic year ("the Pilot").
+at [SCHOOL_NAME] during the [ACADEMIC_YEAR] academic year (the "Programme Period").
 
-1.4 This Agreement sets out the terms and conditions governing the Pilot, the respective
+1.4 This Agreement sets out the terms and conditions governing the Programme Period, the respective
 obligations of each party, and the rights of participants.
 
 ---
@@ -55,9 +55,9 @@ obligations of each party, and the rights of participants.
 **Description:** [PROGRAM_DESCRIPTION]
 **Target Participants:** Students aged [AGE_RANGE], class [PARTICIPANT_CLASS]
 **Expected Number of Participants:** [NUMBER_OF_PARTICIPANTS]
-**Pilot Start Date:** [PILOT_START_DATE]
-**Pilot End Date:** [PILOT_END_DATE]
-**Pilot Duration:** [PILOT_DURATION]
+**Programme Start Date:** [PROGRAMME_START_DATE]
+**Programme End Date:** [PROGRAMME_END_DATE]
+**Programme Duration:** [PROGRAMME_DURATION]
 
 2.2 A detailed programme schedule is attached as **Schedule A** to this Agreement.
 
@@ -69,7 +69,7 @@ obligations of each party, and the rights of participants.
 
 AIWA agrees to:
 
-3.1 Provide qualified facilitators and programme materials for the Pilot at no cost to the School.
+3.1 Provide qualified facilitators and programme materials at no cost to the School.
 
 3.2 Deliver workshops and sessions in accordance with the schedule set out in Schedule A.
 
@@ -81,10 +81,15 @@ programme activities commence, using the approved AIWA consent forms.
 3.5 Treat all participant data in accordance with AIWA's Data Governance Policy and applicable
 Gambian law.
 
-3.6 Provide the School with a summary report of programme outcomes at the conclusion of the Pilot.
+3.6 Provide the School with a summary report of programme outcomes at the conclusion of
+each Programme Year.
 
 3.7 Acknowledge the School's participation and contribution in any AIWA publications arising
-from the Pilot, with the School's consent.
+from the programme, with the School's consent.
+
+3.8 For the purposes of programme administration, safeguarding, educational review, and
+internal evaluation, AIWA may retain and internally reproduce Participant creative works
+on a non-commercial basis, without separate publishing consent.
 
 ---
 
@@ -96,7 +101,7 @@ The School agrees to:
 for programme sessions as agreed in Schedule A.
 
 4.2 Designate a **School Liaison Teacher** to coordinate between the School and AIWA throughout
-the Pilot.
+the Programme Period.
 
 4.3 Facilitate the distribution and collection of participant consent forms to parents and guardians.
 
@@ -114,11 +119,11 @@ programme delivery.
 5.1 The safeguarding and welfare of all student participants is the highest priority of both parties.
 
 5.2 AIWA will provide the School with a copy of its **Student Safeguarding Policy** prior to
-the commencement of the Pilot. The School acknowledges receipt of this policy.
+the commencement of the Programme Period. The School acknowledges receipt of this policy.
 
 5.3 All AIWA facilitators working with students have undergone appropriate safeguarding checks.
 
-5.4 Any safeguarding concern identified during the Pilot must be reported immediately to the
+5.4 Any safeguarding concern identified during Programme activities must be reported immediately to the
 designated safeguarding lead at AIWA and to the School's own safeguarding or welfare officer.
 
 5.5 No student may participate in photography, video recording, media activities, or publication
@@ -129,7 +134,7 @@ of their work without a signed **Media Release Form** or **Publishing and Attrib
 ## 6. Intellectual Property and Attribution
 
 6.1 Original works — including stories, poems, essays, and illustrations — created by student
-participants during the Pilot remain the property of their student creators.
+participants during the programme remain the property of their student creators.
 
 6.2 AIWA may publish or share participant works only pursuant to a separate, signed
 **Publishing and Attribution Agreement** entered into with the participant's parent or guardian.
@@ -164,15 +169,15 @@ accrued before the termination date.
 
 ## 8. Renewal
 
-8.1 At the conclusion of the Pilot period, both parties may agree in writing to renew this
-Agreement for a further term. [RENEWAL_TERMS].
+8.1 At the conclusion of the initial Programme Period, both parties may agree in writing to
+renew this Agreement for a further Programme Year. [RENEWAL_TERMS].
 
 ---
 
 ## 9. Confidentiality
 
 9.1 Each party agrees to maintain the confidentiality of the other party's non-public
-information disclosed during the Pilot.
+information disclosed during the programme.
 
 9.2 This obligation does not apply to information that is already publicly known or required
 to be disclosed by law.
@@ -181,7 +186,7 @@ to be disclosed by law.
 
 ## 10. Governing Law and Dispute Resolution
 
-10.1 This Agreement is governed by [GOVERNING_LAW].
+10.1 This Agreement is governed by the laws of The Republic of The Gambia.
 
 10.2 Any dispute arising under this Agreement shall be resolved by [DISPUTE_RESOLUTION].
 
@@ -190,7 +195,7 @@ to be disclosed by law.
 ## 11. Entire Agreement
 
 11.1 This Agreement, together with its Schedules, constitutes the entire agreement between
-the parties regarding the Pilot and supersedes all prior discussions or understandings.
+the parties regarding the Programme and supersedes all prior discussions or understandings.
 
 11.2 No amendment to this Agreement is valid unless made in writing and signed by both parties.
 

@@ -38,9 +38,12 @@ A completed document must contain **no remaining placeholder text**.
 | Placeholder | Description | Example |
 |---|---|---|
 | `[PROGRAM_NAME]` | Full name of the AIWA programme | AIWA Junior Publishing Fellowship |
-| `[PILOT_START_DATE]` | Start date of the school pilot | 1 September 2025 |
-| `[PILOT_END_DATE]` | End date of the school pilot | 31 July 2026 |
+| `[PILOT_START_DATE]` | Start date of the school pilot (use `[PROGRAMME_START_DATE]` for non-pilot agreements) | 1 September 2025 |
+| `[PILOT_END_DATE]` | End date of the school pilot (use `[PROGRAMME_END_DATE]` for non-pilot agreements) | 31 July 2026 |
 | `[PILOT_DURATION]` | Duration of the pilot period | One academic year (10 months) |
+| `[PROGRAMME_START_DATE]` | Start date of the programme period | 1 September 2025 |
+| `[PROGRAMME_END_DATE]` | End date of the programme period | 31 July 2026 |
+| `[PROGRAMME_DURATION]` | Duration of the programme period | One academic year (10 months) |
 | `[ACADEMIC_YEAR]` | Academic year reference | 2025/2026 |
 | `[PROGRAM_DESCRIPTION]` | Brief description of the programme | A structured literacy and publishing programme for students aged 10–16 |
 | `[WORKSHOP_SCHEDULE]` | Description or reference to workshop schedule | Fortnightly, as per Schedule A |

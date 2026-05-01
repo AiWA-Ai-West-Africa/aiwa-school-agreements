@@ -1,5 +1,5 @@
 # Educational Partnership and Programme Participation Agreement
-# AIWA Junior Publishing and Digital Linguistics Programme
+# AIWA Junior Publishing and Language Programme
 
 **Document Type:** Template — Contract
 **Version:** v1.0
@@ -42,7 +42,7 @@ creative-rights education for young people in The Gambia and the wider West Afri
 the requirements of the Ministry of Basic and Secondary Education (MoBSE) of The Republic
 of The Gambia.
 
-**C.** AIWA has developed the **Junior Publishing and Digital Linguistics Programme**
+**C.** AIWA has developed the **Junior Publishing and Language Programme**
 (the "Programme"), an educational initiative designed to develop students' literacy,
 publishing skills, oral expression, and appreciation of Gambian languages and cultures.
 
@@ -58,7 +58,7 @@ In this Agreement, the following terms have the meanings given below:
 **"Agreement"** means this Educational Partnership and Programme Participation Agreement,
 including all Schedules attached hereto.
 
-**"Programme"** means the AIWA Junior Publishing and Digital Linguistics Programme, as
+**"Programme"** means the AIWA Junior Publishing and Language Programme, as
 described in Clause 3 and detailed in Schedule B.
 
 **"Participant"** means a student enrolled at the School who is selected and consented to
@@ -91,8 +91,8 @@ September to July.
 2.1 This Agreement takes effect on **[CONTRACT_START_DATE]** and continues until
 **[CONTRACT_END_DATE]**, unless earlier terminated in accordance with Clause 16.
 
-2.2 The Pilot period for the [ACADEMIC_YEAR] academic year is confirmed as:
-**[PILOT_START_DATE]** to **[PILOT_END_DATE]**.
+2.2 The Programme Period for the [ACADEMIC_YEAR] academic year is confirmed as:
+**[PROGRAMME_START_DATE]** to **[PROGRAMME_END_DATE]**.
 
 ---
 
@@ -107,7 +107,7 @@ and outcomes:
 - **Educational Publishing** — Introducing students to the processes of writing, editing,
   illustrating, and preparing work for publication in print or digital formats.
 
-- **Language Preservation and Digital Linguistics** — Supporting the documentation and
+- **Language Preservation and Language Development** — Supporting the documentation and
   creative use of Gambian languages (including Mandinka, Wolof, Fula, and other local
   languages) through oral expression, storytelling, and written work.
 
@@ -128,10 +128,10 @@ Programme objectives. Any such tools are used solely in service of educational o
 and do not constitute the purpose of the Programme. AIWA is primarily an educational,
 publishing, and literacy organisation.
 
-3.3 The Programme is an educational, literacy-development, publishing, and language
-preservation initiative. All Programme activities are designed to serve the direct
-educational and cultural development interests of Participants. The Programme is not
-a data collection exercise or a technology demonstration project.
+3.3 The Programme is not a data extraction initiative, technology demonstration project,
+or commercial artificial intelligence development initiative. Educational technologies,
+where used, are supportive and incidental to the Programme's educational and publishing
+objectives.
 
 ---
 
@@ -252,9 +252,8 @@ requirements shall be accommodated where practicable within Programme activities
 
 ## 8. Creative Works and Intellectual Property
 
-8.1 All Creative Works produced by Participants during the Programme **remain the
-intellectual property of the student creator**. AIWA makes no claim to ownership of
-any student-created work.
+8.1 Participants retain ownership of their original Creative Works. AIWA makes no claim
+to ownership of any student-created work.
 
 8.2 AIWA may publish, reproduce, distribute, or display a Participant's Creative Work
 only with a separate, signed **Publishing and Attribution Agreement** entered into with
@@ -262,6 +261,11 @@ the Participant's parent or guardian (and with the Participant directly, where t
 Participant is of an appropriate age and capacity to understand the terms). Any such
 publishing rights granted to AIWA shall be **non-exclusive and royalty-free**, and the
 creator retains all other rights, including the right to publish their work elsewhere.
+
+8.2A For the purposes of Programme administration, safeguarding, educational review,
+archival documentation, and internal educational evaluation, AIWA may store and
+internally reproduce Participant Creative Works on a non-commercial basis, without
+requiring a separate Publishing and Attribution Agreement.
 
 8.3 Programme materials, curriculum documents, frameworks, guides, and templates developed
 by AIWA remain the intellectual property of AIWA.
@@ -284,8 +288,10 @@ author and creator of the work.
 student's request), their class or year group, and the name of their school, unless the
 student or their parent/guardian requests otherwise.
 
-9.3 AIWA shall not edit or substantially alter a Participant's Creative Work without the
-Participant's (and, where relevant, their parent/guardian's) prior written consent.
+9.3 AIWA may make minor copyediting and proofreading corrections to a Participant's
+Creative Work without prior written consent, provided that the meaning and creative
+voice of the work are preserved. Any more substantial editorial changes require the
+prior written consent of the Participant (and, where relevant, their parent/guardian).
 
 9.4 AIWA shall provide a copy of any published work in which a Participant's Creative Work
 appears to the Participant and, where applicable, to the School.
@@ -453,7 +459,8 @@ Programme schedules, revised terms, or additional schedules as appropriate.
 
 ## 18. Governing Law and Dispute Resolution
 
-18.1 This Agreement is governed by and construed in accordance with [GOVERNING_LAW].
+18.1 This Agreement is governed by and construed in accordance with the laws of
+The Republic of The Gambia.
 
 18.2 Both parties commit to resolving any dispute arising under this Agreement through
 good-faith negotiation in the first instance.
@@ -562,7 +569,7 @@ Date: ___________________________________
 
 **School:** [SCHOOL_NAME]
 **Academic Year:** [ACADEMIC_YEAR]
-**Programme Year:** [PILOT_START_DATE] to [PILOT_END_DATE]
+**Programme Year:** [PROGRAMME_START_DATE] to [PROGRAMME_END_DATE]
 
 | Session | Date | Time | Location | Topic |
 |---|---|---|---|---|
@@ -608,7 +615,7 @@ activities.*
 | Required Document | Status |
 |---|---|
 | Parent/Guardian Consent Form | [ ] Completed and signed |
-| Student Assent Form (age-appropriate) | [ ] Completed and signed |
+| Student Participation Form (age-appropriate) | [ ] Completed and signed |
 | Media Release Form (if media activities planned) | [ ] Completed and signed |
 | Publishing and Attribution Agreement (if publishing a student's work) | [ ] Completed and signed |
 
@@ -621,4 +628,4 @@ before activities commence.*
 
 | Version | Date | Changed By | Summary of Changes |
 |---|---|---|---|
-| v1.0 | 1 May 2025 | Programme Director | Initial template — Junior Publishing and Digital Linguistics Programme |
+| v1.0 | 1 May 2025 | Programme Director | Initial template — Junior Publishing and Language Programme |

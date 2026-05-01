@@ -1,6 +1,6 @@
-# Media Release and Photography Consent Form
+# Media and Photography Permission Form — Parents and Guardians
 
-**Document Type:** Form — Media Release
+**Document Type:** Form — Media Consent (Parent/Guardian)
 **Version:** v1.0
 **Status:** Draft
 **Last Reviewed:** 1 May 2025
@@ -10,103 +10,71 @@
 
 ---
 
-## AIWA MEDIA RELEASE AND PHOTOGRAPHY CONSENT FORM
-### For Parents and Guardians of Minor Participants
+## MEDIA AND PHOTOGRAPHY PERMISSION FORM
+### For Parents and Guardians
 
-**Programme:** [PROGRAM_NAME]
 **School:** [SCHOOL_NAME]
+**Programme:** [PROGRAM_NAME]
 **Academic Year:** [ACADEMIC_YEAR]
 
 ---
 
-### Section 1: Purpose of This Form
+Dear Parent / Guardian,
 
-AI West Africa (AIWA) occasionally documents its educational programmes through photographs
-and short video recordings. This documentation may be used for:
+AI West Africa (AIWA) sometimes takes photos or short videos during programme activities.
 
-- Educational reports and programme reviews
-- AIWA's institutional communications and publications
-- Sharing with partner schools and educational organisations
-- Grant reporting and institutional accountability purposes
+These may be used for:
 
-**No photographs or video recordings of your child will be taken without your consent.**
+- School and programme reports
+- Educational presentations
+- AIWA publications
+- Social media
+- Programme updates and communications
 
-This form is separate from the general programme participation consent form and is optional.
-Your child's participation in the programme is not affected by whether you sign this form.
-
----
-
-### Section 2: What Consent Covers
-
-By signing this form, you are consenting to AIWA:
-
-☐ Taking photographs of your child during programme sessions at [SCHOOL_NAME]
-
-☐ Making short video recordings of programme activities in which your child may appear
-
-☐ Using such photographs and recordings in:
-
-  - AIWA's internal programme documentation
-  - AIWA's published reports and educational materials
-  - AIWA's website and institutional communications
-  - Communications with partner organisations and funding bodies
+**Your child's place in the programme is NOT affected if you choose "No."**
 
 ---
 
-### Section 3: What Consent Does Not Cover
+### Please Tick Your Choice
 
-This consent does **not** cover:
+**Photos**
 
-- Publication of your child's name alongside any photograph without separate consent
-- Use of photographs in commercial advertising or for-profit publications
-- Sharing of photographs or recordings with media organisations or press
-- Use of photographs beyond the purposes listed in Section 2
+☐ **YES** — AIWA may take and use photos of my child
 
-If AIWA wishes to use photographs in any way not listed above, separate written consent
-will be sought.
+☐ **NO** — I do not want photos of my child taken or used
 
 ---
 
-### Section 4: Your Rights
+**Videos**
 
-You may:
+☐ **YES** — AIWA may use short videos that include my child
 
-- Withdraw this consent at any time by contacting [AIWA_CONTACT_EMAIL]
-- Request that AIWA delete photographs or recordings of your child by contacting [AIWA_CONTACT_EMAIL]
-- Request to see how photographs of your child have been used
-
-Withdrawal of consent will not affect your child's participation in the programme.
+☐ **NO** — I do not want videos of my child taken or used
 
 ---
 
-### Section 5: Consent Declaration
+**Child's Name in Photos / Videos**
 
-I, **[GUARDIAN_NAME]**, parent / legal guardian of **[PARTICIPANT_NAME]**
-(date of birth: **[PARTICIPANT_DATE_OF_BIRTH]**), provide the following consent:
+☐ **YES** — AIWA may use my child's first name with photos or videos
 
-**Photography Consent:**
-☐ I consent to photographs being taken of my child during AIWA programme sessions
-☐ I do NOT consent to photographs being taken of my child
-
-**Video Recording Consent:**
-☐ I consent to video recordings of activities in which my child may appear
-☐ I do NOT consent to video recordings involving my child
-
-**Publication Consent:**
-☐ I consent to approved photographs/recordings being used in AIWA publications and communications
-☐ I do NOT consent to use of photographs/recordings in publications
-
-**Name Identification:**
-☐ I consent to my child's first name being used alongside their photograph (e.g., "Fatou, Grade 6")
-☐ I do NOT consent to my child being named alongside any photograph
+☐ **NO** — Please do not use my child's name alongside any photo or video
 
 ---
 
-**Guardian Full Name:** ___________________________________
+### Important
 
-**Relationship to Child:** [GUARDIAN_RELATIONSHIP]
+- AIWA will **not** sell your child's photos or videos.
+- Photos and videos will only be used for educational and programme purposes.
+- You may change your decision at any time by contacting AIWA.
+- Separate permission will always be requested for major publications or special projects.
 
-**Contact Phone Number:** [GUARDIAN_CONTACT_PHONE]
+---
+
+**Child's Name:** ___________________________________
+
+**Parent / Guardian Name:** ___________________________________
+
+**Phone Number:** ___________________________________
 
 **Signature:** ______________________________
 

@@ -1,6 +1,6 @@
-# Student Assent Form — Programme Participation
+# Student Participation Agreement — AIWA Programme
 
-**Document Type:** Form — Student Assent
+**Document Type:** Form — Student Participation
 **Version:** v1.0
 **Status:** Draft
 **Last Reviewed:** 1 May 2025
@@ -10,85 +10,127 @@
 
 ---
 
-## AIWA PROGRAMME — STUDENT ASSENT FORM
+## AIWA STUDENT PARTICIPATION AGREEMENT
 
-*This form is for students aged 10 and above. A parent or guardian consent form
-must also be completed before you can join the programme.*
-
----
-
-### About This Programme
-
-Hi! My name is _________________________ and I am a facilitator with
-AI West Africa (AIWA). We are an organisation that helps young people
-in The Gambia become better readers and writers.
-
-We are running a programme at your school called **[PROGRAM_NAME]**.
-
-In this programme, you will:
-
-- Read and write stories, poems, and essays
-- Share ideas with other students
-- Learn about how books and educational materials are made
-- Have the chance to see your work published (if you want!)
+*Your parent or guardian also needs to sign a separate permission form before you join.*
 
 ---
 
-### Your Choices
+### Welcome to the Programme!
 
-**You do not have to join.** It is completely your choice.
+AI West Africa (AIWA) is working with your school to run a programme called
+**[PROGRAM_NAME]**.
 
-If you join and later change your mind, you can leave at any time. This will not
-get you into trouble at school.
-
----
-
-### What We Would Like You to Know
-
-- **Your writing belongs to you.** If AIWA wants to publish your work, we will ask you
-  and your parent or guardian separately. We will never publish your work without permission.
-
-- **Photos and videos.** We might take photos during sessions. Your parent or guardian
-  will be asked about this separately. If you feel uncomfortable during any photo or
-  video activity, please tell your teacher or an AIWA facilitator.
-
-- **Your information.** We will keep your name and school records safely and privately.
-
-- **Questions.** If you ever have questions or worries about the programme, please
-  talk to your teacher or contact AIWA at [AIWA_CONTACT_EMAIL].
+This programme is for students who want to develop their skills, confidence, and creativity.
 
 ---
 
-### Assent Declaration
+### What Is This Programme?
+
+In **[PROGRAM_NAME]**, you will:
+
+- Improve your reading and writing skills
+- Write your own stories, poems, and creative pieces
+- Learn about storytelling and Gambian languages
+- Discover how books and publications are made
+- Work together with other students on creative projects
+- Build your confidence in speaking and sharing ideas
+
+---
+
+### What Do You Get?
+
+Students who complete the programme will:
+
+- Receive a **Certificate of Participation**
+- Have the chance to be published in an AIWA educational publication
+  (only if you want, and with your parent's or guardian's permission)
+- Build real skills in writing, storytelling, and communication
+- Be part of something that supports Gambian education and culture
+
+---
+
+### It Is Your Choice to Join
+
+You do not have to join this programme.
+
+If you decide to join and later change your mind, you can leave at any time.
+Leaving will not cause any problem for you at school.
+
+---
+
+### How We Work Together
+
+When you join this programme, we ask you to:
+
+- Attend sessions regularly and try your best
+- Treat other students and facilitators with respect
+- Contribute to a positive and welcoming group for everyone
+- Be honest and kind in your feedback to other students' work
+- Let a teacher or AIWA facilitator know if you have any concerns
+
+---
+
+### Your Writing Belongs to You
+
+Anything you write during this programme belongs to you.
+
+AIWA will never publish your work without asking you and your parent or guardian first.
+You will always be given full credit as the author of your work.
+
+---
+
+### Photos and Videos
+
+Your parent or guardian will be asked separately about photos and videos.
+
+If at any time you feel uncomfortable during a photo or video activity,
+please tell your teacher or an AIWA facilitator straight away.
+
+---
+
+### Questions and Concerns
+
+If you have any questions or worries at any time, please talk to:
+
+- Your class teacher
+- The AIWA facilitator at your school
+- AIWA directly at: [AIWA_CONTACT_EMAIL] | [AIWA_CONTACT_PHONE]
+
+---
+
+### Student Agreement
 
 Please read and tick each box if you agree:
 
-☐ Someone has explained this programme to me and I understand what it involves
+☐ I understand what this programme is about
 
-☐ I know I do not have to join, and I can leave at any time
+☐ I know that joining is my choice and I can leave at any time
 
-☐ I know my writing belongs to me and will not be published without my permission
+☐ I will treat other students and facilitators with respect
 
-☐ I am happy to join the **[PROGRAM_NAME]**
+☐ I know that my writing belongs to me and will not be published without my permission
+
+☐ I am happy to join **[PROGRAM_NAME]** and I will do my best
 
 ---
 
-**My name:** ___________________________________
+**My Name:** ___________________________________
 
-**My class:** ___________________________________
+**My Class:** ___________________________________
 
-**My school:** [SCHOOL_NAME]
+**My School:** [SCHOOL_NAME]
 
-**My signature or mark:** ______________________________
+**My Signature or Mark:** ______________________________
 
 **Date:** ___________________________________
 
 ---
 
-*For students who cannot yet write: This assent may be given verbally in the presence
+*For students who cannot yet write: This agreement may be given verbally in the presence
 of the teacher. The teacher should note this below.*
 
-Teacher confirmation (if verbal assent given): ___________________________
+Teacher confirmation (if verbal agreement given): ___________________________
 
 Teacher name: ___________________________ Date: _______________
 
