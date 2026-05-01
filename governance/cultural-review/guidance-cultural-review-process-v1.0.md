@@ -86,7 +86,7 @@ The Programme Director approves the material for use, noting the cultural review
 
 | Document | Review Date | Reviewer | Community / Heritage Concerned | Outcome |
 |---|---|---|---|---|
-| [Document name] | [Date] | [Reviewer name/role] | [Community] | [Approved / Amended / Withdrawn] |
+| [DOCUMENT NAME] | [DATE] | [REVIEWER NAME/ROLE] | [COMMUNITY] | [APPROVED / AMENDED / WITHDRAWN] |
 
 ---
 
