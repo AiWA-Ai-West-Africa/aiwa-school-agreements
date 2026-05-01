@@ -140,7 +140,15 @@ A completed document must contain **no remaining placeholder text**.
 
 ---
 
-## 10. Research and Evaluation Placeholders
+## 10. Certificate Placeholders
+
+| Placeholder | Description | Example |
+|---|---|---|
+| `[CERTIFICATE_DATE]` | Date on which the certificate is issued | 15 July 2026 |
+
+---
+
+## 11. Research and Evaluation Placeholders
 
 | Placeholder | Description | Example |
 |---|---|---|
@@ -152,7 +160,7 @@ A completed document must contain **no remaining placeholder text**.
 
 ---
 
-## 11. Completing a Template — Checklist
+## 12. Completing a Template — Checklist
 
 Before a document is considered complete and ready for use or execution:
 

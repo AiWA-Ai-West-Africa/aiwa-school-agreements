@@ -47,7 +47,7 @@
   [AIWA_REPRESENTATIVE_TITLE]
   AI West Africa (AIWA)
 
-  Date: [AGREEMENT_DATE]
+  Date: [CERTIFICATE_DATE]
 ```
 
 ---
