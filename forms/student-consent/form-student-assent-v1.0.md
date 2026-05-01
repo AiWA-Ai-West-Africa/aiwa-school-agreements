@@ -45,17 +45,17 @@ get you into trouble at school.
 
 ### What We Would Like You to Know
 
-✏️ **Your writing belongs to you.** If AIWA wants to publish your work, we will ask you
-and your parent or guardian separately. We will never publish your work without permission.
+- **Your writing belongs to you.** If AIWA wants to publish your work, we will ask you
+  and your parent or guardian separately. We will never publish your work without permission.
 
-📸 **Photos and videos.** We might take photos during sessions. Your parent or guardian
-will be asked about this separately. If you feel uncomfortable during any photo or
-video activity, please tell your teacher or an AIWA facilitator.
+- **Photos and videos.** We might take photos during sessions. Your parent or guardian
+  will be asked about this separately. If you feel uncomfortable during any photo or
+  video activity, please tell your teacher or an AIWA facilitator.
 
-🔒 **Your information.** We will keep your name and school records safely and privately.
+- **Your information.** We will keep your name and school records safely and privately.
 
-💬 **Questions.** If you ever have questions or worries about the programme, please
-talk to your teacher or contact AIWA at [AIWA_CONTACT_EMAIL].
+- **Questions.** If you ever have questions or worries about the programme, please
+  talk to your teacher or contact AIWA at [AIWA_CONTACT_EMAIL].
 
 ---
 
