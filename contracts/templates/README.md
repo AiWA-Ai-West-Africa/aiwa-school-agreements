@@ -1,0 +1,21 @@
+# Contracts — Templates
+
+This folder contains reusable blank contract templates for AIWA school pilot partnerships
+and educational agreements.
+
+## Contents
+
+| File | Description | Version | Status |
+|---|---|---|---|
+| `contract-school-pilot-agreement-v1.0.md` | School pilot partnership agreement | v1.0 | Draft |
+
+## Usage
+
+1. Copy the relevant template file
+2. Rename using the executed document naming convention from [DOCUMENT-STANDARDS.md](../../DOCUMENT-STANDARDS.md)
+3. Replace all `[PLACEHOLDER]` values — see [PLACEHOLDER-CONVENTION.md](../../PLACEHOLDER-CONVENTION.md)
+4. Obtain required approvals before execution
+5. Place the executed (signed) copy in `../executed/`
+
+---
+*Maintained by: AI West Africa (AIWA)*
