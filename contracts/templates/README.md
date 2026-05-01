@@ -12,10 +12,11 @@ and educational agreements.
 ## Usage
 
 1. Copy the relevant template file
-2. Rename using the executed document naming convention from [DOCUMENT-STANDARDS.md](../../DOCUMENT-STANDARDS.md)
+2. Rename the copy using a draft or working filename that clearly indicates it is not yet executed
 3. Replace all `[PLACEHOLDER]` values — see [PLACEHOLDER-CONVENTION.md](../../PLACEHOLDER-CONVENTION.md)
 4. Obtain required approvals before execution
-5. Place the executed (signed) copy in `../executed/`
+5. After signing, save the final signed PDF using the executed document naming convention from [DOCUMENT-STANDARDS.md](../../DOCUMENT-STANDARDS.md)
+6. Place the final executed (signed) PDF in `../executed/`
 
 ---
 *Maintained by: AI West Africa (AIWA)*
