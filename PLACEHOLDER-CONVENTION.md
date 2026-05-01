@@ -160,7 +160,36 @@ A completed document must contain **no remaining placeholder text**.
 
 ---
 
-## 12. Completing a Template — Checklist
+## 12. Partnership and MOU Placeholders
+
+| Placeholder | Description | Example |
+|---|---|---|
+| `[PARTNER_ORGANISATION_NAME]` | Full official name of the partner organisation | University of The Gambia |
+| `[PARTNER_ADDRESS]` | Postal address of the partner organisation | Brikama Campus, West Coast Region, The Gambia |
+| `[PARTNER_SHORT_NAME]` | Short name or agreed acronym for the partner | UTG |
+| `[COLLABORATION_AREA_1]` | First area of intended collaboration | Joint curriculum development for literacy programmes |
+| `[COLLABORATION_AREA_2]` | Second area of intended collaboration | Research and evaluation of programme outcomes |
+| `[COLLABORATION_AREA_3]` | Third area of intended collaboration (if applicable) | Community outreach and language preservation activities |
+| `[AIWA_COMMITMENT_1]` | First AIWA commitment under the MOU | Provide programme materials and qualified facilitators |
+| `[AIWA_COMMITMENT_2]` | Second AIWA commitment under the MOU | Share programme outcome data with the partner organisation |
+| `[PARTNER_COMMITMENT_1]` | First partner commitment under the MOU | Provide access to facilities and student participants |
+| `[PARTNER_COMMITMENT_2]` | Second partner commitment under the MOU | Designate a liaison officer to coordinate activities |
+
+---
+
+## 13. Session and Schedule Placeholders
+
+| Placeholder | Description | Example |
+|---|---|---|
+| `[SESSION_DATE]` | Date of an individual programme session | 15 September 2025 |
+| `[SESSION_TIME]` | Start time of the session | 09:00 |
+| `[SESSION_LOCATION]` | Room or location for the session | Classroom 4B, Ground Floor |
+| `[SESSION_TOPIC]` | Subject or topic for the session | Introduction to Storytelling and Oral Narrative |
+| `[SESSION_NUMBER]` | Sequential session number | 1 |
+
+---
+
+## 14. Completing a Template — Checklist
 
 Before a document is considered complete and ready for use or execution:
 
