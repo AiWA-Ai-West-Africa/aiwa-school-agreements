@@ -226,8 +226,8 @@ Date: ___________________________________
 
 | Session | Date | Time | Location | Topic |
 |---|---|---|---|---|
-| 1 | [DATE] | [TIME] | [ROOM/LOCATION] | [TOPIC] |
-| 2 | [DATE] | [TIME] | [ROOM/LOCATION] | [TOPIC] |
+| 1 | [SESSION_DATE] | [SESSION_TIME] | [SESSION_LOCATION] | [SESSION_TOPIC] |
+| 2 | [SESSION_DATE] | [SESSION_TIME] | [SESSION_LOCATION] | [SESSION_TOPIC] |
 | ... | | | | |
 
 ---
