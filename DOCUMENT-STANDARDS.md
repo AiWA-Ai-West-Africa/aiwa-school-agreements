@@ -174,6 +174,11 @@ Every document must include a header block immediately following the document ti
 **Jurisdiction:** The Republic of The Gambia
 ```
 
+> **Guidance on "Approved By" by status:**
+> - **Draft / Under Review:** Set `Approved By` to `Pending — [Intended Approver Role]` (e.g., `Pending — Programme Director`). This makes clear that approval has not yet been granted and avoids misrepresenting a draft as an approved document.
+> - **Approved:** Replace with the approver's role title (e.g., `Programme Director`). Do not use personal names.
+> - **Archived:** Retain the role title of the approver from when the document was last approved.
+
 ---
 
 ## 7. Change Log Standard

@@ -74,9 +74,16 @@ Key requirements include:
 
 ### File Naming
 
+The full naming convention from [DOCUMENT-STANDARDS.md](DOCUMENT-STANDARDS.md) Section 2.1 is:
+
 ```
-[CATEGORY]-[DESCRIPTOR]-[VERSION].[ext]
+[category]-[descriptor]-[modifier]-[version].[extension]
 ```
+
+- All components are **lowercase** (except any `[SCHOOL_ID]` segment)
+- Words separated by **hyphens**
+- `[modifier]` is optional — omit it if not needed
+- Version always uses the `v` prefix
 
 Examples:
 ```
