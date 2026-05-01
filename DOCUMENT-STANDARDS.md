@@ -26,7 +26,7 @@ All files must follow this naming convention:
 [category]-[descriptor]-[modifier]-[version].[extension]
 ```
 
-- All components are **lowercase**
+- All components are **lowercase**, except any `[SCHOOL_ID]` segment, which must follow the official school identifier standard (for example, `BJL-PRI-001`)
 - Words are separated by **hyphens** (not underscores or spaces)
 - Version numbers always use the `v` prefix
 - Do not include dates in template file names (use the document header instead)
