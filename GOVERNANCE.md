@@ -95,9 +95,9 @@ These works:
 - Any use of traditional cultural materials must be reviewed by the **Cultural Review process**
   described in `/governance/cultural-review/`
 
-This distinction is a matter of ethical responsibility, cultural integrity, and legal compliance
-with international frameworks including **UNESCO's Convention on the Safeguarding of Intangible
-Cultural Heritage (2003)**.
+This distinction is a matter of ethical responsibility, cultural integrity, and alignment
+with international principles, including those articulated in **UNESCO's Convention on the
+Safeguarding of Intangible Cultural Heritage (2003)**.
 
 ---
 
@@ -121,7 +121,8 @@ documentation are entitled to:
 |---|---|---|
 | Level 1 | Governance policies, safeguarding policy | Programme Director + Board |
 | Level 2 | School partnership agreements, MOUs | Programme Director |
-| Level 3 | Participant consent forms, media releases | Safeguarding Lead |
+| Level 3 | Participant consent forms | Safeguarding Lead + Programme Director |
+| Level 3 | Media release forms | Safeguarding Lead |
 | Level 4 | Programme schedules, workshop plans | Programme Coordinator |
 | Level 5 | Correspondence templates, certificates | School Liaison Officer |
 

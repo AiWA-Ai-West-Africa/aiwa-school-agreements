@@ -133,6 +133,8 @@ participants during the Pilot remain the property of their student creators.
 
 6.2 AIWA may publish or share participant works only pursuant to a separate, signed
 **Publishing and Attribution Agreement** entered into with the participant's parent or guardian.
+Any publishing rights granted under such an agreement are **non-exclusive and royalty-free**;
+the creator retains all other rights, including the right to publish their work elsewhere.
 
 6.3 Programme materials, curriculum documents, templates, and other materials developed by AIWA
 remain the property of AIWA.

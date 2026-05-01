@@ -166,8 +166,8 @@ This repository operates within the legal and policy framework of:
 
 - The **Republic of The Gambia** and its applicable education and data protection legislation
 - The **Ministry of Basic and Secondary Education (MoBSE)** guidelines and curriculum frameworks
-- **UNESCO** international standards for educational ethics and cultural heritage protection
-- **UNICEF** child safeguarding and participation rights frameworks (CRC)
+- **UNESCO** principles for educational ethics and intangible cultural heritage
+- The **UN Convention on the Rights of the Child (CRC)** and **UNICEF** child-friendly schools and safeguarding guidance
 
 ---
 

@@ -1,16 +1,19 @@
-# Reference — ICT Policy
+# Reference — Gambian Government Policy Frameworks
 
-This folder holds reference materials related to **national ICT policy** in The Gambia,
-including government strategies relevant to digital educational programmes.
+This folder holds reference materials related to **national government policy** in The Gambia,
+including ICT, youth, and education strategies relevant to AIWA's digital and community
+educational programmes.
 
 ## Contents
 
 Add reference documents here as gathered. Suggested items include:
 
-- Gambia National ICT Policy summaries
+- Gambia National ICT4D Policy
+- Gambia National Youth Policy
 - Digital education and e-learning strategy references
 - Internet access and infrastructure context documents
 - Guidance on appropriate technology use in Gambian schools
+- National cultural and heritage policy summaries
 
 ## Note on Source Materials
 

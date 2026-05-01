@@ -8,9 +8,11 @@ guidance that inform AIWA's school pilot programmes.
 
 Add reference documents here as they are gathered. Suggested items include:
 
+- MoBSE Education Sector Policy
 - MoBSE school registration and partnership guidance
 - National curriculum framework summaries
 - School calendar and academic year references
+- MoBSE Child Protection and School Safety guidance
 - MoBSE contact and official communications directory
 - Policy circulars relevant to external educational partners
 

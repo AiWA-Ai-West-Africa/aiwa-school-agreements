@@ -128,9 +128,10 @@ Programme objectives. Any such tools are used solely in service of educational o
 and do not constitute the purpose of the Programme. AIWA is primarily an educational,
 publishing, and literacy organisation.
 
-3.3 The Programme is not a data collection exercise, a technology demonstration, a commercial
-publishing venture, or an artificial intelligence training initiative. Any use of educational
-technology is incidental and supportive only.
+3.3 The Programme is an educational, literacy-development, publishing, and language
+preservation initiative. All Programme activities are designed to serve the direct
+educational and cultural development interests of Participants. The Programme is not
+a data collection exercise or a technology demonstration project.
 
 ---
 
@@ -258,7 +259,9 @@ any student-created work.
 8.2 AIWA may publish, reproduce, distribute, or display a Participant's Creative Work
 only with a separate, signed **Publishing and Attribution Agreement** entered into with
 the Participant's parent or guardian (and with the Participant directly, where the
-Participant is of an appropriate age and capacity to understand the terms).
+Participant is of an appropriate age and capacity to understand the terms). Any such
+publishing rights granted to AIWA shall be **non-exclusive and royalty-free**, and the
+creator retains all other rights, including the right to publish their work elsewhere.
 
 8.3 Programme materials, curriculum documents, frameworks, guides, and templates developed
 by AIWA remain the intellectual property of AIWA.
@@ -355,9 +358,9 @@ required by the laws of The Republic of The Gambia.
 retention schedule. Parents and guardians may request access to or deletion of data held
 about their child by contacting AIWA at [AIWA_CONTACT_EMAIL].
 
-12.4 AIWA shall not use any Participant data to train, test, or develop artificial
-intelligence systems, commercial products, or any system unrelated to the direct
-educational administration of the Programme.
+12.4 AIWA shall not use any Participant personal information or educational materials
+for non-educational commercial purposes, or for any purpose unrelated to the direct
+administration, delivery, and safeguarding of the Programme.
 
 12.5 Any educational technology tools used within the Programme shall be disclosed to
 the School and to parents/guardians through the Consent Form, and their use shall be
@@ -372,8 +375,8 @@ activities where such tools serve the educational, linguistic, or creative devel
 objectives of the Programme.
 
 13.2 Any digital tools used with students shall be disclosed in the Consent Form and
-shall comply with applicable Gambian and internationally recognised standards for the
-protection of children's data.
+shall comply with applicable Gambian educational standards and good practice for the
+protection of children in educational settings.
 
 13.3 No Participant shall be required to create accounts on commercial platforms or to
 use personal devices as a condition of participation.
