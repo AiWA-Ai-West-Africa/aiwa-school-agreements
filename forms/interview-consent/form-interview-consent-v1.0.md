@@ -15,7 +15,7 @@
 **Programme:** [PROGRAM_NAME]
 **School:** [SCHOOL_NAME]
 **Interview / Research Activity:** [ACTIVITY_DESCRIPTION]
-**Date:** [INTERVIEW_DATE]
+**Date:** [DATE]
 
 ---
 
