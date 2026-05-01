@@ -140,7 +140,19 @@ A completed document must contain **no remaining placeholder text**.
 
 ---
 
-## 10. Completing a Template — Checklist
+## 10. Research and Evaluation Placeholders
+
+| Placeholder | Description | Example |
+|---|---|---|
+| `[ACTIVITY_DESCRIPTION]` | Name or description of the interview or research activity | Programme Impact Evaluation — Teacher Interview |
+| `[INTERVIEW_DATE]` | Date on which the interview or research activity takes place | 15 March 2025 |
+| `[RESEARCH_PURPOSE]` | Statement of the purpose of the research or evaluation | To evaluate the impact of the Junior Publishing Fellowship on student literacy |
+| `[INTERVIEW_DURATION]` | Expected duration of the interview or activity | 30–45 minutes |
+| `[WITHDRAWAL_PERIOD]` | Period within which a participant may withdraw their consent after the activity | 14 days |
+
+---
+
+## 11. Completing a Template — Checklist
 
 Before a document is considered complete and ready for use or execution:
 
