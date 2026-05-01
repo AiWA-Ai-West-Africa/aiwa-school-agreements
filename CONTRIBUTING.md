@@ -96,7 +96,7 @@ Every document must begin with a standard header:
 **Version:** [e.g., v1.0]
 **Status:** [Draft / Under Review / Approved / Archived]
 **Last Reviewed:** [DD Month YYYY]
-**Approved By:** [Role or Name]
+**Approved By:** [Role Title]
 **Applies To:** [Schools / Participants / Partners / All]
 ```
 
