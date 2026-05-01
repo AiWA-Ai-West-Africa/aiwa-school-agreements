@@ -122,7 +122,7 @@ the commencement of the Pilot. The School acknowledges receipt of this policy.
 designated safeguarding lead at AIWA and to the School's own safeguarding or welfare officer.
 
 5.5 No student may participate in photography, video recording, media activities, or publication
-of their work without a signed **Media Release Form** or **Publishing Consent Form**, as applicable.
+of their work without a signed **Media Release Form** or **Publishing and Attribution Agreement**, as applicable.
 
 ---
 
