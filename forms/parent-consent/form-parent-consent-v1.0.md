@@ -85,7 +85,7 @@ This information will:
 - Be kept securely and confidentially
 - Not be shared with third parties without your consent (except as required by law)
 - Be used only for educational programme administration and safeguarding purposes
-- Be held for a period of [RETENTION_PERIOD] following the end of the programme
+- Be retained in accordance with AIWA's Data Privacy Policy retention schedule
 
 You have the right to request access to, or deletion of, information held about you and
 your child. To make such a request, contact: [AIWA_CONTACT_EMAIL]
