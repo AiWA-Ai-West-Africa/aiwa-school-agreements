@@ -126,7 +126,21 @@ A completed document must contain **no remaining placeholder text**.
 
 ---
 
-## 9. Completing a Template — Checklist
+## 9. Correspondence Placeholders
+
+| Placeholder | Description | Example |
+|---|---|---|
+| `[LETTER_DATE]` | Date on which the letter is sent | 15 March 2025 |
+| `[RECIPIENT_NAME]` | Full name of the letter recipient | Mr Lamin Saho |
+| `[RECIPIENT_TITLE]` | Title and role of the recipient | Mr / Mrs / Dr / Principal |
+| `[LETTER_SUBJECT]` | Subject line of the letter | Confirmation of Programme Partnership — [SCHOOL_NAME] |
+| `[LETTER_BODY_PARAGRAPH_1]` | First body paragraph of the letter | [Replace with opening statement and context] |
+| `[LETTER_BODY_PARAGRAPH_2]` | Second body paragraph of the letter | [Replace with main content] |
+| `[LETTER_BODY_PARAGRAPH_3]` | Third body paragraph of the letter (optional) | [Replace with closing remarks or next steps] |
+
+---
+
+## 10. Completing a Template — Checklist
 
 Before a document is considered complete and ready for use or execution:
 
