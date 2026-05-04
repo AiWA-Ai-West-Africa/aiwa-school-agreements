@@ -27,8 +27,8 @@ purposes that are inconsistent with this educational mission.
 
 ### 2.2 Safeguarding
 
-The protection of children and young people is a non-negotiable principle. All participant-facing
-documents — consent forms, programme materials, school agreements — must comply with the
+The protection of children and young people is a non-negotiable principle. All contributor-facing
+documents — permission forms, programme materials, school agreements — must comply with the
 following:
 
 - The **UN Convention on the Rights of the Child (CRC)**
@@ -36,7 +36,7 @@ following:
 - The safeguarding policy in `/policies/student-safeguarding/`
 - Applicable Gambian national legislation relating to children and education
 
-No document may be used in a school or participant-facing context without prior safeguarding
+No document may be used in a school or contributor-facing context without prior safeguarding
 review and approval by the designated Safeguarding Lead.
 
 ### 2.3 Cultural Respect
@@ -68,7 +68,7 @@ and partner schools.
 
 This repository explicitly recognises and upholds the distinction between:
 
-#### Modern Participant-Created Works
+#### Modern Contributor-Created Works
 
 Works created by individual students, teachers, facilitators, or AIWA staff as part of a
 structured programme — essays, stories, poems, illustrations, curriculum materials, training
@@ -88,7 +88,7 @@ expressions that belong to **Gambian communities, ethnic groups, or the broader 
 are fundamentally different in nature.
 
 These works:
-- Are **not owned** by AIWA, by any individual participant, or by any partner organisation
+- Are **not owned** by AIWA, by any individual contributor, or by any partner organisation
 - Cannot be claimed, commercialised, or exclusively licensed by any party
 - May be referenced, celebrated, or drawn upon for inspiration in educational materials,
   but must be clearly attributed as **community heritage** and not individual creation
@@ -121,7 +121,7 @@ documentation are entitled to:
 |---|---|---|
 | Level 1 | Governance policies, safeguarding policy | Programme Director + Board |
 | Level 2 | School partnership agreements, MOUs | Programme Director |
-| Level 3 | Participant consent forms | Safeguarding Lead + Programme Director |
+| Level 3 | Contributor permission forms | Safeguarding Lead + Programme Director |
 | Level 3 | Media release forms | Safeguarding Lead |
 | Level 4 | Programme schedules, workshop plans | Programme Coordinator |
 | Level 5 | Correspondence templates, certificates | School Liaison Officer |
@@ -134,7 +134,7 @@ documentation are entitled to:
 |---|---|
 | Safeguarding and child protection policies | Annually |
 | School partnership agreements | At each renewal or amendment |
-| Participant consent forms | Annually, or upon legal/policy change |
+| Contributor permission forms | Annually, or upon legal/policy change |
 | Publishing and attribution agreements | Upon each new publishing engagement |
 | Governance documents (this file) | Annually |
 

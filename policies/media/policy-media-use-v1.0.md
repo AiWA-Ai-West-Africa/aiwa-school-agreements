@@ -17,17 +17,17 @@
 ## 1. Purpose
 
 This policy governs the use of photographs, video recordings, and other media featuring
-participants in AIWA programmes. It ensures that participant dignity, privacy, and safety
+student contributors in AIWA programmes. It ensures that student contributor dignity, privacy, and safety
 are protected in all media activities.
 
 ---
 
 ## 2. Consent Requirements
 
-2.1 No photograph or video recording of a student participant may be taken without a signed
+2.1 No photograph or video recording of a student contributor may be taken without a signed
 **Media Release and Photography Consent Form** from the student's parent or guardian.
 
-2.2 For adult participants (teachers, principals, guardians), verbal or written consent must
+2.2 For adult contributors (teachers, principals, guardians), verbal or written consent must
 be obtained before photographing or recording.
 
 2.3 Consent forms must specify the approved uses. Media may not be used outside the approved
@@ -39,12 +39,12 @@ scope without additional consent.
 
 3.1 Photographs and recordings must:
 - Be taken in open, visible settings
-- Reflect participants in educational, positive, and dignified contexts
-- Not include participants in situations that could cause embarrassment or harm
+- Reflect student contributors in educational, positive, and dignified contexts
+- Not include student contributors in situations that could cause embarrassment or harm
 
 3.2 Photographs must not:
 - Be taken in private or semi-private settings
-- Show participants in distress
+- Show student contributors in distress
 - Focus on individual students in ways that could identify them without their consent
 - Include images that could be exploitative or inappropriate
 

@@ -61,11 +61,12 @@ including all Schedules attached hereto.
 **"Programme"** means the AIWA Junior Publishing and Language Programme, as
 described in Clause 3 and detailed in Schedule B.
 
-**"Participant"** means a student enrolled at the School who is selected and consented to
-take part in Programme activities.
+**"Student Contributor"** means a student enrolled at the School who joins the Programme as
+a Junior Publishing Fellow and contributes original creative works, oral expression, or
+language materials as part of Programme activities.
 
 **"Creative Work"** means any original written, oral, visual, or multimedia work produced
-by a Participant during or in connection with Programme activities, including stories,
+by a Student Contributor during or in connection with Programme activities, including stories,
 poems, essays, spoken-word pieces, illustrations, and digital content.
 
 **"Facilitator"** means a qualified programme delivery staff member or approved volunteer
@@ -74,11 +75,11 @@ provided by AIWA to deliver Programme activities at the School.
 **"School Liaison Teacher"** means the member of school staff designated by the School
 to coordinate the Programme at school level.
 
-**"Consent Form"** means the AIWA-approved Parent and Guardian Consent Form and Student
-Assent Form required prior to a Participant's enrolment in the Programme.
+**"Consent Form"** means the AIWA-approved Parent and Guardian Permission Form and Student
+Participation Agreement required prior to a Student Contributor's enrolment in the Programme.
 
 **"Publishing and Attribution Agreement"** means the separate written agreement between
-AIWA, the Participant's parent or guardian, and the Participant (where age-appropriate),
+AIWA, the Student Contributor's parent or guardian, and the Student Contributor (where age-appropriate),
 governing the terms on which a Creative Work may be published or publicly shared.
 
 **"Academic Year"** means the Gambian school academic year, running from approximately
@@ -98,8 +99,13 @@ September to July.
 
 ## 3. Programme Purpose and Scope
 
-3.1 The Programme is designed to support Participants in developing the following competencies
-and outcomes:
+3.1 Through the Programme, each Student Contributor is commissioned as a **Junior Publishing
+Fellow** — a vocational learning role in which they actively produce, edit, and contribute
+original works to AIWA's educational publishing and archive activities. Student Contributors
+are authors and contributors, not subjects of observation or study.
+
+3.2 The Programme is designed to support Student Contributors in developing the following
+competencies and outcomes:
 
 - **Literacy Development** — Building reading comprehension, creative writing, and
   critical thinking skills through structured, culturally relevant activities.
@@ -123,12 +129,12 @@ and outcomes:
 - **Creative Rights Awareness** — Educating students about the nature of authorship,
   attribution, and their rights as creators of original works.
 
-3.2 AIWA may utilise appropriate educational technology and digital tools in support of
+3.3 AIWA may utilise appropriate educational technology and digital tools in support of
 Programme objectives. Any such tools are used solely in service of educational outcomes
 and do not constitute the purpose of the Programme. AIWA is primarily an educational,
 publishing, and literacy organisation.
 
-3.3 The Programme is not a data extraction initiative, technology demonstration project,
+3.4 The Programme is not a data extraction initiative, technology demonstration project,
 or commercial artificial intelligence development initiative. Educational technologies,
 where used, are supportive and incidental to the Programme's educational and publishing
 objectives.
@@ -162,13 +168,13 @@ and competency outcomes is attached as **Schedule B**.
 AIWA agrees to:
 
 5.1 Provide qualified, vetted Facilitators to deliver all Programme sessions at the School
-at no cost to the School or to Participants.
+at no cost to the School or to Student Contributors.
 
 5.2 Provide all programme materials, resources, and stationery required for sessions,
-at no cost to the School or Participants.
+at no cost to the School or Student Contributors.
 
 5.3 Obtain completed, signed Consent Forms (Parent/Guardian Consent Form and Student
-Assent Form) before any Participant takes part in Programme activities.
+Assent Form) before any Student Contributor takes part in Programme activities.
 
 5.4 Deliver sessions in accordance with the schedule set out in Schedule A, and notify
 the School Liaison Teacher of any changes at least five (5) school days in advance.
@@ -176,14 +182,14 @@ the School Liaison Teacher of any changes at least five (5) school days in advan
 5.5 Maintain and adhere to AIWA's **Student Safeguarding Policy** throughout all Programme
 activities, and provide a copy to the School before the Programme commences.
 
-5.6 Treat all Participant personal data in accordance with AIWA's **Data Privacy Policy**
+5.6 Treat all Student Contributor personal data in accordance with AIWA's **Data Privacy Policy**
 and the applicable laws of The Republic of The Gambia.
 
 5.7 Acknowledge the School's partnership and contribution in any Programme-related
 publications, with the School's prior written consent.
 
 5.8 Provide the School with a **Programme Outcome Report** summarising activities,
-participant engagement, and outcomes at the conclusion of each Programme year.
+contributor engagement, and outcomes at the conclusion of each Programme year.
 
 5.9 Ensure that any Facilitator who will work directly and unsupervised with students
 has been subject to appropriate background and character checks.
@@ -204,9 +210,9 @@ the School and AIWA for the duration of the Programme.
 basic writing materials — for Programme sessions as agreed in Schedule A.
 
 6.3 Facilitate the distribution and collection of Consent Forms to parents and guardians
-of prospective Participants.
+of prospective Student Contributors.
 
-6.4 Ensure that confirmed Participants are available and released from other obligations
+6.4 Ensure that confirmed Student Contributors are available and released from other obligations
 to attend Programme sessions in accordance with Schedule A.
 
 6.5 Notify AIWA promptly of any safeguarding concern, welfare issue, or Programme
@@ -223,24 +229,24 @@ materially affect the Programme.
 
 ---
 
-## 7. Student Participant Rights and Protections
+## 7. Student Student Contributor Rights and Protections
 
 7.1 Participation in the Programme is entirely **voluntary**. No student, parent, or
 guardian shall be pressured or coerced into participating.
 
-7.2 Any Participant may withdraw from the Programme at any time, without consequence,
+7.2 Any Student Contributor may withdraw from the Programme at any time, without consequence,
 by informing the School Liaison Teacher or any AIWA Facilitator.
 
-7.3 Participants shall be treated with dignity, respect, and cultural sensitivity at all
+7.3 Student Contributors shall be treated with dignity, respect, and cultural sensitivity at all
 times during Programme activities.
 
-7.4 No Participant shall be disadvantaged in their general schooling as a result of
+7.4 No Student Contributor shall be disadvantaged in their general schooling as a result of
 participation in, or withdrawal from, the Programme.
 
 7.5 Students with additional learning needs, language differences, or other access
 requirements shall be accommodated where practicable within Programme activities.
 
-7.6 Participants shall be informed in an age-appropriate manner about:
+7.6 Student Contributors shall be informed in an age-appropriate manner about:
 
 - What the Programme involves;
 - That their participation is voluntary;
@@ -252,19 +258,19 @@ requirements shall be accommodated where practicable within Programme activities
 
 ## 8. Creative Works and Intellectual Property
 
-8.1 Participants retain ownership of their original Creative Works. AIWA makes no claim
+8.1 Student Contributors retain ownership of their original Creative Works. AIWA makes no claim
 to ownership of any student-created work.
 
-8.2 AIWA may publish, reproduce, distribute, or display a Participant's Creative Work
+8.2 AIWA may publish, reproduce, distribute, or display a Student Contributor's Creative Work
 only with a separate, signed **Publishing and Attribution Agreement** entered into with
-the Participant's parent or guardian (and with the Participant directly, where the
-Participant is of an appropriate age and capacity to understand the terms). Any such
+the Student Contributor's parent or guardian (and with the Student Contributor directly, where the
+Student Contributor is of an appropriate age and capacity to understand the terms). Any such
 publishing rights granted to AIWA shall be **non-exclusive and royalty-free**, and the
 creator retains all other rights, including the right to publish their work elsewhere.
 
 8.2A For the purposes of Programme administration, safeguarding, educational review,
 archival documentation, and internal educational evaluation, AIWA may store and
-internally reproduce Participant Creative Works on a non-commercial basis, without
+internally reproduce Student Contributor Creative Works on a non-commercial basis, without
 requiring a separate Publishing and Attribution Agreement.
 
 8.3 Programme materials, curriculum documents, frameworks, guides, and templates developed
@@ -288,16 +294,16 @@ author and creator of the work.
 student's request), their class or year group, and the name of their school, unless the
 student or their parent/guardian requests otherwise.
 
-9.3 AIWA may make minor copyediting and proofreading corrections to a Participant's
+9.3 AIWA may make minor copyediting and proofreading corrections to a Student Contributor's
 Creative Work without prior written consent, provided that the meaning and creative
 voice of the work are preserved. Any more substantial editorial changes require the
-prior written consent of the Participant (and, where relevant, their parent/guardian).
+prior written consent of the Student Contributor (and, where relevant, their parent/guardian).
 
-9.4 AIWA shall provide a copy of any published work in which a Participant's Creative Work
-appears to the Participant and, where applicable, to the School.
+9.4 AIWA shall provide a copy of any published work in which a Student Contributor's Creative Work
+appears to the Student Contributor and, where applicable, to the School.
 
 9.5 No student work shall be used for commercial purposes without the explicit written
-consent of the Participant's parent or guardian.
+consent of the Student Contributor's parent or guardian.
 
 ---
 
@@ -311,8 +317,8 @@ and literary expression.
 songs, and community stories — shall be conducted with respect for the cultural
 communities from which that content originates.
 
-10.3 Where Participants contribute content drawn from their cultural or community heritage,
-AIWA shall work with the Participant and their family to determine appropriate handling,
+10.3 Where Student Contributors contribute content drawn from their cultural or community heritage,
+AIWA shall work with the Student Contributor and their family to determine appropriate handling,
 attribution, and any restrictions on publication or wider sharing.
 
 10.4 AIWA's cultural review process shall be applied to any Programme materials or
@@ -322,7 +328,7 @@ published works that engage significantly with specific community cultural conte
 
 ## 11. Safeguarding and Student Welfare
 
-11.1 The safeguarding and welfare of all student Participants is the highest priority of
+11.1 The safeguarding and welfare of all student Student Contributors is the highest priority of
 both parties and shall take precedence over all other Programme considerations.
 
 11.2 AIWA will provide the School with a copy of its **Student Safeguarding Policy**
@@ -336,10 +342,10 @@ arising during the Programme must be reported immediately to:
 - The School's own safeguarding or child welfare officer; and
 - The relevant Gambian child protection authority if required by law.
 
-11.4 No Participant shall be photographed, filmed, audio-recorded, or included in any
+11.4 No Student Contributor shall be photographed, filmed, audio-recorded, or included in any
 media production without:
 - A signed **Media Release Form** from their parent or guardian; and
-- The Participant's own verbal or written assent (appropriate to their age).
+- The Student Contributor's own verbal or written assent (appropriate to their age).
 
 11.5 AIWA Facilitators shall not communicate with students through personal social media
 accounts, private messaging applications, or any informal personal channel. All
@@ -353,8 +359,8 @@ groups and shall be held in spaces accessible and visible to school staff.
 
 ## 12. Data Privacy and Information Governance
 
-12.1 AIWA will collect only such personal information about Participants as is necessary
-for the administration of the Programme and the safeguarding of Participants.
+12.1 AIWA will collect only such personal information about Student Contributors as is necessary
+for the administration of the Programme and the safeguarding of Student Contributors.
 
 12.2 Personal data collected will be held securely, used only for Programme administration
 and safeguarding purposes, and not shared with third parties without consent, except as
@@ -364,7 +370,7 @@ required by the laws of The Republic of The Gambia.
 retention schedule. Parents and guardians may request access to or deletion of data held
 about their child by contacting AIWA at [AIWA_CONTACT_EMAIL].
 
-12.4 AIWA shall not use any Participant personal information or educational materials
+12.4 AIWA shall not use any Student Contributor personal information or educational materials
 for non-educational commercial purposes, or for any purpose unrelated to the direct
 administration, delivery, and safeguarding of the Programme.
 
@@ -384,7 +390,7 @@ objectives of the Programme.
 shall comply with applicable Gambian educational standards and good practice for the
 protection of children in educational settings.
 
-13.3 No Participant shall be required to create accounts on commercial platforms or to
+13.3 No Student Contributor shall be required to create accounts on commercial platforms or to
 use personal devices as a condition of participation.
 
 13.4 AIWA shall ensure that any digital tools used in the Programme are age-appropriate,
@@ -395,9 +401,9 @@ educationally purposeful, and subject to appropriate safeguarding controls.
 ## 14. Financial Terms
 
 14.1 All Programme services, materials, and facilitation delivered under this Agreement
-are provided by AIWA to the School and to Participants at **no charge**.
+are provided by AIWA to the School and to Student Contributors at **no charge**.
 
-14.2 Neither the School nor Participants are required to make any payment to AIWA in
+14.2 Neither the School nor Student Contributors are required to make any payment to AIWA in
 connection with this Agreement or the Programme.
 
 14.3 Each party is responsible for its own internal administrative and operational costs.
@@ -416,7 +422,7 @@ sensitive information disclosed by the other party in connection with this Agree
 required by law to be disclosed, or is disclosed with the prior written consent of the
 party whose information it is.
 
-15.3 Participant personal data and safeguarding information shall be treated with the
+15.3 Student Contributor personal data and safeguarding information shall be treated with the
 highest level of confidentiality by both parties.
 
 ---
@@ -438,9 +444,9 @@ if:
 16.3 Upon termination:
 
 - AIWA shall return or destroy, at the School's option, any personal data held about
-  Participants that is no longer required for legal or safeguarding purposes;
+  Student Contributors that is no longer required for legal or safeguarding purposes;
 - The School shall return any AIWA-owned materials in its possession;
-- Any Creative Works belonging to Participants shall be returned to the students or
+- Any Creative Works belonging to Student Contributors shall be returned to the students or
   their families;
 - Clauses 8 (Intellectual Property), 9 (Publishing), 11 (Safeguarding), 12 (Data Privacy),
   and 15 (Confidentiality) shall survive termination.
@@ -591,8 +597,8 @@ to the commencement of the Programme.*
 
 **Programme Name:** [PROGRAM_NAME]
 **Description:** [PROGRAM_DESCRIPTION]
-**Target Participants:** Students aged [AGE_RANGE]
-**Expected Participants:** [NUMBER_OF_PARTICIPANTS]
+**Target Student Contributors:** Students aged [AGE_RANGE]
+**Expected Student Contributors:** [NUMBER_OF_PARTICIPANTS]
 
 Key curriculum themes include:
 
@@ -609,7 +615,7 @@ Key curriculum themes include:
 
 ## Schedule C — Required Consents and Forms Checklist
 
-*All items in this checklist must be completed before a Participant commences Programme
+*All items in this checklist must be completed before a Student Contributor commences Programme
 activities.*
 
 | Required Document | Status |

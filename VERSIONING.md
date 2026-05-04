@@ -61,7 +61,7 @@ Increment the minor version (with a note of significance) when changes include:
 Increment the major version when changes include:
 
 - Changes to fundamental legal terms or obligations
-- Changes affecting participant rights or safeguarding provisions
+- Changes affecting contributor rights or safeguarding provisions
 - Changes arising from a legal review or court/regulatory guidance
 - Structural redesign of the document
 - Any change to a safeguarding form or child protection policy

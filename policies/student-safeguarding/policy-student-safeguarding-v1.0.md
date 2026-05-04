@@ -18,7 +18,7 @@
 
 AI West Africa (AIWA) is fully committed to safeguarding and promoting the welfare of all
 children and young people who participate in its programmes. The safety and wellbeing of
-every student participant is the highest priority in all AIWA activities.
+every Student Contributor is the highest priority in all AIWA activities.
 
 This policy applies to all AIWA staff, volunteers, contractors, facilitators, and partner
 school representatives who work with children as part of any AIWA programme.

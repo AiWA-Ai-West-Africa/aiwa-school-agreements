@@ -45,7 +45,7 @@ will be documented in separate written agreements as required.
 Both parties are committed to:
 
 - Advancing quality education for young people in The Gambia
-- Upholding the highest standards of safeguarding and participant welfare
+- Upholding the highest standards of safeguarding and contributor welfare
 - Respecting Gambian culture, community values, and local educational contexts
 - Operating with transparency and accountability
 

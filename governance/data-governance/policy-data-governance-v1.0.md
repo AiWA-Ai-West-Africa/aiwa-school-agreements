@@ -26,7 +26,7 @@ detail for staff and partners.
 
 | Classification | Description | Examples |
 |---|---|---|
-| **Confidential** | Personally identifiable information; signed agreements | Consent forms, executed contracts, participant records |
+| **Confidential** | Personally identifiable information; signed agreements | Permission forms, executed contracts, contributor records |
 | **Internal** | Programme working documents not for public sharing | Draft templates, internal reports, meeting notes |
 | **Public** | Approved materials for sharing externally | Approved programme overviews, public policy summaries |
 
@@ -57,7 +57,7 @@ Executed documents in `/contracts/executed/` are classified as **Confidential** 
 ## 5. Data Sharing
 
 5.1 Confidential information may only be shared with third parties where:
-- The participant or guardian has consented to that specific sharing; or
+- The contributor or guardian has consented to that specific sharing; or
 - It is required by law or a court order; or
 - It is necessary for the immediate protection of a child's welfare
 

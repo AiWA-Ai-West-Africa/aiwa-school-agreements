@@ -37,7 +37,7 @@ All files must follow this naming convention:
 |---|---|
 | `contract` | Formal agreements and partnership contracts |
 | `policy` | Institutional policies |
-| `form` | Participant-facing forms |
+| `form` | Contributor-facing forms |
 | `program` | Programme plans and documentation |
 | `template` | General reusable templates |
 | `letter` | Official correspondence |

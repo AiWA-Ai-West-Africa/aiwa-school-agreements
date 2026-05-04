@@ -46,7 +46,7 @@ material that:
 
 This is a critical distinction for AIWA's publishing and programme work.
 
-### Modern Participant-Created Works
+### Modern Student Contributor-Created Works
 Original stories, essays, and poems written by students or teachers are individual
 creative works. They are owned by their creators and governed by publishing agreements.
 

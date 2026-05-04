@@ -43,7 +43,7 @@ of the Ministry of Basic and Secondary Education (MoBSE), The Gambia.
 at [SCHOOL_NAME] during the [ACADEMIC_YEAR] academic year (the "Programme Period").
 
 1.4 This Agreement sets out the terms and conditions governing the Programme Period, the respective
-obligations of each party, and the rights of participants.
+obligations of each party, and the rights of student contributors.
 
 ---
 
@@ -53,8 +53,8 @@ obligations of each party, and the rights of participants.
 
 **Programme Name:** [PROGRAM_NAME]
 **Description:** [PROGRAM_DESCRIPTION]
-**Target Participants:** Students aged [AGE_RANGE], class [PARTICIPANT_CLASS]
-**Expected Number of Participants:** [NUMBER_OF_PARTICIPANTS]
+**Target Student Contributors:** Students aged [AGE_RANGE], class [PARTICIPANT_CLASS]
+**Expected Number of Student Contributors:** [NUMBER_OF_PARTICIPANTS]
 **Programme Start Date:** [PROGRAMME_START_DATE]
 **Programme End Date:** [PROGRAMME_END_DATE]
 **Programme Duration:** [PROGRAMME_DURATION]
@@ -78,7 +78,7 @@ programme activities commence, using the approved AIWA consent forms.
 
 3.4 Comply with AIWA's Student Safeguarding Policy at all times during programme delivery.
 
-3.5 Treat all participant data in accordance with AIWA's Data Governance Policy and applicable
+3.5 Treat all student contributor data in accordance with AIWA's Data Governance Policy and applicable
 Gambian law.
 
 3.6 Provide the School with a summary report of programme outcomes at the conclusion of
@@ -88,7 +88,7 @@ each Programme Year.
 from the programme, with the School's consent.
 
 3.8 For the purposes of programme administration, safeguarding, educational review, and
-internal evaluation, AIWA may retain and internally reproduce Participant creative works
+internal evaluation, AIWA may retain and internally reproduce Student Contributor creative works
 on a non-commercial basis, without separate publishing consent.
 
 ---
@@ -103,11 +103,11 @@ for programme sessions as agreed in Schedule A.
 4.2 Designate a **School Liaison Teacher** to coordinate between the School and AIWA throughout
 the Programme Period.
 
-4.3 Facilitate the distribution and collection of participant consent forms to parents and guardians.
+4.3 Facilitate the distribution and collection of student contributor consent forms to parents and guardians.
 
 4.4 Ensure that participating students are available for sessions in accordance with Schedule A.
 
-4.5 Notify AIWA promptly of any concerns regarding participant welfare, safeguarding, or
+4.5 Notify AIWA promptly of any concerns regarding student contributor welfare, safeguarding, or
 programme delivery.
 
 4.6 Not share AIWA programme materials with third parties without AIWA's prior written consent.
@@ -116,7 +116,7 @@ programme delivery.
 
 ## 5. Safeguarding
 
-5.1 The safeguarding and welfare of all student participants is the highest priority of both parties.
+5.1 The safeguarding and welfare of all student contributors is the highest priority of both parties.
 
 5.2 AIWA will provide the School with a copy of its **Student Safeguarding Policy** prior to
 the commencement of the Programme Period. The School acknowledges receipt of this policy.
@@ -134,10 +134,10 @@ of their work without a signed **Media Release Form** or **Publishing and Attrib
 ## 6. Intellectual Property and Attribution
 
 6.1 Original works — including stories, poems, essays, and illustrations — created by student
-participants during the programme remain the property of their student creators.
+student contributors during the programme remain the property of their student creators.
 
-6.2 AIWA may publish or share participant works only pursuant to a separate, signed
-**Publishing and Attribution Agreement** entered into with the participant's parent or guardian.
+6.2 AIWA may publish or share student contributor works only pursuant to a separate, signed
+**Publishing and Attribution Agreement** entered into with the student contributor's parent or guardian.
 Any publishing rights granted under such an agreement are **non-exclusive and royalty-free**;
 the creator retains all other rights, including the right to publish their work elsewhere.
 

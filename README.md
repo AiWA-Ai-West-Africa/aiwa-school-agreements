@@ -29,7 +29,7 @@ and governed by international standards of educational ethics and safeguarding.
 
 This repository — **aiwa-school-pilot-framework** — serves as the **central operational
 document repository** for AIWA's school pilot programmes, educational partnership agreements,
-participant consent systems, and institutional governance materials.
+contributor permission systems, and institutional governance materials.
 
 It is designed to be:
 
@@ -62,7 +62,7 @@ aiwa-school-pilot-framework/
 │   ├── publishing/               # Publishing rights, attribution, and editorial policies
 │   └── media/                    # Photography, video, and media use policies
 │
-├── forms/                        # Participant forms requiring completion
+├── forms/                        # Contributor forms requiring completion
 │   ├── parent-consent/           # Parental and guardian consent forms
 │   ├── student-consent/          # Student assent forms (age-appropriate)
 │   ├── media-release/            # Media and photography release forms
@@ -127,7 +127,7 @@ All materials in this repository are governed by principles of:
 
 - **Transparency** — Document versions, signatories, and change histories are maintained
 - **Accountability** — Every agreement names responsible parties and review timelines
-- **Safeguarding** — All participant-facing materials comply with child protection standards
+- **Safeguarding** — All contributor-facing materials comply with child protection standards
 - **Cultural Respect** — Templates and policies acknowledge and protect Gambian cultural heritage
 - **Replicability** — Frameworks are designed to be applied consistently across schools and regions
 
@@ -139,7 +139,7 @@ See [GOVERNANCE.md](GOVERNANCE.md) for full governance principles.
 
 1. **Select** the appropriate template from the relevant `/templates` or `/contracts/templates` folder
 2. **Copy** the template file and rename it according to the [Document Standards](DOCUMENT-STANDARDS.md)
-3. **Replace** all `[PLACEHOLDER]` values with the specific details for the school, partner, or participant
+3. **Replace** all `[PLACEHOLDER]` values with the specific details for the school, partner, or contributor
 4. **Review** the completed document against the checklist at the end of each template
 5. **Approve** through the appropriate internal review process before use
 6. **File** the executed copy in `/contracts/executed` or the relevant subfolder
@@ -154,7 +154,7 @@ See [PLACEHOLDER-CONVENTION.md](PLACEHOLDER-CONVENTION.md) for the full list of 
 | Role | Responsibility |
 |---|---|
 | Programme Director | Final approval of all agreements and governance documents |
-| Safeguarding Lead | Review of all participant consent and child protection materials |
+| Safeguarding Lead | Review of all contributor permissions and child protection materials |
 | Publishing Coordinator | Oversight of publishing-related contracts and attribution materials |
 | School Liaison Officer | Management of school-specific agreements and pilot schedules |
 

@@ -66,20 +66,23 @@ A completed document must contain **no remaining placeholder text**.
 
 ---
 
-## 5. Participant Placeholders (for Consent Forms)
+## 5. Contributor and Student Placeholders
 
 | Placeholder | Description | Example |
 |---|---|---|
-| `[PARTICIPANT_NAME]` | Full name of the student participant | Fatou Ceesay |
-| `[PARTICIPANT_DATE_OF_BIRTH]` | Participant's date of birth | 12 June 2013 |
-| `[PARTICIPANT_AGE]` | Participant's age at time of consent | 11 years |
-| `[PARTICIPANT_CLASS]` | Class or grade of the participant | Grade 6 |
+| `[CONTRIBUTOR_NAME]` | Full name of the Student Contributor or Junior Publishing Fellow | Fatou Ceesay |
+| `[CONTRIBUTOR_DATE_OF_BIRTH]` | Contributor's date of birth | 12 June 2013 |
+| `[CONTRIBUTOR_AGE]` | Contributor's age at time of enrolment | 11 years |
+| `[PARTICIPANT_NAME]` | *(Legacy alias — use `[CONTRIBUTOR_NAME]` in new documents)* Full name of the student | Fatou Ceesay |
+| `[PARTICIPANT_DATE_OF_BIRTH]` | *(Legacy alias — use `[CONTRIBUTOR_DATE_OF_BIRTH]` in new documents)* | 12 June 2013 |
+| `[PARTICIPANT_AGE]` | *(Legacy alias — use `[CONTRIBUTOR_AGE]` in new documents)* | 11 years |
+| `[PARTICIPANT_CLASS]` | Class or grade of the Student Contributor | Grade 6 |
 | `[GUARDIAN_NAME]` | Full name of parent or legal guardian | Mrs Mariama Ceesay |
-| `[GUARDIAN_RELATIONSHIP]` | Relationship to participant | Mother / Father / Guardian |
+| `[GUARDIAN_RELATIONSHIP]` | Relationship to Student Contributor | Mother / Father / Guardian |
 | `[GUARDIAN_CONTACT_PHONE]` | Guardian's contact phone number | +220 xxx xxxx |
 | `[GUARDIAN_CONTACT_EMAIL]` | Guardian's contact email (if available) | [optional] |
 | `[GUARDIAN_NATIONAL_ID]` | Guardian's national ID number (if required) | [as applicable] |
-| `[CONSENT_DATE]` | Date the consent form is signed | [DD Month YYYY] |
+| `[CONSENT_DATE]` | Date the permission or participation form is signed | [DD Month YYYY] |
 
 ---
 

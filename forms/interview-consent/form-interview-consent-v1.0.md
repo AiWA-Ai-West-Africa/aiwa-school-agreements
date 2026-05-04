@@ -1,116 +1,121 @@
-# Research and Interview Consent Form
+# Media Documentation and Recording Release Form
 
-**Document Type:** Form — Interview Consent
+**Document Type:** Form — Media and Recording Release
 **Version:** v1.0
 **Status:** Draft
 **Last Reviewed:** 1 May 2025
 **Approved By:** Pending — Safeguarding Lead + Programme Director
-**Applies To:** Programme Research and Evaluation Participants
+**Applies To:** Programme Contributors, Teachers, School Representatives, and Community Subject Matter Experts
 **Jurisdiction:** The Republic of The Gambia
 
 ---
 
-## AIWA RESEARCH AND INTERVIEW CONSENT FORM
+## AIWA MEDIA DOCUMENTATION AND RECORDING RELEASE FORM
 
 **Programme:** [PROGRAM_NAME]
-**School:** [SCHOOL_NAME]
-**Interview / Research Activity:** [ACTIVITY_DESCRIPTION]
+**School / Organisation:** [SCHOOL_NAME]
+**Media Activity:** [ACTIVITY_DESCRIPTION]
 **Date:** [DATE]
 
 ---
 
-### Section 1: Purpose
+### About This Form
 
-AI West Africa (AIWA) conducts periodic programme evaluation and research to improve its
-educational programmes and measure their impact. This may involve interviews, surveys,
-or focus groups with teachers, school principals, parents, or (with appropriate consent)
-students.
+AI West Africa (AIWA) creates educational archive materials and programme documentation as
+part of its publishing and literacy work. This includes audio recordings, written records,
+and short video documentation created with contributors such as teachers, school
+representatives, community elders, subject matter experts, and programme staff.
 
-This form ensures that all research participants understand:
-- What they are being asked to participate in
-- How information they share will be used
-- Their right to participate or decline without consequence
+Materials gathered are used to support:
 
----
+- Educational publications and the AIWA Archive
+- Programme documentation and facilitator guides
+- Sharing good practice with partner schools and educational organisations
+- AIWA's institutional communications
 
-### Section 2: About the Interview or Research Activity
-
-**Type of activity:** ☐ Individual interview   ☐ Group discussion   ☐ Written survey
-
-**Purpose:** [RESEARCH_PURPOSE]
-
-**Duration:** Approximately [INTERVIEW_DURATION]
-
-**Who will conduct it:** [AIWA_REPRESENTATIVE_TITLE], AI West Africa (AIWA)
-
-**Will it be recorded?**
-☐ Audio recorded
-☐ Notes only (no recording)
-☐ Video recorded
+This form ensures that all contributors understand what is being recorded, how it will be
+used, and their right to participate or decline.
 
 ---
 
-### Section 3: How Information Will Be Used
+### About This Recording Activity
 
-Information shared in this interview or research activity will be used:
+**Type of activity:**
+☐ Audio interview / recorded conversation
+☐ Group discussion (audio)
+☐ Written contribution / feedback
+☐ Video documentation
 
-- To evaluate and improve AIWA's programmes
-- In internal reports and programme documentation
-- Potentially in published reports about AIWA's educational work
+**Topic / focus area:** [ACTIVITY_DESCRIPTION]
 
-**Anonymisation:** Unless you specifically consent to being identified, your contributions
-will be reported without your name. Quotes may be used but will be attributed only as,
-for example, *"a teacher at a Banjul primary school"*.
+**Estimated duration:** Approximately [INTERVIEW_DURATION]
 
----
-
-### Section 4: Your Rights
-
-- Participation is entirely voluntary
-- You may decline to answer any question
-- You may withdraw from the interview at any time without consequence
-- You may request that your contributions not be used after the interview has concluded,
-  by contacting [AIWA_CONTACT_EMAIL] within [WITHDRAWAL_PERIOD] of the interview date
-- You may request a copy of any report in which your contributions are used
+**Conducted by:** [AIWA_REPRESENTATIVE_TITLE], AI West Africa (AIWA)
 
 ---
 
-### Section 5: For Interviews Involving Minor Participants
+### How Your Contribution Will Be Used
 
-*If the research participant is under 18 years of age, a parent or guardian
-must also sign this form.*
+Materials and recordings gathered will be used:
 
-For minor participants, interviews must be conducted in the presence of a responsible adult
+- As part of AIWA's educational archive and internal documentation
+- In programme facilitator guides and training materials
+- In AIWA publications describing programme delivery and educational approaches
+- To share good educational practice with partner schools and organisations
+
+**Name attribution:** Unless you specifically agree to being named, your contributions
+will be used without identifying you. For example: *"a teacher from a Banjul primary school"*
+or *"a community elder from the North Bank Region."*
+
+---
+
+### Your Rights
+
+- Contributing is your choice. There is no obligation.
+- You may decline to answer any question at any time.
+- You may stop or withdraw from the activity at any time without consequence.
+- If you change your mind after contributing, you may request that your contribution
+  not be used by contacting AIWA at [AIWA_CONTACT_EMAIL] within [WITHDRAWAL_PERIOD]
+  of the recording date.
+- You may request a copy of any publication in which your contribution is included.
+
+---
+
+### For Recording Activities Involving Students
+
+*If the contributor is under 18 years of age, a parent or guardian must also sign this form.*
+
+For students, recording activities must be conducted in the presence of a responsible adult
 (teacher or guardian). AIWA will comply with its Student Safeguarding Policy at all times.
 
 ---
 
-### Section 6: Consent Declaration
+### Contributor Agreement
 
-I confirm that:
+Please read and tick each box to confirm:
 
-☐ The purpose and process of this interview / research activity has been explained to me
+☐ The purpose of this recording activity has been explained to me
 
-☐ I understand how information I share will be used
+☐ I understand how my contribution will be used
 
-☐ I understand my rights, including the right to withdraw
+☐ I understand I can stop or withdraw at any time
 
-**I consent to:**
+**I agree to the following:**
 
-☐ Participating in this interview / research activity
+☐ Contributing to this recording or documentation activity
 
-☐ My contributions being used (anonymously) in AIWA's programme documentation and reports
+☐ My contribution being used (without my name) in AIWA archive materials and publications
 
-☐ Being audio/video recorded during this activity *(if applicable)*
+☐ Being audio / video recorded during this activity *(if applicable)*
 
-☐ Being identified by name in published reports *(optional — not required)*
+☐ Being identified by name in published materials *(optional — not required)*
 
 ---
 
-**Participant Full Name:** ___________________________________
+**Contributor Full Name:** ___________________________________
 
-**Role / Relationship to Programme:** ___________________________________
-*(e.g., School Principal / Class Teacher / Parent / Guardian)*
+**Role / Position:**  ___________________________________
+*(e.g., Class Teacher / School Principal / Parent / Community Elder / Subject Matter Expert)*
 
 **Signature:** ______________________________
 
@@ -118,7 +123,7 @@ I confirm that:
 
 ---
 
-*If participant is under 18:*
+*If contributor is under 18:*
 
 **Guardian Name:** ___________________________________
 
@@ -132,7 +137,7 @@ I confirm that:
 
 *For AIWA Use Only*
 
-Interview conducted by: _____________________________ Date: _______________
+Activity conducted by: _____________________________ Date: _______________
 
 Recording reference (if applicable): _____________________________________
 

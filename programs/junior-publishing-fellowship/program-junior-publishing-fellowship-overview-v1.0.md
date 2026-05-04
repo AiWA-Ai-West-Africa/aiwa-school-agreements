@@ -18,8 +18,12 @@
 ## 1. Programme Summary
 
 The **AIWA Junior Publishing Fellowship** is the flagship educational programme of AI West Africa
-(AIWA). It provides structured opportunities for students aged 10–16 to develop as writers,
-thinkers, and contributors to published educational materials.
+(AIWA). Through the Fellowship, students aged 10–16 are commissioned as **Junior Publishing
+Fellows** — contributing authors, storytellers, and language contributors who create original
+works for AIWA's educational publications and archive.
+
+Student Contributors are not subjects of a study. They are active creators and co-producers
+of educational content rooted in Gambian languages and cultures.
 
 The Fellowship runs across one academic year, delivered in fortnightly sessions at partner schools.
 
@@ -27,7 +31,7 @@ The Fellowship runs across one academic year, delivered in fortnightly sessions 
 
 ## 2. Educational Objectives
 
-By the end of the programme, participants will have:
+By the end of the programme, Student Contributors will have:
 
 - Developed their reading comprehension and analytical skills
 - Practised and refined their writing across multiple forms (story, essay, poetry, non-fiction)
@@ -81,10 +85,10 @@ A detailed schedule for each school cohort is maintained in `/programs/pilot-sch
 
 | Document | Location |
 |---|---|
-| School Pilot Partnership Agreement | `/contracts/templates/` |
-| Parent and Guardian Consent Form | `/forms/parent-consent/` |
-| Student Assent Form | `/forms/student-consent/` |
-| Media Release Form | `/forms/media-release/` |
+| School Partnership Agreement | `/contracts/templates/` |
+| Parent and Guardian Permission Form | `/forms/parent-consent/` |
+| Student Participation Agreement | `/forms/student-consent/` |
+| Media and Photography Permission Form | `/forms/media-release/` |
 | Publishing and Attribution Agreement | `/contracts/templates/` |
 | Programme Curriculum | `/programs/curriculum/` |
 | Workshop Facilitator Guides | `/programs/workshops/` |

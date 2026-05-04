@@ -39,7 +39,7 @@ subject to the following conditions:
   commercial purposes without express written permission from AIWA
 - **No Misrepresentation**: Adapted materials must not be presented as original AIWA documents
   or as carrying AIWA's endorsement unless such endorsement has been formally granted
-- **Safeguarding Integrity**: Any adaptations involving participant consent, child protection,
+- **Safeguarding Integrity**: Any adaptations involving contributor permissions, child protection,
   or safeguarding must maintain the core protections provided in the original templates
 
 ### 3. Restricted Materials
@@ -48,7 +48,7 @@ Documents in `/contracts/executed/` are **confidential operational records** and
 not available for public use, reuse, or adaptation. These documents contain personally
 identifiable information and are subject to AIWA's Data Governance Policy.
 
-### 4. Participant-Created Works
+### 4. Contributor-Created Works
 
 Original works created by student or teacher participants in AIWA programmes — stories,
 poems, curriculum materials — are the intellectual property of their named creators.

@@ -139,7 +139,7 @@ to the repository:
 |---|---|
 | Safeguarding policies and forms | Safeguarding Lead |
 | School partnership agreements | Programme Director |
-| Participant consent forms | Safeguarding Lead + Programme Director |
+| Contributor permission forms | Safeguarding Lead + Programme Director |
 | Publishing and attribution agreements | Publishing Coordinator |
 | Governance documents | Programme Director |
 
