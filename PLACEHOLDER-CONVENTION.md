@@ -195,7 +195,27 @@ A completed document must contain **no remaining placeholder text**.
 
 ---
 
-## 14. Completing a Template — Checklist
+## 14. Field Trip and Travel Placeholders
+
+| Placeholder | Description | Example |
+|---|---|---|
+| `[TRIP_DESTINATION]` | Name of the off-campus destination | Banjul Community Centre |
+| `[TRIP_DESTINATION_ADDRESS]` | Full address of the destination | 5 Liberation Avenue, Banjul |
+| `[TRIP_DATE]` | Date of the field trip or on-location session | 20 October 2025 |
+| `[DEPARTURE_TIME]` | Time students leave school for the trip | 08:30 |
+| `[RETURN_TIME]` | Expected time students return to school | 15:30 |
+| `[TRAVEL_ARRANGEMENT]` | Description of the travel method | AIWA programme minibus |
+| `[SUPERVISOR_NAME]` | Full name of the AIWA Lead Production Supervisor | Fatou Ceesay |
+| `[SUPERVISOR_PHONE]` | Mobile phone number for the Lead Supervisor on the day | +220 xxx xxxx |
+| `[SUPERVISOR_RATIO]` | Supervisor-to-student ratio for the activity | 6 (i.e. 1 supervisor per 6 students) |
+| `[SCHOOL_REPRESENTATIVE_NAME]` | Name of the school staff member accompanying the group | Mr Lamin Jobe |
+| `[SCHOOL_REPRESENTATIVE_PHONE]` | Contact number for the school representative on the day | +220 xxx xxxx |
+| `[RETURN_FORM_TO]` | Name or role to whom the completed permission form should be returned | The Class Teacher / School Liaison Teacher |
+| `[FORM_DUE_DATE]` | Deadline for returning the signed permission form | 14 October 2025 |
+
+---
+
+## 15. Completing a Template — Checklist
 
 Before a document is considered complete and ready for use or execution:
 
