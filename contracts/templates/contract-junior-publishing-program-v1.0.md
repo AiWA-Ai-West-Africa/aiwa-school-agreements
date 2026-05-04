@@ -229,7 +229,7 @@ materially affect the Programme.
 
 ---
 
-## 7. Student Student Contributor Rights and Protections
+## 7. Student Contributor Rights and Protections
 
 7.1 Participation in the Programme is entirely **voluntary**. No student, parent, or
 guardian shall be pressured or coerced into participating.
