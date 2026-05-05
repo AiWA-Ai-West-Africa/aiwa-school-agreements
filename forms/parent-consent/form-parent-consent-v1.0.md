@@ -172,5 +172,4 @@ Language used for explanation: _____________________________
 | Version | Date | Changed By | Summary of Changes |
 |---|---|---|---|
 | v1.0 | 1 May 2025 | Safeguarding Lead | Initial template version |
-| v1.1 | 5 May 2025 | Safeguarding Lead | Added No-AI-Training clause; added oral/translated consent note and verbal consent record |
-| v1.1 | 5 May 2025 | Programme Director | Added Digital Tools disclosure section to satisfy contract disclosure obligation |
+| v1.1 | 5 May 2025 | Safeguarding Lead + Programme Director | Added No-AI-Training clause; added oral/translated consent note and verbal consent record; added Digital Tools disclosure section |
