@@ -145,7 +145,7 @@ See [GOVERNANCE.md](GOVERNANCE.md) for full governance principles.
 3. **Replace** all `[PLACEHOLDER]` values with the specific details for the school, partner, or contributor
 4. **Review** the completed document against the checklist at the end of each template
 5. **Approve** through the appropriate internal review process before use
-6. **File** the executed copy in `/contracts/executed` or the relevant subfolder
+6. **File** the executed copy in the designated secure records system, not in this repository
 7. **Archive** superseded versions in `/archive` or `/contracts/archive`
 
 See [PLACEHOLDER-CONVENTION.md](PLACEHOLDER-CONVENTION.md) for the full list of standard placeholders.
