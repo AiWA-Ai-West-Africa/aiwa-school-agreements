@@ -4,7 +4,7 @@
 **Version:** v1.1
 **Status:** Draft
 **Last Reviewed:** 5 May 2025
-**Approved By:** Programme Director
+**Approved By:** Pending — Programme Director
 **Applies To:** All AIWA Staff, Facilitators, and Partner Schools
 **Jurisdiction:** The Republic of The Gambia
 
