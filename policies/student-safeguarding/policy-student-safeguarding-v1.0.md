@@ -183,9 +183,8 @@ by the Safeguarding Lead.
 8.4 Students' personal information, including names and photographs, is never published on
 public platforms without consent.
 
-8.5 Student creative works are not shared with, uploaded to, or processed by any artificial
-intelligence (AI) tool, system, or commercial platform without separate, specific, and fully
-informed consent.
+8.5 Student creative works are never shared with, uploaded to, processed by, or used to
+train any artificial intelligence (AI) tool, system, or commercial platform.
 
 ---
 
