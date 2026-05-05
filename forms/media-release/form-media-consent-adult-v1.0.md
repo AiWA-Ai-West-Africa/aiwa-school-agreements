@@ -1,7 +1,7 @@
 # Media and Photography Consent Form — Adults
 
 **Document Type:** Form — Media Consent (Adult)
-**Version:** v1.0
+**Version:** v1.1
 **Status:** Draft
 **Last Reviewed:** 1 May 2025
 **Approved By:** Pending — Safeguarding Lead + Programme Director
@@ -50,17 +50,28 @@ You do not have to give consent. Refusing will not affect your involvement in th
 
 ---
 
+**Audio Recordings**
+
+AIWA may make audio recordings during programme activities, including oral storytelling, language documentation sessions, spoken-word performances, or educational discussions in which I take part.
+
+☐ **YES** — AIWA may make and use audio recordings that include my voice
+
+☐ **NO** — I do not want audio recordings of me made or used
+
+---
+
 **My Name**
 
-☐ **YES** — AIWA may use my name alongside photos or videos
+☐ **YES** — AIWA may use my name alongside photos, videos, or audio recordings
 
-☐ **NO** — Please do not use my name alongside photos or videos
+☐ **NO** — Please do not use my name alongside photos, videos, or audio recordings
 
 ---
 
 ### Important
 
-- AIWA will not sell or commercially use your photos or videos.
+- AIWA will not sell or commercially use your photos, videos, or audio recordings.
+- Your creative or oral contributions will **never** be used to train artificial intelligence (AI) systems.
 - You may withdraw this consent at any time by contacting [AIWA_CONTACT_EMAIL].
 - Separate consent will be requested for major publications or special projects.
 
@@ -91,3 +102,4 @@ Consent level recorded: ______________________________________
 | Version | Date | Changed By | Summary of Changes |
 |---|---|---|---|
 | v1.0 | 1 May 2025 | Safeguarding Lead | Initial template version |
+| v1.1 | 5 May 2025 | Programme Director | Added Audio Recordings consent option; updated Important notes to cover audio and confirm AI training exclusion |

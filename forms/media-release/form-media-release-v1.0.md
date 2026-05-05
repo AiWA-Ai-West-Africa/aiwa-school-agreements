@@ -1,7 +1,7 @@
 # Media and Photography Permission Form — Parents and Guardians
 
 **Document Type:** Form — Media Consent (Parent/Guardian)
-**Version:** v1.0
+**Version:** v1.1
 **Status:** Draft
 **Last Reviewed:** 1 May 2025
 **Approved By:** Pending — Safeguarding Lead + Programme Director
@@ -53,18 +53,29 @@ These may be used for:
 
 ---
 
-**Child's Name in Photos / Videos**
+**Audio Recordings**
 
-☐ **YES** — AIWA may use my child's first name with photos or videos
+AIWA may make audio recordings during programme activities, including oral storytelling, language documentation sessions, spoken-word performances, or educational discussions in which your child takes part.
 
-☐ **NO** — Please do not use my child's name alongside any photo or video
+☐ **YES** — AIWA may make and use audio recordings that include my child's voice
+
+☐ **NO** — I do not want audio recordings of my child made or used
+
+---
+
+**Child's Name in Photos / Videos / Audio**
+
+☐ **YES** — AIWA may use my child's first name with photos, videos, or audio recordings
+
+☐ **NO** — Please do not use my child's name alongside any photo, video, or audio recording
 
 ---
 
 ### Important
 
-- AIWA will **not** sell your child's photos or videos.
-- Photos and videos will only be used for educational and programme purposes.
+- AIWA will **not** sell your child's photos, videos, or audio recordings.
+- Photos, videos, and audio recordings will only be used for educational and programme purposes.
+- Your child's creative or oral work will **never** be used to train artificial intelligence (AI) systems.
 - You may change your decision at any time by contacting AIWA.
 - Separate permission will always be requested for major publications or special projects.
 
@@ -95,3 +106,4 @@ Consent level recorded: ______________________________________
 | Version | Date | Changed By | Summary of Changes |
 |---|---|---|---|
 | v1.0 | 1 May 2025 | Safeguarding Lead | Initial template version |
+| v1.1 | 5 May 2025 | Programme Director | Added Audio Recordings consent option; updated Important notes to cover audio and confirm AI training exclusion |
