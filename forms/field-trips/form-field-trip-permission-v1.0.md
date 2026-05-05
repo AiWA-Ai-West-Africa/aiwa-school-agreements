@@ -157,7 +157,7 @@ By signing below, I confirm that:
 
 *Please return this form to [RETURN_FORM_TO] by [FORM_DUE_DATE].*
 
-*If you have any questions, please contact [AIWA_CONTACT_NAME] at [AIWA_CONTACT_PHONE] or [AIWA_CONTACT_EMAIL].*
+*If you have any questions, please contact [RETURN_FORM_TO] at [AIWA_CONTACT_PHONE] or [AIWA_CONTACT_EMAIL].*
 
 ---
 
