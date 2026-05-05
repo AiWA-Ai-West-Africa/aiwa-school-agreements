@@ -43,8 +43,10 @@ As part of its educational programme activities, AIWA facilitates the creation o
 creative and educational materials including stories, poems, written work, oral histories,
 spoken-word recordings, educational media, and language documentation activities.
 
-These materials are treated as creator-owned educational contributions — not as personal
-data or institutional property.
+These materials are treated as creator-owned educational contributions, not as institutional
+property. Where such materials identify, relate to, or can reasonably be linked to an
+identifiable student contributor or other individual, they will also be treated as personal
+data and handled in accordance with this policy and the relevant consent terms.
 
 Specifically:
 
