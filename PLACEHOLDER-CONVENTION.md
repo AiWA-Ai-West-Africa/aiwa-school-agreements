@@ -63,6 +63,7 @@ A completed document must contain **no remaining placeholder text**.
 | `[AIWA_CONTACT_EMAIL]` | AIWA contact email | info@aiwa.gm |
 | `[AIWA_CONTACT_PHONE]` | AIWA contact phone number | +220 xxx xxxx |
 | `[AUTHORIZED_SIGNATORY]` | Name and title of the authorised signatory | [AIWA_REPRESENTATIVE_NAME], [AIWA_REPRESENTATIVE_TITLE] |
+| `[DIGITAL_TOOLS_LIST]` | List of educational technology tools used in the programme, or "No external digital tools are used" | No external digital tools are used |
 
 ---
 

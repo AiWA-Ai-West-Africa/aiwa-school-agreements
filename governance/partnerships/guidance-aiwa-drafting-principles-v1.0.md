@@ -1,7 +1,7 @@
 # AIWA Drafting Principles — Language and Legal Framing Guidance
 
 **Document Type:** Guidance
-**Version:** v1.0
+**Version:** v1.1
 **Status:** Approved
 **Last Reviewed:** 1 May 2025
 **Approved By:** Programme Director

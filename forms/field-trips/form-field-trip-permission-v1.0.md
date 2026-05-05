@@ -1,7 +1,7 @@
 # Field Trip Permission and Travel Agreement
 
 **Document Type:** Template — Permission Form
-**Version:** v1.0
+**Version:** v1.1
 **Status:** Draft
 **Last Reviewed:** 4 May 2025
 **Approved By:** Pending — Safeguarding Lead + Programme Director
@@ -98,11 +98,9 @@ voluntarily and with full information about how their contributions will be used
 
 This activity may involve the group creating photographs, audio recordings, or short videos as part of the session.
 
-**Your child's general participation does not require us to photograph or record them.** However, if you would like your child to be included in any media produced during the session, please also sign a **Media Release Form**.
+**Media consent is governed by the AIWA Media and Photography Permission Form.** If your child holds a current signed Media Release Form, that form covers participation in any media taken during this activity.
 
-[ ] **YES** — I give permission for my child to appear in photographs and recordings taken during this activity.
-
-[ ] **NO** — Please do not include my child in photographs or recordings.
+If you have not yet completed a Media and Photography Permission Form for your child, please request one from the school or contact AIWA. Your child's general participation in this trip does **not** require media consent.
 
 ---
 
@@ -166,4 +164,4 @@ By signing below, I confirm that:
 | Version | Date | Changed By | Summary of Changes |
 |---|---|---|---|
 | v1.0 | 4 May 2025 | Programme Director | Initial template — field trip permission and travel agreement |
-| v1.1 | 5 May 2025 | Safeguarding Lead | Added supervisor vetting statement; added emergency contact details; added Cultural Respect and Community Protocols section |
+| v1.1 | 5 May 2025 | Safeguarding Lead | Added supervisor vetting statement; added emergency contact details; added Cultural Respect and Community Protocols section; replaced duplicate media consent checkboxes with reference to Media and Photography Permission Form |

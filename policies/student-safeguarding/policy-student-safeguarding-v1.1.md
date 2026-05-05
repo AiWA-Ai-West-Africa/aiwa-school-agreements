@@ -66,7 +66,7 @@ all programme decisions.
 4.2 **Informed participation** — Children and their parents or guardians must provide
 informed written consent before participation in any AIWA programme activity.
 
-4.3 **Age-appropriate communication** — All communication with student participants must
+4.3 **Age-appropriate communication** — All communication with Student Contributors must
 be appropriate to their age, literacy level, and cultural context.
 
 4.4 **Safe environment** — AIWA sessions take place on school premises in visible, open

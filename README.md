@@ -51,11 +51,11 @@ It is not a software application repository.
 ## Repository Structure
 
 ```
-aiwa-school-pilot-framework/
+aiwa-school-agreements/
 │
 ├── contracts/                    # Formal agreements and partnership contracts
 │   ├── templates/                # Reusable blank contract templates
-│   ├── executed/                 # Signed and finalised agreements (restricted access)
+│   ├── executed/                 # Index only — signed agreements with personal data must not be stored in Git
 │   └── archive/                  # Superseded or expired contracts
 │
 ├── policies/                     # Institutional policies and standards
@@ -69,7 +69,7 @@ aiwa-school-pilot-framework/
 │   ├── student-consent/          # Student assent forms (age-appropriate)
 │   ├── media-release/            # Media and photography release forms
 │   ├── field-trips/              # Field trip permission and related forms
-│   └── interview-consent/        # Research and interview consent forms
+│   └── interview-consent/        # Media documentation and recording release forms
 │
 ├── programs/                     # Programme documentation and schedules
 │   ├── junior-publishing-fellowship/  # AIWA Junior Publishing Fellowship materials

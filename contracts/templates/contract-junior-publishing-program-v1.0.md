@@ -328,7 +328,7 @@ published works that engage significantly with specific community cultural conte
 
 ## 11. Safeguarding and Student Welfare
 
-11.1 The safeguarding and welfare of all student Student Contributors is the highest priority of
+11.1 The safeguarding and welfare of all Student Contributors is the highest priority of
 both parties and shall take precedence over all other Programme considerations.
 
 11.2 AIWA will provide the School with a copy of its **Student Safeguarding Policy**

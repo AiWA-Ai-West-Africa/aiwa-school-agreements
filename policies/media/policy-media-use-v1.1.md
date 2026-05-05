@@ -4,7 +4,7 @@
 **Version:** v1.1
 **Status:** Draft
 **Last Reviewed:** 5 May 2025
-**Approved By:** Safeguarding Lead
+**Approved By:** Pending — Safeguarding Lead
 **Applies To:** All AIWA Photography, Video, and Media Activities
 **Jurisdiction:** The Republic of The Gambia
 
@@ -34,8 +34,8 @@ All of the above are governed equally by this policy.
 
 ## 2. Consent Requirements
 
-2.1 No photograph or video recording of a student contributor may be taken without a signed
-**Media Release and Photography Consent Form** from the student's parent or guardian.
+2.1 No photograph, video recording, or audio recording of a student contributor may be taken
+without a signed **Media and Photography Permission Form** from the student's parent or guardian.
 
 2.2 For adult contributors (teachers, principals, guardians), verbal or written consent must
 be obtained before photographing or recording.

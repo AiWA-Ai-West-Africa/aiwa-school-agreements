@@ -1,7 +1,7 @@
 # Parent and Guardian Permission Form — AIWA Programme
 
 **Document Type:** Form — Parental Consent
-**Version:** v1.0
+**Version:** v1.1
 **Status:** Draft
 **Last Reviewed:** 1 May 2025
 **Approved By:** Pending — Safeguarding Lead + Programme Director
@@ -89,6 +89,20 @@ signing this form.
 
 ---
 
+### Digital Tools Used in This Programme
+
+Where educational technology tools are used in programme activities, AIWA will make them
+available here. Tools listed below are used for educational purposes only and are subject
+to AIWA's safeguarding and data governance controls.
+
+**Digital or technology tools used in [PROGRAM_NAME]:**
+
+[DIGITAL_TOOLS_LIST — e.g., "No external digital tools are used" or list specific tools]
+
+If tools change during the programme, parents and guardians will be notified in writing.
+
+---
+
 ### Keeping Your Child Safe
 
 AIWA has a safeguarding policy to protect all young people.
@@ -159,3 +173,4 @@ Language used for explanation: _____________________________
 |---|---|---|---|
 | v1.0 | 1 May 2025 | Safeguarding Lead | Initial template version |
 | v1.1 | 5 May 2025 | Safeguarding Lead | Added No-AI-Training clause; added oral/translated consent note and verbal consent record |
+| v1.1 | 5 May 2025 | Programme Director | Added Digital Tools disclosure section to satisfy contract disclosure obligation |

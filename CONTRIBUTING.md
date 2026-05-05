@@ -103,8 +103,9 @@ Every document must begin with a standard header:
 **Version:** [e.g., v1.0]
 **Status:** [Draft / Under Review / Approved / Archived]
 **Last Reviewed:** [DD Month YYYY]
-**Approved By:** [Role Title]
+**Approved By:** [Role Title — or "Pending — [Role Title]" if Status is Draft/Under Review]
 **Applies To:** [Schools / Participants / Partners / All]
+**Jurisdiction:** [e.g., The Republic of The Gambia]
 ```
 
 ### Placeholders
@@ -150,13 +151,20 @@ documents should be marked `Status: Approved`.
 
 ## 7. Working with Executed Documents
 
-Executed (signed) documents placed in `/contracts/executed/` must:
+**Important:** Signed agreements containing personal data must **not** be committed to this
+Git repository. Executed documents with personal data must be stored in a separate secure
+records system outside Git.
+
+The `/contracts/executed/` folder in this repository holds only a **non-PII index** — a
+register of signed agreements (school name, date, template version) with no personal data.
+See [contracts/executed/README.md](../contracts/executed/README.md) for full handling guidance.
+
+Completed (unsigned) templates ready for execution must:
 
 - Have all placeholder values fully completed — no blank fields
 - Include reference to the relevant template version used
 - Be named using the executed document naming convention:
   `[CATEGORY]-[SCHOOL_ID]-[YYYY-MM-DD]-executed.[ext]`
-- Not contain sensitive personal data (beyond what is necessary and consented to)
 
 ---
 
