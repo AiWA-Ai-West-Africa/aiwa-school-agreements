@@ -27,7 +27,7 @@
 ║                                                          ║
 ║  This is to certify that                                 ║
 ║                                                          ║
-║         [PARTICIPANT_NAME]                               ║
+║         [CONTRIBUTOR_NAME]                               ║
 ║                                                          ║
 ║  of [SCHOOL_NAME]                                        ║
 ║                                                          ║
