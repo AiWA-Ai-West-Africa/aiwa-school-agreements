@@ -62,7 +62,7 @@ anthologies, or online resources.
 4.1 All published student contributor works must clearly attribute the creator.
 
 4.2 Standard attribution format:
-> *Written by [CONTRIBUTOR_NAME], [CONTRIBUTOR_CLASS], [SCHOOL_NAME]*
+> *Written by [CONTRIBUTOR_NAME], [PARTICIPANT_CLASS], [SCHOOL_NAME]*
 
 4.3 Attribution must not be removed, altered, or obscured in any version of a published work.
 
