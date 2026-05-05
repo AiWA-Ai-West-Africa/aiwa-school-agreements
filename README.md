@@ -1,5 +1,7 @@
 # AI West Africa (AIWA) — School Pilot Framework
 
+[![Copilot cloud agent](https://github.com/AiWA-Ai-West-Africa/aiwa-school-agreements/actions/workflows/copilot-swe-agent/copilot/badge.svg)](https://github.com/AiWA-Ai-West-Africa/aiwa-school-agreements/actions/workflows/copilot-swe-agent/copilot)   [![Copilot code review](https://github.com/AiWA-Ai-West-Africa/aiwa-school-agreements/actions/workflows/copilot-pull-request-reviewer/copilot-pull-request-reviewer/badge.svg)](https://github.com/AiWA-Ai-West-Africa/aiwa-school-agreements/actions/workflows/copilot-pull-request-reviewer/copilot-pull-request-reviewer)
+
 **A Professional Repository of Agreements, Policies, and Governance Materials**
 **for Educational Programmes in The Gambia and the West African Region**
 
