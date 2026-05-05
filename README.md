@@ -68,6 +68,7 @@ aiwa-school-pilot-framework/
 │   ├── parent-consent/           # Parental and guardian consent forms
 │   ├── student-consent/          # Student assent forms (age-appropriate)
 │   ├── media-release/            # Media and photography release forms
+│   ├── field-trips/              # Field trip permission and related forms
 │   └── interview-consent/        # Research and interview consent forms
 │
 ├── programs/                     # Programme documentation and schedules
