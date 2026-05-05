@@ -1,0 +1,175 @@
+# .gitignore for AIWA School Pilot Framework
+# Document repository — legal, educational, and governance materials
+
+# ---------------------------------------------------------------
+# Microsoft Office temporary and lock files
+# ---------------------------------------------------------------
+~$*.doc
+~$*.docx
+~$*.xls
+~$*.xlsx
+~$*.ppt
+~$*.pptx
+*.tmp
+*.laccdb
+*.accdb.laccdb
+
+# ---------------------------------------------------------------
+# Microsoft Office document formats (working copies)
+# These are typically exported to PDF before committing
+# ---------------------------------------------------------------
+# Uncomment if you wish to track only PDF versions:
+# *.doc
+# *.docx
+# *.xls
+# *.xlsx
+# *.ppt
+# *.pptx
+
+# ---------------------------------------------------------------
+# LibreOffice / OpenDocument temporary files
+# ---------------------------------------------------------------
+.~lock.*
+*.ods~
+*.odt~
+*.odp~
+
+# ---------------------------------------------------------------
+# PDF exports (working/draft)
+# Committed PDFs in /contracts/executed/ should be tracked.
+# Use .gitkeep or explicit git add for executed documents.
+# Uncomment below to exclude all PDFs by default:
+# ---------------------------------------------------------------
+# *.pdf
+
+# ---------------------------------------------------------------
+# macOS system files
+# ---------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.AppleDouble
+.LSOverride
+Icon
+
+# ---------------------------------------------------------------
+# Windows system files
+# ---------------------------------------------------------------
+desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# ---------------------------------------------------------------
+# Linux temporary files
+# ---------------------------------------------------------------
+*~
+
+# ---------------------------------------------------------------
+# Legal drafting workflow files
+# ---------------------------------------------------------------
+# Track Changes exports
+*.docx.bak
+# Comparison/redline documents (working copies)
+*-redline.*
+*-compare.*
+*-tracked.*
+# Legal drafting software outputs
+*.wps
+*.wpd
+
+# ---------------------------------------------------------------
+# Email and calendar exports
+# ---------------------------------------------------------------
+*.eml
+*.msg
+*.ics
+*.vcs
+
+# ---------------------------------------------------------------
+# Archive and compressed files
+# ---------------------------------------------------------------
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# ---------------------------------------------------------------
+# Image working files (raw/editable formats)
+# ---------------------------------------------------------------
+*.psd
+*.ai
+*.afdesign
+*.afpub
+*.indd
+*.idml
+
+# ---------------------------------------------------------------
+# Video and audio files (unless intentionally committed)
+# ---------------------------------------------------------------
+*.mp4
+*.mov
+*.avi
+*.wmv
+*.mp3
+*.wav
+
+# ---------------------------------------------------------------
+# Scan outputs (working drafts — executed scans should be
+# explicitly added to /contracts/executed/)
+# ---------------------------------------------------------------
+*-scan-draft.*
+*-unsigned.*
+
+# ---------------------------------------------------------------
+# Editor and IDE configuration files
+# ---------------------------------------------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# ---------------------------------------------------------------
+# Node.js (if any documentation tooling is used)
+# ---------------------------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ---------------------------------------------------------------
+# Python (if any scripting tools are used)
+# ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv/
+venv/
+
+# ---------------------------------------------------------------
+# Log files
+# ---------------------------------------------------------------
+*.log
+
+# ---------------------------------------------------------------
+# Sensitive data patterns — should never be committed
+# ---------------------------------------------------------------
+*-confidential.*
+*-private.*
+*-secret.*
+*.credentials
+.env.local
+.env.production
+secrets/
+private/
