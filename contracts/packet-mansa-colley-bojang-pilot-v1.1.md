@@ -683,7 +683,7 @@ before activities commence.*
 **Status:** Draft
 **Last Reviewed:** 5 May 2025
 **Approved By:** Pending — Safeguarding Lead + Programme Director
-**Applies To:** Student Participants — Mansa Colley Bojang
+**Applies To:** Student Contributors — Mansa Colley Bojang
 **Jurisdiction:** The Republic of The Gambia
 
 ---
