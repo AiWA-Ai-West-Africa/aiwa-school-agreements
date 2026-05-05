@@ -40,6 +40,7 @@ Return to school by: [RETURN_TIME]
 
 **Who will be supervising?**
 Students will be supervised by named AIWA Production Supervisors and a School representative at all times.
+All AIWA Production Supervisors have been vetted and cleared to work with children.
 
 AIWA Lead Supervisor: [SUPERVISOR_NAME] | Phone: [SUPERVISOR_PHONE]
 School Representative: [SCHOOL_REPRESENTATIVE_NAME] | Phone: [SCHOOL_REPRESENTATIVE_PHONE]
@@ -67,6 +68,29 @@ Students will:
 - We will have a mobile phone available for emergencies throughout the day.
 - Students will follow AIWA's Safeguarding Policy throughout the activity.
 - If there is any change to the plan (travel delay, weather, etc.), we will contact you at the number below.
+
+**Emergency contact on the day:** [SUPERVISOR_NAME] at [SUPERVISOR_PHONE]
+
+If we cannot reach you in an emergency, we will contact the School Representative at
+[SCHOOL_REPRESENTATIVE_PHONE], followed by the emergency services if required.
+
+---
+
+## Cultural Respect and Community Protocols
+
+This activity may take place in community settings where elders, community leaders, or
+local knowledge-holders are present.
+
+Students are expected to:
+
+- Conduct themselves respectfully at all times
+- Follow any cultural protocols or guidance given by community hosts or elders
+- Ask permission before recording, photographing, or interviewing any community member
+- Listen carefully and not interrupt or speak over elders or guests
+
+AIWA Production Supervisors will brief students on specific cultural considerations before
+any community interaction begins. Community members who contribute to the session do so
+voluntarily and with full information about how their contributions will be used.
 
 ---
 
@@ -142,3 +166,4 @@ By signing below, I confirm that:
 | Version | Date | Changed By | Summary of Changes |
 |---|---|---|---|
 | v1.0 | 4 May 2025 | Programme Director | Initial template — field trip permission and travel agreement |
+| v1.1 | 5 May 2025 | Safeguarding Lead | Added supervisor vetting statement; added emergency contact details; added Cultural Respect and Community Protocols section |

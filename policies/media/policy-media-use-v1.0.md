@@ -1,9 +1,9 @@
 # Media Use Policy
 
 **Document Type:** Policy
-**Version:** v1.0
+**Version:** v1.1
 **Status:** Draft
-**Last Reviewed:** 1 May 2025
+**Last Reviewed:** 5 May 2025
 **Approved By:** Safeguarding Lead
 **Applies To:** All AIWA Photography, Video, and Media Activities
 **Jurisdiction:** The Republic of The Gambia
@@ -16,9 +16,19 @@
 
 ## 1. Purpose
 
-This policy governs the use of photographs, video recordings, and other media featuring
-student contributors in AIWA programmes. It ensures that student contributor dignity, privacy, and safety
-are protected in all media activities.
+This policy governs the use of photographs, video recordings, audio recordings, and other
+media featuring student contributors in AIWA programmes. It ensures that student contributor
+dignity, privacy, and safety are protected in all media activities.
+
+For the purposes of this policy, **"media"** may include:
+- Photographs and still images
+- Video recordings
+- Audio recordings and oral storytelling captures
+- Educational podcasts or broadcast materials
+- Language documentation recordings
+- Educational media produced during on-location production sessions
+
+All of the above are governed equally by this policy.
 
 ---
 
@@ -80,6 +90,8 @@ Under no circumstances may AIWA media be:
 - Shared with third parties without documented justification and consent
 - Published in ways that could identify a child's location, school, or daily routine
   in ways that could present a safeguarding risk
+- **Used to train, fine-tune, or test any artificial intelligence (AI) system or
+  commercial data platform, regardless of stated purpose**
 
 ---
 
@@ -97,3 +109,4 @@ This policy is reviewed annually.
 | Version | Date | Changed By | Summary of Changes |
 |---|---|---|---|
 | v1.0 | 1 May 2025 | Safeguarding Lead | Initial policy version |
+| v1.1 | 5 May 2025 | Safeguarding Lead | Expanded §1 media definition to include audio, oral storytelling, language documentation; added AI prohibition to §6 Prohibited Uses |

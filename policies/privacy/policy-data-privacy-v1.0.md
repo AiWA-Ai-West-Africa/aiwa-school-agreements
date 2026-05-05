@@ -1,9 +1,9 @@
 # Data Privacy Policy
 
 **Document Type:** Policy
-**Version:** v1.0
+**Version:** v1.1
 **Status:** Draft
-**Last Reviewed:** 1 May 2025
+**Last Reviewed:** 5 May 2025
 **Approved By:** Programme Director
 **Applies To:** All AIWA Programmes and Student Contributors
 **Jurisdiction:** The Republic of The Gambia
@@ -34,6 +34,29 @@ safeguarding, or student contributor communication. This may include:
 - Programme attendance and participation records
 - Consent form records
 - Photographs (only with signed Media Release consent)
+
+---
+
+## 2A. Creative and Educational Materials
+
+As part of its educational programme activities, AIWA facilitates the creation of original
+creative and educational materials including stories, poems, written work, oral histories,
+spoken-word recordings, educational media, and language documentation activities.
+
+These materials are treated as creator-owned educational contributions — not as personal
+data or institutional property.
+
+Specifically:
+
+- Student creative works belong to the student contributor, not to AIWA.
+- Creative works submitted for educational publication are governed by the AIWA Publishing
+  Rights Policy and a separate Publishing and Attribution Agreement.
+- Creative works are not processed, uploaded, or submitted to any artificial intelligence
+  (AI) training system, commercial data platform, or technology development programme.
+- Oral recordings, audio materials, and language documentation materials are stored in
+  AIWA's restricted-access archive and are accessible only to authorised AIWA personnel.
+- Recording materials are used solely for the educational archival purposes described in
+  the relevant consent form, and not for any commercial, technological, or AI-related purpose.
 
 ---
 
@@ -105,3 +128,4 @@ This policy will be reviewed annually or upon any change to applicable Gambian l
 | Version | Date | Changed By | Summary of Changes |
 |---|---|---|---|
 | v1.0 | 1 May 2025 | Programme Director | Initial policy version |
+| v1.1 | 5 May 2025 | Programme Director | Added §2A Creative and Educational Materials: explicit AI exclusion, oral/recording content governance, creator-ownership clarification |

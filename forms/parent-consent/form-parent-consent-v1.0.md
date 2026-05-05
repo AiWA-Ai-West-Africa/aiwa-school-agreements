@@ -70,6 +70,25 @@ Your child's written work belongs to your child.
 
 ---
 
+### Your Child's Work and Technology
+
+We want to be completely clear about this:
+
+**Your child's work, name, voice, or image will never be used to train artificial
+intelligence (AI) systems.**
+
+AIWA is an educational publishing organisation. We help young people become authors
+and storytellers. We do not collect children's work for technology companies,
+data systems, or AI development — ever.
+
+If you have heard concerns about schools or programmes sharing children's work
+with AI companies, please know: **AIWA does not do this.**
+
+If you have any questions about how we use information, please ask us before
+signing this form.
+
+---
+
 ### Keeping Your Child Safe
 
 AIWA has a safeguarding policy to protect all young people.
@@ -93,7 +112,12 @@ It is not shared with other organisations.
 
 ### Permission
 
-Please complete the section below and return to the school.
+*Please complete the section below and return to the school. If you need this form explained
+in another language, or if you would prefer to give your permission by speaking with an AIWA
+facilitator directly, please contact us at [AIWA_CONTACT_PHONE] and we will arrange this.*
+
+*If you gave permission verbally with a facilitator rather than in writing, the facilitator
+will note this at the bottom of this form.*
 
 ---
 
@@ -123,6 +147,10 @@ Form received by: _____________________________ Date: _______________
 
 Entered in register: ☐ Yes   Reference: _____________________________
 
+Verbal/oral consent given (if applicable):
+Facilitator name: _____________________________ Date: _______________
+Language used for explanation: _____________________________
+
 ---
 
 ## Change Log
@@ -130,3 +158,4 @@ Entered in register: ☐ Yes   Reference: _____________________________
 | Version | Date | Changed By | Summary of Changes |
 |---|---|---|---|
 | v1.0 | 1 May 2025 | Safeguarding Lead | Initial template version |
+| v1.1 | 5 May 2025 | Safeguarding Lead | Added No-AI-Training clause; added oral/translated consent note and verbal consent record |

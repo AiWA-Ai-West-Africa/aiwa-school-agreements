@@ -1,9 +1,9 @@
 # Publishing Rights and Attribution Policy
 
 **Document Type:** Policy
-**Version:** v1.0
+**Version:** v1.1
 **Status:** Draft
-**Last Reviewed:** 1 May 2025
+**Last Reviewed:** 5 May 2025
 **Approved By:** Programme Director
 **Applies To:** All AIWA Publishing Activities and Contributor Works
 **Jurisdiction:** The Republic of The Gambia
@@ -62,7 +62,7 @@ anthologies, or online resources.
 4.1 All published student contributor works must clearly attribute the creator.
 
 4.2 Standard attribution format:
-> *Written by [PARTICIPANT_NAME], [PARTICIPANT_CLASS], [SCHOOL_NAME]*
+> *Written by [CONTRIBUTOR_NAME], [CONTRIBUTOR_CLASS], [SCHOOL_NAME]*
 
 4.3 Attribution must not be removed, altered, or obscured in any version of a published work.
 
@@ -99,7 +99,34 @@ agreed in writing with full legal counsel available to the creator.
 
 ---
 
-## 7. Review
+## 7. Community Benefit and Revenue Participation
+
+7.1 AIWA believes that educational publishing should generate shared value — not extract it.
+Where AIWA's publishing activities generate revenue (through sales, licensing, or distribution),
+AIWA commits to the following distribution principles:
+
+- **Student contributors** who authored works in a publication shall receive a meaningful share
+  of any net revenue attributable to those works, in accordance with the terms of their
+  Publishing and Attribution Agreement.
+
+- **Partner schools** that hosted and facilitated student contributor development may receive
+  a programme contribution from AIWA's publishing revenues, recognising the school's role in
+  enabling the work.
+
+- **Community contributors** (Subject Matter Experts, oral history contributors, and community
+  knowledge holders) whose contributions are incorporated into educational materials shall be
+  recognised and, where applicable, receive acknowledgment or compensation as agreed.
+
+7.2 Specific revenue-sharing terms will be set out in individual Publishing and Attribution
+Agreements and School Partnership Agreements. AIWA will not profit from contributor works without
+a transparent, agreed-upon sharing mechanism.
+
+7.3 This principle applies equally to physical publications, digital formats, and any licensed
+adaptations or translations of AIWA-produced educational materials.
+
+---
+
+## 8. Review
 
 This policy is reviewed annually and upon any significant change to AIWA's publishing activities.
 
@@ -110,3 +137,4 @@ This policy is reviewed annually and upon any significant change to AIWA's publi
 | Version | Date | Changed By | Summary of Changes |
 |---|---|---|---|
 | v1.0 | 1 May 2025 | Programme Director | Initial policy version |
+| v1.1 | 5 May 2025 | Programme Director | Added §7 Community Benefit and Revenue Participation; fixed attribution placeholder to [CONTRIBUTOR_NAME] |

@@ -57,6 +57,9 @@ You do not have to join this programme.
 If you decide to join and later change your mind, you can leave at any time.
 Leaving will not cause any problem for you at school.
 
+**If you want to leave:** tell your teacher, the AIWA facilitator, or any trusted adult.
+You do not need to explain why. You will not be questioned or pressured to stay.
+
 ---
 
 ### How We Work Together
@@ -77,6 +80,20 @@ Anything you write during this programme belongs to you.
 
 AIWA will never publish your work without asking you and your parent or guardian first.
 You will always be given full credit as the author of your work.
+
+---
+
+### Your Work and Technology
+
+We want you to know:
+
+**Your stories, poems, and written work will never be used to train AI (artificial
+intelligence) computer systems.**
+
+AIWA is a publishing programme — we help young people become authors. We do not share
+your work with technology companies or AI systems. Ever.
+
+Your work is yours. We protect it.
 
 ---
 
@@ -105,11 +122,13 @@ Please read and tick each box if you agree:
 
 ☐ I understand what this programme is about
 
-☐ I know that joining is my choice and I can leave at any time
+☐ I know that joining is my choice and I can leave at any time without any problem
 
 ☐ I will treat other students and facilitators with respect
 
 ☐ I know that my writing belongs to me and will not be published without my permission
+
+☐ I know that my work will never be used to train AI computer systems
 
 ☐ I am happy to join **[PROGRAM_NAME]** and I will do my best
 
@@ -147,3 +166,4 @@ Form received by: _____________________________ Date: _______________
 | Version | Date | Changed By | Summary of Changes |
 |---|---|---|---|
 | v1.0 | 1 May 2025 | Safeguarding Lead | Initial template version |
+| v1.1 | 5 May 2025 | Safeguarding Lead | Added No-AI-Use section; strengthened voluntary withdrawal language; added AI exclusion tick-box |
