@@ -623,7 +623,11 @@ activities.*
 | Parent/Guardian Consent Form | [ ] Completed and signed |
 | Student Participation Form (age-appropriate) | [ ] Completed and signed |
 | Media Release Form (if media activities planned) | [ ] Completed and signed |
-| Publishing and Attribution Agreement (if publishing a student's work) | [ ] Completed and signed |
+| Publishing and attribution consent for a student's work (captured in the Parent/Guardian Consent Form, Student Participation Form, or equivalent school form, if publishing is planned) | [ ] Completed and signed |
+
+*Where publication of a student's work is planned, consent for publication and attribution must
+be expressly recorded in one of the forms above or in an equivalent school form; no separate
+standalone Publishing and Attribution Agreement template is required under this Agreement.*
 
 *AIWA Safeguarding Lead is responsible for verifying that all required forms are in place
 before activities commence.*
