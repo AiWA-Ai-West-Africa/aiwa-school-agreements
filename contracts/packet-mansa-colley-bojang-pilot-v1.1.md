@@ -847,7 +847,7 @@ Form received by: _____________________________ Date: _______________
 **Status:** Draft
 **Last Reviewed:** 5 May 2025
 **Approved By:** Pending — Safeguarding Lead + Programme Director
-**Applies To:** Parents/Guardians of Student Participants — Mansa Colley Bojang
+**Applies To:** Parents/Guardians of Student Contributors — Mansa Colley Bojang
 **Jurisdiction:** The Republic of The Gambia
 
 ---
