@@ -106,7 +106,7 @@ The following terms and phrases must not appear in any AIWA document:
 
 ### Student Contributor Works
 
-1. **Student Contributors retain ownership** of all original works they create during the Programme.
+1. **The Student Contributor retains ownership** of all original works they create during the Programme.
 2. AIWA is granted only a **non-exclusive, royalty-free licence** to publish, reproduce, or
    share a contributor's work — and only with a separate signed Publishing and Attribution Agreement.
 3. The licence granted must be **specific** (describing the particular publication or use),
