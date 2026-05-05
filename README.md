@@ -29,7 +29,7 @@ and governed by international standards of educational ethics and safeguarding.
 
 ## Purpose of This Repository
 
-This repository — **aiwa-school-pilot-framework** — serves as the **central operational
+This repository — **aiwa-school-agreements** — serves as the **central operational
 document repository** for AIWA's school pilot programmes, educational partnership agreements,
 contributor permission systems, and institutional governance materials.
 
