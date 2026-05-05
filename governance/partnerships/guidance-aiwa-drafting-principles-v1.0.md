@@ -104,7 +104,7 @@ The following terms and phrases must not appear in any AIWA document:
 
 ## 4. Intellectual Property and Licensing Principles
 
-### Participant Works
+### Student Contributor Works
 
 1. **Student Contributors retain ownership** of all original works they create during the Programme.
 2. AIWA is granted only a **non-exclusive, royalty-free licence** to publish, reproduce, or
