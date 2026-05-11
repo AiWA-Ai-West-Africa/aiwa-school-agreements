@@ -673,3 +673,9 @@ Programme activities.*
 before activities commence.*
 
 ---
+
+## Change Log
+
+| Version | Date | Summary of Changes |
+|---|---|---|
+| v1.1 | 4 May 2025 | Updated wording across the template and clarified the technology scope for programme activities. |
