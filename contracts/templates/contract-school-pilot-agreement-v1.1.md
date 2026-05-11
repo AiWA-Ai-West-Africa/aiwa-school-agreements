@@ -73,7 +73,7 @@ In this Agreement, the following terms have the meanings given below:
 a Junior Publishing Fellow and contributes original creative works, oral expression, or
 language materials as part of Programme activities.
 
-**"Creative Work"** means any original written, oral, visual, or multimedia work produced
+**"Creative Work(s)"** means any original written, oral, visual, or multimedia work produced
 by a Student Contributor during or in connection with Programme activities, including stories,
 poems, essays, spoken-word pieces, illustrations, and digital content.
 
@@ -677,6 +677,6 @@ before activities commence.*
 
 ## Change Log
 
-| Version | Date | Summary of Changes |
-|---|---|---|
-| v1.1 | 4 May 2025 | Updated wording across the template and clarified the technology scope for programme activities. |
+| Version | Date | Changed By | Summary of Changes |
+|---|---|---|---|
+| v1.1 | 4 May 2025 | Programme Team | Updated wording across the template and clarified the technology scope for programme activities. |

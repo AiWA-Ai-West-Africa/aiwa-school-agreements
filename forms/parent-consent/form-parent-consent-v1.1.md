@@ -5,7 +5,7 @@
 **Status:** Draft
 **Last Reviewed:** 1 May 2025
 **Approved By:** Pending — Safeguarding Lead + Programme Director
-**Applies To:** Parents/Guardians of Student Participants
+**Applies To:** Parents/Guardians of Student Contributors
 **Jurisdiction:** The Republic of The Gambia
 
 ---

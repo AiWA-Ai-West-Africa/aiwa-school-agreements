@@ -76,7 +76,7 @@ described in Clause 3 and detailed in Schedule B.
 a Junior Publishing Fellow and contributes original creative works, oral expression, or
 language materials as part of Programme activities.
 
-**"Creative Work"** means any original written, oral, visual, or multimedia work produced
+**"Creative Work(s)"** means any original written, oral, visual, or multimedia work produced
 by a Student Contributor during or in connection with Programme activities, including stories,
 poems, essays, spoken-word pieces, illustrations, and digital content.
 
@@ -668,6 +668,6 @@ before activities commence.*
 
 ## Change Log
 
-| Version | Date | Summary of Changes |
-|---|---|---|
-| v1.0 | 1 May 2025 | Initial draft of the Junior Publishing Programme contract template; clarified that publication and attribution consent may be captured in the parent/guardian, student, or equivalent school forms without requiring a standalone publishing agreement; restored the required Change Log section. |
+| Version | Date | Changed By | Summary of Changes |
+|---|---|---|---|
+| v1.0 | 1 May 2025 | Programme Team | Initial draft of the Junior Publishing Programme contract template; clarified that publication and attribution consent may be captured in the parent/guardian, student, or equivalent school forms without requiring a standalone publishing agreement; restored the required Change Log section. |

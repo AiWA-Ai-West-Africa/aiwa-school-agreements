@@ -28,13 +28,13 @@ on:
     types: [published]
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
   build:
     name: Build Documents
     runs-on: ubuntu-latest
-
-    permissions:
-      contents: read
 
     steps:
       # ------------------------------------------------------------------ #
