@@ -1,0 +1,141 @@
+name: Generate Documents (PDF + DOCX)
+
+# Generates PDF and DOCX versions of all substantive AIWA documents.
+#
+# Triggers:
+#   • Push to main — when any tracked document or this workflow changes.
+#   • Release published — builds everything and attaches files to the release.
+#   • workflow_dispatch — manual trigger; always builds everything.
+#
+# Outputs:
+#   • GitHub Actions artifacts (90-day retention) for every run.
+#   • Files attached to GitHub Releases when a release is published.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'contracts/**/*.md'
+      - 'forms/**/*.md'
+      - 'policies/**/*.md'
+      - 'governance/**/*.md'
+      - 'programs/**/*.md'
+      - 'templates/**/*.md'
+      - '.github/workflows/generate-documents.yml'
+      - '.github/scripts/build-documents.sh'
+      - 'templates/reference/reference.docx'
+  release:
+    types: [published]
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build Documents
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write   # needed to upload release assets
+
+    steps:
+      # ------------------------------------------------------------------ #
+      # 1. Source
+      # ------------------------------------------------------------------ #
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # ------------------------------------------------------------------ #
+      # 2. Toolchain — Pandoc + XeLaTeX
+      # ------------------------------------------------------------------ #
+      - name: Cache APT packages
+        uses: actions/cache@v4
+        with:
+          path: /var/cache/apt/archives
+          key: apt-pandoc-texlive-${{ runner.os }}-${{ hashFiles('.github/workflows/generate-documents.yml') }}
+          restore-keys: |
+            apt-pandoc-texlive-${{ runner.os }}-
+
+      - name: Install Pandoc and XeLaTeX
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends \
+            pandoc \
+            texlive-xetex \
+            texlive-fonts-recommended \
+            texlive-latex-extra \
+            lmodern \
+            fonts-liberation
+          pandoc --version
+
+      # ------------------------------------------------------------------ #
+      # 3. Optional Eisvogel PDF template (better PDF styling)
+      #    Falls back to Pandoc default if unavailable.
+      # ------------------------------------------------------------------ #
+      - name: Install Eisvogel PDF template
+        continue-on-error: true
+        run: |
+          wget -q \
+            "https://github.com/Wandmalfarbe/pandoc-latex-template/releases/download/v2.5.0/Eisvogel-2.5.0.tar.gz" \
+            -O /tmp/eisvogel.tar.gz
+          tar -xf /tmp/eisvogel.tar.gz eisvogel.latex
+          mkdir -p "$HOME/.local/share/pandoc/templates"
+          mv eisvogel.latex "$HOME/.local/share/pandoc/templates/"
+          echo "Eisvogel installed ✓"
+
+      # ------------------------------------------------------------------ #
+      # 4. Build
+      # ------------------------------------------------------------------ #
+      - name: Build all documents
+        run: bash .github/scripts/build-documents.sh
+
+      # ------------------------------------------------------------------ #
+      # 5. Upload artifacts (90-day retention)
+      # ------------------------------------------------------------------ #
+      - name: Upload PDF artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: aiwa-documents-pdf-${{ github.run_number }}
+          path: dist/**/*.pdf
+          retention-days: 90
+          if-no-files-found: warn
+
+      - name: Upload DOCX artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: aiwa-documents-docx-${{ github.run_number }}
+          path: dist/**/*.docx
+          retention-days: 90
+          if-no-files-found: warn
+
+      # ------------------------------------------------------------------ #
+      # 6. Attach to GitHub Release (runs only when a release is published)
+      # ------------------------------------------------------------------ #
+      - name: Attach documents to GitHub Release
+        if: github.event_name == 'release'
+        run: |
+          echo "Attaching files to release: ${{ github.event.release.tag_name }}"
+          find dist \( -name "*.pdf" -o -name "*.docx" \) | sort | \
+            xargs -I{} gh release upload "${{ github.event.release.tag_name }}" {} --clobber
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      # ------------------------------------------------------------------ #
+      # 7. Job summary
+      # ------------------------------------------------------------------ #
+      - name: Build summary
+        if: always()
+        run: |
+          echo "## 📄 AIWA Document Build" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "**Trigger:** \`${{ github.event_name }}\`  " >> "$GITHUB_STEP_SUMMARY"
+          echo "**Commit:** \`${{ github.sha }}\`" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "| Document | PDF | DOCX |" >> "$GITHUB_STEP_SUMMARY"
+          echo "|----------|:---:|:----:|" >> "$GITHUB_STEP_SUMMARY"
+          find dist -name "*.pdf" 2>/dev/null | sort | while read -r pdf; do
+            docx="${pdf%.pdf}.docx"
+            source="${pdf#dist/}"
+            source="${source%.pdf}.md"
+            pdf_mark="✅"
+            docx_mark="$([ -f "$docx" ] && echo "✅" || echo "❌")"
+            echo "| \`$source\` | $pdf_mark | $docx_mark |" >> "$GITHUB_STEP_SUMMARY"
+          done

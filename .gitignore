@@ -173,3 +173,10 @@ venv/
 .env.production
 secrets/
 private/
+
+# ---------------------------------------------------------------
+# Generated document outputs (PDF + DOCX)
+# Built automatically by the GitHub Actions workflow.
+# Download from Actions artifacts or GitHub Releases instead.
+# ---------------------------------------------------------------
+dist/
