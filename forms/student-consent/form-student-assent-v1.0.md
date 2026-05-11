@@ -151,8 +151,8 @@ and educational language tools, as explained in this form
 
 ---
 
-*For students who cannot yet write: This agreement may be given verbally in the presence
-of the teacher. The teacher should note this below.*
+*If a student cannot sign for any reason, this agreement may be given verbally in the
+presence of a teacher. The teacher should note this below.*
 
 Teacher confirmation (if verbal agreement given): ___________________________
 
