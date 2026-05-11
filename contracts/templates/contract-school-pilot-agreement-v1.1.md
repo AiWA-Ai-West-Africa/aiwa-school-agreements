@@ -145,8 +145,8 @@ competencies and outcomes:
   attribution, and their rights as creators of original works.
 
 3.3 The Programme combines literacy development, educational publishing, language
-documentation, and AI-assisted linguistic analysis using approved educational language tools
-for Gambian languages. AIWA remains an educational, publishing, and literacy organisation.
+documentation, and the use of approved educational language tools for AI-assisted linguistic
+analysis of Gambian languages. AIWA remains an educational, publishing, and literacy organisation.
 
 3.4 Educational technology and AI-assisted methods, where used, must remain aligned with
 the Programme's educational mission, safeguarding obligations, and contributor rights.
