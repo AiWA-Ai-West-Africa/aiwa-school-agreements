@@ -302,6 +302,11 @@ educational resources and tools, without transferring ownership of the original 
 unrelated commercial AI development without additional written consent from the Student
 Contributor's parent or guardian.
 
+8.2C AIWA uses the SPARXSTAR platform, developed by Starisian Technologies, as technical
+infrastructure for governed intake, storage, processing, rights administration, language
+preservation, and authorised AI-related functions. AIWA's use of SPARXSTAR does not transfer
+ownership of Student Contributor Creative Works to AIWA, SPARXSTAR, or Starisian Technologies.
+
 8.3 Programme materials, curriculum documents, frameworks, guides, and templates developed
 by AIWA remain the intellectual property of AIWA.
 
