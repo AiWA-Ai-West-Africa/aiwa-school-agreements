@@ -131,7 +131,8 @@ facilitator directly, please contact us at [AIWA_CONTACT_PHONE] and we will arra
 
 *If a parent or guardian cannot read this form independently, it must be read aloud and
 explained in a language they understand by a third-party witness (for example, a teacher
-or school representative). The witness should confirm this at the bottom of this form.*
+or school representative). In this case, both the parent/guardian and the witness must sign
+at the bottom of this form.*
 
 *If you gave permission verbally with a facilitator rather than in writing, the facilitator
 will note this at the bottom of this form.*
@@ -152,7 +153,7 @@ will note this at the bottom of this form.*
 
 **Phone Number:** ___________________________________
 
-**Signature:** ______________________________
+**Parent / Guardian Signature:** ______________________________
 
 **Date:** ___________________________________
 
