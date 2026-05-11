@@ -163,3 +163,12 @@ Teacher name: ___________________________ Date: _______________
 *For AIWA Use Only*
 
 Form received by: _____________________________ Date: _______________
+
+---
+
+## Change Log
+
+| Version | Date | Changed By | Summary of Changes |
+|---|---|---|---|
+| v1.0 | 1 May 2025 | Programme Team | Initial template version. |
+| v1.1 | 11 May 2026 | Programme Team | Updated student wording for participation/technology language and restored Change Log section. |

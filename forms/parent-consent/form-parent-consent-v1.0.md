@@ -174,3 +174,12 @@ Language used for explanation: _____________________________
 Third-party witness/teacher (if parent/guardian cannot read independently):
 Name: _____________________________ Role: _____________________________
 Signature: _____________________________ Date: _______________
+
+---
+
+## Change Log
+
+| Version | Date | Changed By | Summary of Changes |
+|---|---|---|---|
+| v1.0 | 1 May 2025 | Programme Team | Initial template version. |
+| v1.1 | 11 May 2026 | Programme Team | Updated read-aloud/witness consent wording and restored Change Log section. |

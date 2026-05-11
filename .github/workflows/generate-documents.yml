@@ -71,7 +71,7 @@ jobs:
         run: |
           EISVOGEL_URL="https://github.com/Wandmalfarbe/pandoc-latex-template/releases/download/v2.5.0/Eisvogel-2.5.0.tar.gz"
           EISVOGEL_ARCHIVE="/tmp/eisvogel.tar.gz"
-          EISVOGEL_SHA256="REPLACE_WITH_PINNED_SHA256_FOR_EISVOGEL_2_5_0_TAR_GZ"
+          EISVOGEL_SHA256="e21a3780d4d23f5d5c8e4653a1d3e33bebe190b7fd5000bd7c9fed2121dac32a"
 
           wget -q "$EISVOGEL_URL" -O "$EISVOGEL_ARCHIVE"
           printf '%s  %s\n' "$EISVOGEL_SHA256" "$EISVOGEL_ARCHIVE" | sha256sum --check --status
@@ -117,19 +117,7 @@ jobs:
           if-no-files-found: warn
 
       # ------------------------------------------------------------------ #
-      # 6. Attach to GitHub Release (runs only when a release is published)
-      # ------------------------------------------------------------------ #
-      - name: Attach documents to GitHub Release
-        if: github.event_name == 'release'
-        run: |
-          echo "Attaching files to release: ${{ github.event.release.tag_name }}"
-          find dist \( -name "*.pdf" -o -name "*.docx" \) | sort | \
-            xargs -I{} gh release upload "${{ github.event.release.tag_name }}" {} --clobber
-        env:
-          GH_TOKEN: ${{ github.token }}
-
-      # ------------------------------------------------------------------ #
-      # 7. Job summary
+      # 6. Job summary
       # ------------------------------------------------------------------ #
       - name: Build summary
         if: always()
@@ -149,3 +137,28 @@ jobs:
             docx_mark="$([ -f "$docx" ] && echo "✅" || echo "❌")"
             echo "| \`$source\` | $pdf_mark | $docx_mark |" >> "$GITHUB_STEP_SUMMARY"
           done
+
+  release-upload:
+    name: Attach documents to GitHub Release
+    if: github.event_name == 'release'
+    needs: build
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Download document artifacts
+        uses: actions/download-artifact@v4
+        with:
+          pattern: aiwa-documents-*-${{ github.run_number }}
+          merge-multiple: true
+          path: dist
+
+      - name: Attach documents to release
+        run: |
+          echo "Attaching files to release: ${{ github.event.release.tag_name }}"
+          find dist -type f \( -name "*.pdf" -o -name "*.docx" \) | sort | \
+            xargs -I{} gh release upload "${{ github.event.release.tag_name }}" {} --clobber
+        env:
+          GH_TOKEN: ${{ github.token }}
