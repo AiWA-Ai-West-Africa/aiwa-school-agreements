@@ -97,10 +97,10 @@ September to July.
 
 ## 3. Programme Purpose and Scope
 
-3.1 Through the Programme, each Student Contributor is commissioned as a **Junior Publishing
-Fellow** — a vocational learning role in which they actively produce, edit, and contribute
-original works to AIWA's educational publishing and archive activities. Student Contributors
-are authors and contributors, not subjects of observation or study.
+3.1 Through the Programme, each Student Contributor participates as a **Junior Publishing
+Fellow**, producing and developing original works as part of literacy learning, educational
+publishing, language documentation, and educational language-technology development.
+Student Contributors are authors and contributors, not subjects of observation or study.
 
 3.2 The Programme is designed to support Student Contributors in developing the following
 competencies and outcomes:
@@ -124,18 +124,15 @@ competencies and outcomes:
 - **Educational Media Production** — Introducing appropriate use of audio, visual, and
   digital tools to document and share student-created works.
 
-- **Creative Rights Awareness** — Educating students about the nature of authorship,
+- **Authorship and Attribution Awareness** — Educating students about authorship,
   attribution, and their rights as creators of original works.
 
-3.3 AIWA may utilise appropriate educational technology and digital tools in support of
-Programme objectives. Any such tools are used solely in service of educational outcomes
-and do not constitute the purpose of the Programme. AIWA is primarily an educational,
-publishing, and literacy organisation.
+3.3 The Programme combines literacy development, educational publishing, language
+documentation, and AI-assisted linguistic analysis and educational language-tool development
+for Gambian languages. AIWA remains an educational, publishing, and literacy organisation.
 
-3.4 The Programme is not a data extraction initiative, technology demonstration project,
-or commercial artificial intelligence development initiative. Educational technologies,
-where used, are supportive and incidental to the Programme's educational and publishing
-objectives.
+3.4 Educational technology and AI-assisted methods, where used, must remain aligned with
+the Programme's educational mission, safeguarding obligations, and contributor rights.
 
 ---
 
@@ -275,10 +272,14 @@ Student Contributor is of an appropriate age and capacity to understand the term
 publishing rights granted to AIWA shall be **non-exclusive and royalty-free**, and the
 creator retains all other rights, including the right to publish their work elsewhere.
 
-8.2A For the purposes of Programme administration, safeguarding, educational review,
-archival documentation, and internal educational evaluation, AIWA may store and
-internally reproduce Student Contributor Creative Works on a non-commercial basis, without
-requiring a separate Publishing and Attribution Agreement.
+8.2A For Programme administration, safeguarding, educational review, language preservation,
+and educational technology development, AIWA may store, transcribe, translate, annotate,
+analyse, and internally reproduce Student Contributor Creative Works and create derived
+educational datasets and tools, without transferring ownership of the original works.
+
+8.2B AIWA will not sell or transfer Student Contributor Creative Works to third parties for
+unrelated commercial AI development without additional written consent from the Student
+Contributor's parent or guardian.
 
 8.3 Programme materials, curriculum documents, frameworks, guides, and templates developed
 by AIWA remain the intellectual property of AIWA.
@@ -301,16 +302,13 @@ author and creator of the work.
 student's request), their class or year group, and the name of their school, unless the
 student or their parent/guardian requests otherwise.
 
-9.3 AIWA may make minor copyediting and proofreading corrections to a Student Contributor's
-Creative Work without prior written consent, provided that the meaning and creative
-voice of the work are preserved. Any more substantial editorial changes require the
-prior written consent of the Student Contributor (and, where relevant, their parent/guardian).
+9.3 AIWA may edit, format, translate, illustrate, adapt, or otherwise prepare a Student
+Contributor's Creative Work for publication, while respecting the original meaning and
+authorship of the work. Publication terms are governed by the separate Publishing and
+Attribution Agreement.
 
 9.4 AIWA shall provide a copy of any published work in which a Student Contributor's Creative
 Work appears to the Student Contributor and, where applicable, to the School.
-
-9.5 No student work shall be used for commercial purposes without the explicit written
-consent of the Student Contributor's parent or guardian.
 
 ---
 
@@ -335,8 +333,8 @@ published works that engage significantly with specific community cultural conte
 
 ## 11. Safeguarding and Student Welfare
 
-11.1 The safeguarding and welfare of all Student Contributors is the highest priority of
-both parties and shall take precedence over all other Programme considerations.
+11.1 Both parties agree to prioritise student safeguarding and welfare during all
+Programme activities.
 
 11.2 AIWA will provide the School with a copy of its **Student Safeguarding Policy**
 before the Programme commences. Both parties agree to comply with this policy during
@@ -371,9 +369,10 @@ Liaison Teacher or a representative of the School shall accompany the group.
 
 ## 12. Data Privacy and Information Governance
 
-12.1 AIWA will collect only such personal information about Student Contributors as is
-necessary for the administration of the Programme and the safeguarding of Student
-Contributors.
+12.1 AIWA will collect only the personal information necessary for Programme administration
+and safeguarding, and may process Student Contributor Creative Works for language
+preservation, educational publishing, linguistic analysis, and educational language-tool
+development as described in this Agreement.
 
 12.2 Personal data collected will be held securely, used only for Programme administration
 and safeguarding purposes, and not shared with third parties without consent, except as
@@ -383,21 +382,22 @@ required by the laws of The Republic of The Gambia.
 retention schedule. Parents and guardians may request access to or deletion of data held
 about their child by contacting AIWA at [AIWA_CONTACT_EMAIL].
 
-12.4 AIWA shall not use any Student Contributor personal information or educational materials
-for non-educational commercial purposes, or for any purpose unrelated to the direct
-administration, delivery, and safeguarding of the Programme.
+12.4 Student Contributors and their parents/guardians may request withdrawal from future
+participation. Withdrawal will stop new collection and new publication activity, but may
+not reverse uses already completed in published works, completed educational datasets,
+or educational models already developed.
 
 12.5 Any educational technology tools used within the Programme shall be disclosed to
-the School and to parents/guardians through the Consent Form, and their use shall be
-limited to stated educational purposes.
+the School and to parents/guardians through the Consent Form, with stated educational
+purposes and relevant safeguards.
 
 ---
 
 ## 13. Educational Technology
 
 13.1 AIWA may incorporate appropriate educational technology tools into Programme
-activities where such tools serve the educational, linguistic, or creative development
-objectives of the Programme.
+activities where such tools serve educational publishing, language preservation, and
+literacy-development objectives.
 
 13.2 Any digital tools used with students shall be disclosed in the Consent Form and
 shall comply with applicable Gambian educational standards and good practice for the
@@ -407,7 +407,7 @@ protection of children in educational settings.
 to use personal devices as a condition of participation.
 
 13.4 AIWA shall ensure that any digital tools used in the Programme are age-appropriate,
-educationally purposeful, and subject to appropriate safeguarding controls.
+educationally purposeful, and subject to appropriate safeguarding and data-governance controls.
 
 ---
 
@@ -643,10 +643,3 @@ Programme activities.*
 before activities commence.*
 
 ---
-
-## Change Log
-
-| Version | Date | Changed By | Summary of Changes |
-|---|---|---|---|
-| v1.0 | 1 May 2025 | Programme Director | Initial template version |
-| v1.1 | 4 May 2025 | Programme Director | Aligned terms with Junior Publishing Programme Agreement: added Recitals, Definitions, expanded all clauses to match; added field trip, language preservation, educational technology, financial terms, representations, notices, amendments clauses; updated Schedule C consents checklist |

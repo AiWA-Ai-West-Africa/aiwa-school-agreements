@@ -33,6 +33,8 @@ In **[PROGRAM_NAME]**, you will:
 - Write your own stories, poems, and creative pieces
 - Learn about storytelling and Gambian languages
 - Discover how books and publications are made
+- Help preserve and document Gambian languages and oral traditions
+- Learn how educational language tools can support literacy and publishing
 - Work together with other students on creative projects
 - Build your confidence in speaking and sharing ideas
 
@@ -85,15 +87,17 @@ You will always be given full credit as the author of your work.
 
 ### Your Work and Technology
 
-We want you to know:
+We want you to know exactly how your work may be used:
 
-**Your stories, poems, and written work will never be used to train AI (artificial
-intelligence) computer systems.**
-
-AIWA is a publishing programme — we help young people become authors. We do not share
-your work with technology companies or AI systems. Ever.
-
-Your work is yours. We protect it.
+- Your original writing stays yours.
+- AIWA may use contributed work for language preservation, educational publishing,
+  linguistic research, and educational language tools for Gambian languages.
+- AIWA may process, transcribe, translate, annotate, and analyse contributed work to
+  support these educational goals.
+- AIWA will not publish your work publicly without separate permission from you and your
+  parent or guardian.
+- AIWA will not sell or transfer your work to third parties for unrelated commercial AI
+  development without additional consent.
 
 ---
 
@@ -128,7 +132,8 @@ Please read and tick each box if you agree:
 
 ☐ I know that my writing belongs to me and will not be published without my permission
 
-☐ I know that my work will never be used to train AI computer systems
+☐ I understand AIWA may use my work for language preservation, educational publishing,
+and educational language tools, with limits explained in this form
 
 ☐ I am happy to join **[PROGRAM_NAME]** and I will do my best
 
@@ -158,12 +163,3 @@ Teacher name: ___________________________ Date: _______________
 *For AIWA Use Only*
 
 Form received by: _____________________________ Date: _______________
-
----
-
-## Change Log
-
-| Version | Date | Changed By | Summary of Changes |
-|---|---|---|---|
-| v1.0 | 1 May 2025 | Safeguarding Lead | Initial template version |
-| v1.1 | 5 May 2025 | Safeguarding Lead | Added No-AI-Use section; strengthened voluntary withdrawal language; added AI exclusion tick-box |

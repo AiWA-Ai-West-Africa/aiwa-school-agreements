@@ -72,28 +72,27 @@ Your child's written work belongs to your child.
 
 ### Your Child's Work and Technology
 
-We want to be completely clear about this:
+AIWA uses student contributions for educational and language-preservation purposes.
+This can include educational publishing, linguistic analysis, and developing
+educational language tools for Gambian languages.
 
-**Your child's work, name, voice, or image will never be used to train artificial
-intelligence (AI) systems.**
+Student contributors keep ownership of their original work.
+Publication or public sharing still requires separate permission.
 
-AIWA is an educational publishing organisation. We help young people become authors
-and storytellers. We do not collect children's work for technology companies,
-data systems, or AI development — ever.
+AIWA may process, transcribe, translate, annotate, and analyse contributed work
+for programme delivery and educational development.
 
-If you have heard concerns about schools or programmes sharing children's work
-with AI companies, please know: **AIWA does not do this.**
+AIWA will not sell or transfer student creative works to third parties for
+unrelated commercial AI development without additional consent.
 
-If you have any questions about how we use information, please ask us before
-signing this form.
+If you have any questions about how work and data are used, please ask before signing.
 
 ---
 
 ### Digital Tools Used in This Programme
 
-Where educational technology tools are used in programme activities, AIWA will make them
-available here. Tools listed below are used for educational purposes only and are subject
-to AIWA's safeguarding and data governance controls.
+Where educational technology tools are used in programme activities, AIWA will list them here.
+All tools are used under AIWA safeguarding and data governance controls.
 
 **Digital or technology tools used in [PROGRAM_NAME]:**
 
@@ -164,12 +163,3 @@ Entered in register: ☐ Yes   Reference: _____________________________
 Verbal/oral consent given (if applicable):
 Facilitator name: _____________________________ Date: _______________
 Language used for explanation: _____________________________
-
----
-
-## Change Log
-
-| Version | Date | Changed By | Summary of Changes |
-|---|---|---|---|
-| v1.0 | 1 May 2025 | Safeguarding Lead | Initial template version |
-| v1.1 | 5 May 2025 | Safeguarding Lead + Programme Director | Added No-AI-Training clause; added oral/translated consent note and verbal consent record; added Digital Tools disclosure section |
