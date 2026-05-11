@@ -98,7 +98,9 @@ All tools are used under AIWA safeguarding and data governance controls.
 
 **Digital or technology tools used in [PROGRAM_NAME]:**
 
-[DIGITAL_TOOLS_LIST — e.g., "No external digital tools are used" or list specific tools]
+Enter “No external digital tools are used” or list the specific tools used.
+
+[DIGITAL_TOOLS_LIST]
 
 ---
 
