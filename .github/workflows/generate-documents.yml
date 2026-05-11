@@ -90,6 +90,7 @@ jobs:
       # 5. Upload artifacts (90-day retention)
       # ------------------------------------------------------------------ #
       - name: Upload PDF artifacts
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: aiwa-documents-pdf-${{ github.run_number }}
@@ -98,10 +99,20 @@ jobs:
           if-no-files-found: warn
 
       - name: Upload DOCX artifacts
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: aiwa-documents-docx-${{ github.run_number }}
           path: dist/**/*.docx
+          retention-days: 90
+          if-no-files-found: warn
+
+      - name: Upload build logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: aiwa-documents-logs-${{ github.run_number }}
+          path: dist/**/*.log
           retention-days: 90
           if-no-files-found: warn
 
