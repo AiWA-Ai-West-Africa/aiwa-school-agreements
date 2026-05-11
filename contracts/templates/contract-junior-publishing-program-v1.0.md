@@ -664,3 +664,9 @@ standalone Publishing and Attribution Agreement template is required under this 
 before activities commence.*
 
 ---
+
+## Change Log
+
+| Version | Date | Summary of Changes |
+|---|---|---|
+| v1.0 | 1 May 2025 | Initial draft of the Junior Publishing Programme contract template; clarified that publication and attribution consent may be captured in the parent/guardian, student, or equivalent school forms without requiring a standalone publishing agreement; restored the required Change Log section. |
