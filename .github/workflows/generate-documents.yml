@@ -73,10 +73,13 @@ jobs:
       - name: Install Eisvogel PDF template
         continue-on-error: true
         run: |
-          wget -q \
-            "https://github.com/Wandmalfarbe/pandoc-latex-template/releases/download/v2.5.0/Eisvogel-2.5.0.tar.gz" \
-            -O /tmp/eisvogel.tar.gz
-          tar -xf /tmp/eisvogel.tar.gz eisvogel.latex
+          EISVOGEL_URL="https://github.com/Wandmalfarbe/pandoc-latex-template/releases/download/v2.5.0/Eisvogel-2.5.0.tar.gz"
+          EISVOGEL_ARCHIVE="/tmp/eisvogel.tar.gz"
+          EISVOGEL_SHA256="REPLACE_WITH_PINNED_SHA256_FOR_EISVOGEL_2_5_0_TAR_GZ"
+
+          wget -q "$EISVOGEL_URL" -O "$EISVOGEL_ARCHIVE"
+          printf '%s  %s\n' "$EISVOGEL_SHA256" "$EISVOGEL_ARCHIVE" | sha256sum --check --status
+          tar -xf "$EISVOGEL_ARCHIVE" eisvogel.latex
           mkdir -p "$HOME/.local/share/pandoc/templates"
           mv eisvogel.latex "$HOME/.local/share/pandoc/templates/"
           echo "Eisvogel installed ✓"
