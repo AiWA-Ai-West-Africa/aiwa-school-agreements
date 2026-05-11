@@ -11,7 +11,7 @@
 #   - Place a branded templates/reference/reference.docx to apply AIWA Word styling.
 #   - The Eisvogel LaTeX template (if installed) is used automatically for richer PDFs.
 
-set -uo pipefail
+set -euo pipefail
 
 # ── Directories containing publishable documents ─────────────────────────────
 # README.md files are excluded from all directories.
@@ -98,8 +98,7 @@ extract_title() {
     # Fall back to filename: strip path, extension, and version suffix
     title=$(basename "${md_file%.md}" \
       | sed 's/-v[0-9][0-9]*\.[0-9][0-9]*$//' \
-      | tr '-' ' ' \
-      | sed 's/\b\(form\|policy\|contract\|guidance\|program\|mou\|certificate\|letter\)\b/\u\1/g')
+      | tr '-' ' ')
   fi
   echo "$title"
 }
