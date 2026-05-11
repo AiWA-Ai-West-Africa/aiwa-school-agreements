@@ -76,7 +76,7 @@ AIWA uses student contributions for educational and language-preservation purpos
 This can include educational publishing, linguistic analysis, and developing
 educational language tools for Gambian languages.
 
-Student contributors keep ownership of their original work.
+Student Contributors keep ownership of their original work.
 Publication or public sharing still requires separate permission.
 
 AIWA may process, transcribe, translate, annotate, and analyse contributed work

@@ -376,7 +376,8 @@ about their child by contacting AIWA at [AIWA_CONTACT_EMAIL].
 participation. Withdrawal will stop new collection and new publication activity, but may
 not reverse uses already completed in published works, completed educational datasets,
 or educational models already developed. In this clause, "already completed" means outputs
-already published, distributed, deployed, or technically finalized before the withdrawal request.
+already published, distributed, deployed, or locked for release in a completed version
+before the withdrawal request.
 
 12.5 Any educational technology tools used within the Programme shall be disclosed to
 the School and to parents/guardians through the Consent Form, with stated educational
