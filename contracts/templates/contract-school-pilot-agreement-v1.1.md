@@ -94,8 +94,8 @@ shared.
 **"Academic Year"** means the Gambian school academic year, running from approximately
 September to July.
 
-**"SPARXSTAR"** means the sovereign technology platform used to support approved educational,
-publishing, language, and governance workflows under AIWA programme controls.
+**"SPARXSTAR"** means the governance-controlled technology platform used to support approved
+educational, publishing, language, and governance workflows under AIWA programme controls.
 
 **"Starisian Technologies"** means the California, United States-based technology developer and
 infrastructure provider for SPARXSTAR and related systems.
