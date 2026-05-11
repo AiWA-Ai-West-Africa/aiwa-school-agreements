@@ -91,14 +91,14 @@ If you have any questions about how work and data are used, please ask before si
 
 ### Digital Tools Used in This Programme
 
-Where educational technology tools are used in programme activities, AIWA will list them here.
+Where educational technology tools are used in programme activities, AIWA will complete
+the list below before this form is issued for signature.
+If tools change during the programme, parents and guardians will be notified in writing.
 All tools are used under AIWA safeguarding and data governance controls.
 
 **Digital or technology tools used in [PROGRAM_NAME]:**
 
 [DIGITAL_TOOLS_LIST — e.g., "No external digital tools are used" or list specific tools]
-
-If tools change during the programme, parents and guardians will be notified in writing.
 
 ---
 

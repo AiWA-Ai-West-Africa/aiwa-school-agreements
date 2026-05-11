@@ -305,7 +305,9 @@ student or their parent/guardian requests otherwise.
 9.3 AIWA may edit, format, translate, illustrate, adapt, or otherwise prepare a Student
 Contributor's Creative Work for publication, while respecting the original meaning and
 authorship of the work. Publication terms are governed by the separate Publishing and
-Attribution Agreement.
+Attribution Agreement. Such preparation may include layout, formatting, translation,
+illustration, and age-appropriate copyediting, but shall not include false attribution
+or material misrepresentation of a Student Contributor's original work.
 
 9.4 AIWA shall provide a copy of any published work in which a Student Contributor's Creative
 Work appears to the Student Contributor and, where applicable, to the School.
@@ -385,7 +387,8 @@ about their child by contacting AIWA at [AIWA_CONTACT_EMAIL].
 12.4 Student Contributors and their parents/guardians may request withdrawal from future
 participation. Withdrawal will stop new collection and new publication activity, but may
 not reverse uses already completed in published works, completed educational datasets,
-or educational models already developed.
+or educational models already developed. In this clause, "already completed" means outputs
+already published, distributed, deployed, or technically finalized before the withdrawal request.
 
 12.5 Any educational technology tools used within the Programme shall be disclosed to
 the School and to parents/guardians through the Consent Form, with stated educational
