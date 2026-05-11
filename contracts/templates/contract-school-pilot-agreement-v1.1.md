@@ -48,6 +48,17 @@ of Gambian languages and cultures.
 **D.** Both parties wish to enter into a formal partnership to implement the Programme at
 [SCHOOL_NAME] in accordance with the terms and conditions set out in this Agreement.
 
+**E.** AIWA is the Programme operator in The Gambia and is responsible for school partnerships,
+contributor onboarding, local governance participation, rights administration, and community
+engagement under Gambian jurisdiction.
+
+**F.** SPARXSTAR is the underlying technology platform used for approved educational workflows.
+SPARXSTAR and related infrastructure are developed and maintained by Starisian Technologies
+(California, United States), which acts as a technology developer and infrastructure provider.
+
+**G.** Starisian Technologies is not a school programme operator under this Agreement and is not
+a substitute for AIWA's educational or governance role in The Gambia.
+
 ---
 
 ## 1. Definitions
@@ -82,6 +93,12 @@ shared.
 
 **"Academic Year"** means the Gambian school academic year, running from approximately
 September to July.
+
+**"SPARXSTAR"** means the sovereign technology platform used to support approved educational,
+publishing, language, and governance workflows under AIWA programme controls.
+
+**"Starisian Technologies"** means the California, United States-based technology developer and
+infrastructure provider for SPARXSTAR and related systems.
 
 ---
 
@@ -128,11 +145,15 @@ competencies and outcomes:
   attribution, and their rights as creators of original works.
 
 3.3 The Programme combines literacy development, educational publishing, language
-documentation, and AI-assisted linguistic analysis and educational language-tool development
+documentation, and AI-assisted linguistic analysis using approved educational language tools
 for Gambian languages. AIWA remains an educational, publishing, and literacy organisation.
 
 3.4 Educational technology and AI-assisted methods, where used, must remain aligned with
 the Programme's educational mission, safeguarding obligations, and contributor rights.
+
+3.5 Where Programme technology relies on SPARXSTAR infrastructure, AIWA remains the programme
+operator in The Gambia, while Starisian Technologies remains the technology developer and
+infrastructure provider.
 
 ---
 
@@ -275,7 +296,7 @@ creator retains all other rights, including the right to publish their work else
 8.2A For Programme administration, safeguarding, educational review, language preservation,
 and educational technology development, AIWA may store, transcribe, translate, annotate,
 analyse, and internally reproduce Student Contributor Creative Works and create derived
-educational datasets and tools, without transferring ownership of the original works.
+educational resources and tools, without transferring ownership of the original works.
 
 8.2B AIWA will not sell or transfer Student Contributor Creative Works to third parties for
 unrelated commercial AI development without additional written consent from the Student
@@ -386,8 +407,8 @@ about their child by contacting AIWA at [AIWA_CONTACT_EMAIL].
 
 12.4 Student Contributors and their parents/guardians may request withdrawal from future
 participation. Withdrawal will stop new collection and new publication activity, but may
-not reverse uses already completed in published works, completed educational datasets,
-or educational models already developed. In this clause, "already completed" means outputs
+not reverse uses already completed in published works, completed educational resources,
+or completed educational tools already developed. In this clause, "already completed" means outputs
 already published, distributed, deployed, or locked for release in a completed version
 before the withdrawal request.
 
