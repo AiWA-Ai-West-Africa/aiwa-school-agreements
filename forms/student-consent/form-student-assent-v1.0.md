@@ -133,7 +133,7 @@ Please read and tick each box if you agree:
 ☐ I know that my writing belongs to me and will not be published without my permission
 
 ☐ I understand AIWA may use my work for language preservation, educational publishing,
-and educational language tools, as explained in this form
+  and educational language tools, as explained in this form
 
 ☐ I am happy to join **[PROGRAM_NAME]** and I will do my best
 
