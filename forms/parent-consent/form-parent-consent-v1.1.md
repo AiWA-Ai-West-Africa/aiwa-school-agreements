@@ -72,18 +72,25 @@ Your child's written work belongs to your child.
 
 ### Your Child's Work and Technology
 
-AIWA uses student contributions for educational and language-preservation purposes.
-This can include educational publishing, linguistic analysis, and developing
-educational language tools for Gambian languages.
+Student Contributors must submit original work they create or lawfully control.
+Contributions must not be copied, plagiarised, or taken from unlicensed third-party
+sources, including copyrighted books/songs/images, restricted folklore, or protected
+cultural heritage materials without documented permission.
 
 Student Contributors keep ownership of their original work.
 Publication or public sharing still requires separate permission.
 
-AIWA may process, transcribe, translate, annotate, and analyse contributed work
-for programme delivery and educational development.
+AIWA may process, transcribe, translate, annotate, analyse, and use contributed works
+for educational, linguistic, publishing, language-preservation, and AI-related functions.
+This may include commercial and non-commercial systems operated under AIWA governance.
 
-AIWA will not sell or transfer student creative works to third parties for
-unrelated commercial AI development without additional consent.
+Where you separately approve publication or extended use, Student Contributor works may
+be licensed (not transferred) to AIWA and authorised technology partners, including
+SPARXSTAR infrastructure developed by Starisian Technologies, for governed use with
+traceable attribution, provenance, and rights records.
+
+Where licensed use generates eligible revenue, royalties or other agreed economic
+participation are handled under separate rights/licensing terms.
 
 If you have any questions about how work and data are used, please ask before signing.
 
@@ -182,4 +189,4 @@ Signature: _____________________________ Date: _______________
 | Version | Date | Changed By | Summary of Changes |
 |---|---|---|---|
 | v1.0 | 1 May 2025 | Programme Team | Initial template version. |
-| v1.1 | 11 May 2026 | Programme Team | Updated read-aloud/witness consent wording and restored Change Log section. |
+| v1.1 | 11 May 2026 | Programme Team | Updated read-aloud/witness consent wording, restored Change Log section, and clarified originality/provenance, contributor-owned licensing, governed AI-related use (including authorised partners), and royalties framing. |

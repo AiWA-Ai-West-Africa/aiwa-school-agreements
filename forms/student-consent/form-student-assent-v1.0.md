@@ -76,9 +76,10 @@ When you join this programme, we ask you to:
 
 ---
 
-### Your Writing Belongs to You
+### Your Work Belongs to You
 
-Anything you write during this programme belongs to you.
+Anything you create during this programme belongs to you (for example: writing,
+drawings, photos, audio, or other original creative work).
 
 AIWA will never publish your work without asking you and your parent or guardian first.
 You will always be given full credit as the author of your work.
@@ -89,15 +90,23 @@ You will always be given full credit as the author of your work.
 
 We want you to know exactly how your work may be used:
 
-- Your original writing stays yours.
+- Your original work stays yours.
+- You must only submit work you created yourself or are allowed to contribute.
+- Do not submit copied, plagiarised, or unlicensed material from other people,
+  including copyrighted content, restricted folklore, or protected cultural heritage.
 - AIWA may use contributed work for language preservation, educational publishing,
   linguistic research, and educational language tools for Gambian languages.
-- AIWA may process, transcribe, translate, annotate, and analyse contributed work to
-  support these educational goals.
+- AIWA may process, transcribe, translate, annotate, analyse, and use contributed
+  work for governed educational and AI-related functions, including authorised
+  commercial and non-commercial systems.
+- If you and your parent/guardian approve separate licensing, your work can be
+  licensed (not transferred) to AIWA and authorised partners with attribution and
+  provenance records.
+- If licensed use earns eligible revenue, royalty/payment terms are set in a
+  separate agreement.
 - AIWA will not publish your work publicly without separate permission from you and your
   parent or guardian.
-- AIWA will not sell or transfer your work to third parties for unrelated commercial AI
-  development without additional consent.
+- Your ownership of your original work does not transfer to AIWA or technology partners.
 
 ---
 
@@ -130,10 +139,13 @@ Please read and tick each box if you agree:
 
 ☐ I will treat other students and facilitators with respect
 
-☐ I know that my writing belongs to me and will not be published without my permission
+☐ I know that my original work belongs to me and will not be published without my permission
 
 ☐ I understand AIWA may use my work for language preservation, educational publishing,
-  and educational language tools, as explained in this form
+  educational language tools, and governed AI-related use, as explained in this form
+
+☐ I confirm the work I submit is my own or I have permission to contribute it, and is
+  not copied or taken from unlicensed protected sources
 
 ☐ I am happy to join **[PROGRAM_NAME]** and I will do my best
 
@@ -171,4 +183,4 @@ Form received by: _____________________________ Date: _______________
 | Version | Date | Changed By | Summary of Changes |
 |---|---|---|---|
 | v1.0 | 1 May 2025 | Programme Team | Initial template version. |
-| v1.1 | 11 May 2026 | Programme Team | Updated student wording for participation/technology language and restored Change Log section. |
+| v1.1 | 11 May 2026 | Programme Team | Updated student wording for participation/technology language, restored Change Log section, and clarified originality/licensing/royalty framing for contributed works. |
