@@ -34,9 +34,10 @@ The Republic of The Gambia
 
 ## RECITALS
 
-**A.** AI West Africa (AIWA) is a Gambian-led educational organisation dedicated to literacy
-development, educational publishing, contributor development, language preservation, and
-creative-rights education for young people in The Gambia and the wider West African region.
+**A.** AI West Africa (AIWA) is a Gambian-led educational, cultural-stewardship, and governance
+institution focused on preserving, developing, and responsibly governing contributor-created
+knowledge systems, languages, creative Work(s), and Traditional Cultural Expressions (TCEs) in
+AI-capable environments.
 
 **B.** [SCHOOL_NAME] is a registered educational institution operating in accordance with
 the requirements of the Ministry of Basic and Secondary Education (MoBSE) of The Republic
@@ -148,8 +149,9 @@ competencies and outcomes:
 
 3.3 The Programme combines literacy development, educational publishing, language
 documentation, and the use of approved educational language tools for AI-assisted linguistic
-analysis of Gambian languages. AIWA remains an educational, publishing, and literacy organisation,
-and also serves as a governance implementer and rights-administration programme operator.
+analysis of Gambian languages. AIWA remains an educational and publishing organisation, and
+also serves as a governance implementer, cultural-stewardship institution, and rights-administration
+programme operator.
 
 3.4 Educational technology and AI-assisted methods, where used, must remain aligned with
 the Programme's educational mission, safeguarding obligations, and contributor rights.
@@ -670,4 +672,4 @@ before activities commence.*
 
 | Version | Date | Changed By | Summary of Changes |
 |---|---|---|---|
-| v1.0 | 1 May 2025 | Programme Team | Initial draft of the Junior Publishing Programme contract template; clarified that publication and attribution consent may be captured in the parent/guardian, student, or equivalent school forms without requiring a standalone publishing agreement; restored the required Change Log section. |
+| v1.0 | 1 May 2025 | Programme Team | Initial draft of the Junior Publishing Programme contract template; clarified that publication and attribution consent may be captured in the parent/guardian, student, or equivalent school forms without requiring a standalone publishing agreement; restored the required Change Log section; and strengthened AIWA governance/cultural-stewardship role language for contributor-rights framing. |
