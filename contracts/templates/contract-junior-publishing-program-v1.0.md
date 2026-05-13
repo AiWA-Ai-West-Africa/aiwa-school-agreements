@@ -2,7 +2,7 @@
 # AIWA Junior Publishing and Language Programme
 
 **Document Type:** Template — Contract
-**Version:** v1.1
+**Version:** v1.0
 **Status:** Draft
 **Last Reviewed:** 13 May 2026
 **Approved By:** Pending — Programme Director
