@@ -33,6 +33,8 @@ In **[PROGRAM_NAME]**, you will:
 - Write your own stories, poems, and creative pieces
 - Learn about storytelling and Gambian languages
 - Discover how books and publications are made
+- Help preserve and document Gambian languages and oral traditions
+- Learn how educational language tools can support literacy and publishing
 - Work together with other students on creative projects
 - Build your confidence in speaking and sharing ideas
 
@@ -74,9 +76,10 @@ When you join this programme, we ask you to:
 
 ---
 
-### Your Writing Belongs to You
+### Your Work Belongs to You
 
-Anything you write during this programme belongs to you.
+Anything you create during this programme belongs to you (for example: writing,
+drawings, audio, or other original creative work).
 
 AIWA will never publish your work without asking you and your parent or guardian first.
 You will always be given full credit as the author of your work.
@@ -85,24 +88,29 @@ You will always be given full credit as the author of your work.
 
 ### Your Work and Technology
 
-We want you to know:
+We want you to know exactly how your work may be used:
 
-**Your stories, poems, and written work will never be used to train AI (artificial
-intelligence) computer systems.**
-
-AIWA is a publishing programme — we help young people become authors. We do not share
-your work with technology companies or AI systems. Ever.
-
-Your work is yours. We protect it.
-
----
-
-### Photos and Videos
-
-Your parent or guardian will be asked separately about photos and videos.
-
-If at any time you feel uncomfortable during a photo or video activity,
-please tell your teacher or an AIWA facilitator straight away.
+- Your original work stays yours.
+- You must only submit work you created yourself or are allowed to contribute.
+- Do not submit copied, plagiarised, or unlicensed material from other people,
+  including copyrighted content, restricted folklore, or protected cultural heritage.
+- AIWA may use contributed work for language preservation, educational publishing,
+  linguistic research, and educational language tools for Gambian languages.
+- AIWA may process, transcribe, translate, annotate, analyse, and use contributed
+  work for governed educational and AI-related functions, including authorised
+  commercial and non-commercial systems.
+- The only electronic or computer tools used with students in this programme are
+  tools built by Starisian Technologies specifically for AIWA use.
+- Any governed data shared with Starisian Technologies through these tools is
+  handled under a sovereign knowledge governance agreement.
+- If you and your parent/guardian approve separate licensing, your work can be
+  licensed (not transferred) to AIWA and authorised partners with attribution and
+  provenance records.
+- If licensed use earns eligible revenue, royalty/payment terms are set in a
+  separate agreement.
+- AIWA will not publish your work publicly without separate permission from you and your
+  parent or guardian.
+- Your ownership of your original work does not transfer to AIWA or technology partners.
 
 ---
 
@@ -126,9 +134,13 @@ Please read and tick each box if you agree:
 
 ☐ I will treat other students and facilitators with respect
 
-☐ I know that my writing belongs to me and will not be published without my permission
+☐ I know that my original work belongs to me and will not be published without my permission
 
-☐ I know that my work will never be used to train AI computer systems
+☐ I understand AIWA may use my work for language preservation, educational publishing,
+  educational language tools, and governed AI-related use, as explained in this form
+
+☐ I confirm the work I submit is my own or I have permission to contribute it, and is
+  not copied or taken from unlicensed protected sources
 
 ☐ I am happy to join **[PROGRAM_NAME]** and I will do my best
 
@@ -146,8 +158,8 @@ Please read and tick each box if you agree:
 
 ---
 
-*For students who cannot yet write: This agreement may be given verbally in the presence
-of the teacher. The teacher should note this below.*
+*If a student cannot sign for any reason, this agreement may be given verbally in the
+presence of a teacher. The teacher should note this below.*
 
 Teacher confirmation (if verbal agreement given): ___________________________
 
@@ -165,5 +177,5 @@ Form received by: _____________________________ Date: _______________
 
 | Version | Date | Changed By | Summary of Changes |
 |---|---|---|---|
-| v1.0 | 1 May 2025 | Safeguarding Lead | Initial template version |
-| v1.1 | 5 May 2025 | Safeguarding Lead | Added No-AI-Use section; strengthened voluntary withdrawal language; added AI exclusion tick-box |
+| v1.0 | 1 May 2025 | Programme Team | Initial template version. |
+| v1.1 | 11 May 2026 | Programme Team | Updated student wording for participation/technology language, restored Change Log section, clarified originality/licensing/royalty framing for contributed works, removed photo/video references (handled by separate media form), and specified Starisian-built student tools under sovereign knowledge governance. |

@@ -5,7 +5,7 @@
 **Status:** Draft
 **Last Reviewed:** 1 May 2025
 **Approved By:** Pending — Safeguarding Lead + Programme Director
-**Applies To:** Parents/Guardians of Student Participants
+**Applies To:** Parents/Guardians of Student Contributors
 **Jurisdiction:** The Republic of The Gambia
 
 ---
@@ -52,15 +52,6 @@ This will not cause any problem at school.
 
 ---
 
-### Photos and Videos
-
-If AIWA wants to take photos or video of your child during programme activities,
-we will ask you separately before doing so.
-
-Your permission here does **not** cover photos or videos.
-
----
-
 ### Your Child's Written Work
 
 If your child writes something during the programme and AIWA wants to print or
@@ -72,34 +63,46 @@ Your child's written work belongs to your child.
 
 ### Your Child's Work and Technology
 
-We want to be completely clear about this:
+Student Contributors must submit original work they create or lawfully control.
+Contributions must not be copied, plagiarised, or taken from unlicensed third-party
+sources, including copyrighted books/songs/images, restricted folklore, or protected
+cultural heritage materials without documented permission.
 
-**Your child's work, name, voice, or image will never be used to train artificial
-intelligence (AI) systems.**
+Student Contributors keep ownership of their original work.
+Publication or public sharing still requires separate permission.
 
-AIWA is an educational publishing organisation. We help young people become authors
-and storytellers. We do not collect children's work for technology companies,
-data systems, or AI development — ever.
+AIWA may process, transcribe, translate, annotate, analyse, and use contributed works
+for educational, linguistic, publishing, language-preservation, and AI-related functions.
+This may include commercial and non-commercial systems operated under AIWA governance.
 
-If you have heard concerns about schools or programmes sharing children's work
-with AI companies, please know: **AIWA does not do this.**
+Where you separately approve publication or extended use, Student Contributor works may
+be licensed (not transferred) to AIWA and authorised technology partners, including
+SPARXSTAR infrastructure developed by Starisian Technologies, for governed use with
+traceable attribution, provenance, and rights records.
 
-If you have any questions about how we use information, please ask us before
-signing this form.
+Where licensed use generates eligible revenue, royalties or other agreed economic
+participation are handled under separate rights/licensing terms.
+
+If you have any questions about how work and data are used, please ask before signing.
 
 ---
 
 ### Digital Tools Used in This Programme
 
-Where educational technology tools are used in programme activities, AIWA will make them
-available here. Tools listed below are used for educational purposes only and are subject
-to AIWA's safeguarding and data governance controls.
+Where educational technology tools are used in programme activities, AIWA will complete
+the list below before this form is issued for signature.
+If tools change during the programme, parents and guardians will be notified in writing.
+All tools are used under AIWA safeguarding and data governance controls.
+The only electronic or computer tools used with students are tools built by Starisian
+Technologies specifically for AIWA programme use.
+Any governed data shared with Starisian Technologies through these tools is handled under
+a sovereign knowledge governance agreement.
 
 **Digital or technology tools used in [PROGRAM_NAME]:**
 
-[DIGITAL_TOOLS_LIST — e.g., "No external digital tools are used" or list specific tools]
+Enter “No external digital tools are used” or list the specific tools used.
 
-If tools change during the programme, parents and guardians will be notified in writing.
+[DIGITAL_TOOLS_LIST]
 
 ---
 
@@ -130,6 +133,11 @@ It is not shared with other organisations.
 in another language, or if you would prefer to give your permission by speaking with an AIWA
 facilitator directly, please contact us at [AIWA_CONTACT_PHONE] and we will arrange this.*
 
+*If a parent or guardian cannot read this form independently, it must be read aloud and
+explained in a language they understand by a third-party witness (for example, a teacher
+or school representative). In this case, both the parent/guardian and the witness must sign
+at the bottom of this form.*
+
 *If you gave permission verbally with a facilitator rather than in writing, the facilitator
 will note this at the bottom of this form.*
 
@@ -149,7 +157,7 @@ will note this at the bottom of this form.*
 
 **Phone Number:** ___________________________________
 
-**Signature:** ______________________________
+**Parent / Guardian Signature:** ______________________________
 
 **Date:** ___________________________________
 
@@ -165,11 +173,15 @@ Verbal/oral consent given (if applicable):
 Facilitator name: _____________________________ Date: _______________
 Language used for explanation: _____________________________
 
+Third-party witness/teacher (if parent/guardian cannot read independently):
+Name: _____________________________ Role: _____________________________
+Signature: _____________________________ Date: _______________
+
 ---
 
 ## Change Log
 
 | Version | Date | Changed By | Summary of Changes |
 |---|---|---|---|
-| v1.0 | 1 May 2025 | Safeguarding Lead | Initial template version |
-| v1.1 | 5 May 2025 | Safeguarding Lead + Programme Director | Added No-AI-Training clause; added oral/translated consent note and verbal consent record; added Digital Tools disclosure section |
+| v1.0 | 1 May 2025 | Programme Team | Initial template version. |
+| v1.1 | 11 May 2026 | Programme Team | Updated read-aloud/witness consent wording, restored Change Log section, clarified originality/provenance, contributor-owned licensing, governed AI-related use (including authorised partners), royalties framing, removed photo/video references (handled by separate media form), and specified Starisian-built student tools under sovereign knowledge governance. |
