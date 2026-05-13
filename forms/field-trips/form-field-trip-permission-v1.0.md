@@ -1,7 +1,7 @@
 # Field Trip Permission and Travel Agreement
 
 **Document Type:** Template — Permission Form
-**Version:** v1.0
+**Version:** v1.2
 **Status:** Draft
 **Last Reviewed:** 13 May 2026
 **Approved By:** Pending — Safeguarding Lead + Programme Director
