@@ -1,7 +1,7 @@
 # Media and Photography Consent Form — Adults
 
 **Document Type:** Form — Media Consent (Adult)
-**Version:** v1.2
+**Version:** v1.3
 **Status:** Draft
 **Last Reviewed:** 13 May 2026
 **Approved By:** Pending — Safeguarding Lead + Programme Director
@@ -15,7 +15,6 @@
 
 **School / Organisation:** [SCHOOL_NAME]
 **Programme:** [PROGRAM_NAME]
-**Academic Year:** [ACADEMIC_YEAR]
 
 ---
 
@@ -108,3 +107,4 @@ Consent level recorded: ______________________________________
 | v1.0 | 1 May 2025 | Safeguarding Lead | Initial template version |
 | v1.1 | 5 May 2025 | Programme Director | Added Audio Recordings consent option; updated Important notes to cover audio and confirm AI training exclusion |
 | v1.2 | 13 May 2026 | Programme Team | Added aiwestafrica.com full details reference. |
+| v1.3 | 13 May 2026 | Programme Team | Removed Academic Year header field. |

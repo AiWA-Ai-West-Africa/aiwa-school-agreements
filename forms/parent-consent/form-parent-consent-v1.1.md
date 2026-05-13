@@ -1,7 +1,7 @@
 # Parent and Guardian Permission Form — AIWA Programme
 
 **Document Type:** Form — Parental Consent
-**Version:** v1.2
+**Version:** v1.3
 **Status:** Draft
 **Last Reviewed:** 13 May 2026
 **Approved By:** Pending — Safeguarding Lead + Programme Director
@@ -15,7 +15,6 @@
 
 **School:** [SCHOOL_NAME]
 **Programme:** [PROGRAM_NAME]
-**Academic Year:** [ACADEMIC_YEAR]
 
 ---
 
@@ -23,9 +22,6 @@ Dear Parent / Guardian,
 
 AI West Africa (AIWA) is working with **[SCHOOL_NAME]** to run a programme for students
 called **[PROGRAM_NAME]**.
-
-This programme runs from **[PROGRAMME_START_DATE]** to **[PROGRAMME_END_DATE]**, during
-school hours, on **[WORKSHOP_SCHEDULE]**.
 
 ---
 
@@ -177,3 +173,4 @@ Signature: _____________________________ Date: _______________
 | v1.0 | 1 May 2025 | Programme Team | Initial template version. |
 | v1.1 | 11 May 2026 | Programme Team | Updated read-aloud/witness consent wording, restored Change Log section, clarified originality/provenance, contributor-owned licensing, governed AI-related use (including authorised partners), royalties framing, removed photo/video references (handled by separate media form), and specified Starisian-built student tools under sovereign knowledge governance. |
 | v1.2 | 13 May 2026 | Programme Team | Rewrote "Your Child's Work and Technology" section with prescribed language on submission standards, ownership, publishing permission, AIWA/affiliate use, licensing (not transfer), records, and royalties. Rewrote "Digital Tools" section to confirm Starisian Technologies-only tools, data protection under sovereign knowledge governance, and safeguarding controls. Removed separate "Your Child's Written Work" section (content now covered in Work and Technology section). Removed digital tools list placeholder. Added aiwestafrica.com full details reference. |
+| v1.3 | 13 May 2026 | Programme Team | Removed Academic Year header field and programme start/end/schedule dates from form header. |
