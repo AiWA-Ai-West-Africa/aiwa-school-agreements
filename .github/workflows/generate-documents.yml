@@ -32,6 +32,9 @@ on:
 permissions:
   contents: read
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 concurrency:
   group: ${{ format('{0}-{1}-{2}', github.workflow, github.event_name, github.event_name == 'release' && github.event.release.tag_name || github.ref) }}
   cancel-in-progress: ${{ github.event_name != 'release' }}
@@ -164,9 +167,10 @@ jobs:
         run: |
           echo "Attaching files to release: ${{ github.event.release.tag_name }}"
           find dist -type f \( -name "*.pdf" -o -name "*.docx" \) | sort | \
-            xargs -I{} gh release upload "${{ github.event.release.tag_name }}" {} --clobber
+            xargs -I{} gh release upload "${{ github.event.release.tag_name }}" {} --clobber --repo "$GH_REPO"
         env:
           GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
 
   latest-release-upload:
     name: Publish latest documents prerelease assets
@@ -200,19 +204,22 @@ jobs:
           Generated on: $(date -u +"%Y-%m-%d %H:%M:%SZ")
           EOF
 
-          if gh release view "$TAG_NAME" >/dev/null 2>&1; then
+          if gh release view "$TAG_NAME" --repo "$GH_REPO" >/dev/null 2>&1; then
             gh release edit "$TAG_NAME" \
               --title "$RELEASE_TITLE" \
               --notes-file "$NOTES_FILE" \
-              --prerelease
+              --prerelease \
+              --repo "$GH_REPO"
           else
             gh release create "$TAG_NAME" \
               --title "$RELEASE_TITLE" \
               --notes-file "$NOTES_FILE" \
-              --prerelease
+              --prerelease \
+              --repo "$GH_REPO"
           fi
 
           find dist -type f \( -name "*.pdf" -o -name "*.docx" \) | sort | \
-            xargs -I{} gh release upload "$TAG_NAME" {} --clobber
+            xargs -I{} gh release upload "$TAG_NAME" {} --clobber --repo "$GH_REPO"
         env:
           GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}

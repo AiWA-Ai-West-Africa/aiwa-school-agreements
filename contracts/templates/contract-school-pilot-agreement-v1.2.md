@@ -1,9 +1,9 @@
 # School Partnership Agreement
 
 **Document Type:** Template — Contract
-**Version:** v1.1
+**Version:** v1.2
 **Status:** Draft
-**Last Reviewed:** 4 May 2025
+**Last Reviewed:** 13 May 2026
 **Approved By:** Pending — Programme Director
 **Applies To:** All Partner Schools
 **Jurisdiction:** The Republic of The Gambia
@@ -428,19 +428,18 @@ purposes and relevant safeguards.
 
 ## 13. Educational Technology
 
-13.1 AIWA may incorporate appropriate educational technology tools into Programme
-activities where such tools serve educational publishing, language preservation, and
-literacy-development objectives.
+13.1 AIWA only uses digital tools built by Starisian Technologies. These tools are built
+specifically for AIWA programmes. No other educational software or digital platforms are
+used with students.
 
-13.2 Any digital tools used with students shall be disclosed in the Consent Form and
-shall comply with applicable Gambian educational standards and good practice for the
-protection of children in educational settings.
+13.2 All data shared with Starisian Technologies through these tools is protected. It is
+handled under a sovereign knowledge governance agreement between AIWA and Starisian
+Technologies.
 
 13.3 No Student Contributor shall be required to create accounts on commercial platforms or
 to use personal devices as a condition of participation.
 
-13.4 AIWA shall ensure that any digital tools used in the Programme are age-appropriate,
-educationally purposeful, and subject to appropriate safeguarding and data-governance controls.
+13.4 All tools are used under AIWA safeguarding and data governance controls.
 
 ---
 
@@ -677,8 +676,11 @@ before activities commence.*
 
 ---
 
+*For full details on privacy, data use, and all AIWA policies, visit **aiwestafrica.com***
+
 ## Change Log
 
 | Version | Date | Changed By | Summary of Changes |
 |---|---|---|---|
 | v1.1 | 4 May 2025 | Programme Team | Updated wording across the template; clarified technology scope for programme activities; and strengthened AIWA governance/cultural-stewardship role language for contributor-rights framing. |
+| v1.2 | 13 May 2026 | Programme Team | Rewrote Clause 13 (Educational Technology) to confirm Starisian Technologies-only tools, data protection under sovereign knowledge governance agreement, and safeguarding controls. Added aiwestafrica.com full details reference. |

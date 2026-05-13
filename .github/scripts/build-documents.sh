@@ -50,11 +50,105 @@ AUTHOR="AI West Africa (AIWA)"
 BUILD_DATE="$(date '+%B %Y')"
 FORM_FILTER=".github/scripts/pandoc-form-compact.lua"
 FORM_LATEX_HEADER=".github/scripts/form-pdf-header.tex"
+FORM_REFERENCE_DOCX=""
 
 is_form_document() {
   local md_file="$1"
   [[ "$md_file" == forms/* ]]
 }
+
+prepare_form_reference_docx() {
+  if ! command -v pandoc >/dev/null 2>&1; then
+    return
+  fi
+
+  local tmp_docx
+  tmp_docx="$(mktemp --suffix=.docx)"
+
+  # Seed from the branded committed template when present so custom heading
+  # styles, margins, and fonts are preserved; fall back to Pandoc's default.
+  if [ -f "templates/reference/reference.docx" ]; then
+    cp "templates/reference/reference.docx" "$tmp_docx"
+  elif ! pandoc --print-default-data-file reference.docx > "$tmp_docx"; then
+    rm -f "$tmp_docx"
+    return
+  fi
+
+  if ! python - "$tmp_docx" <<'PY'
+import os
+import shutil
+import tempfile
+import zipfile
+import xml.etree.ElementTree as ET
+
+path = os.path.abspath(__import__('sys').argv[1])
+ns = {'w': 'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}
+W = '{%s}' % ns['w']
+
+with zipfile.ZipFile(path, 'r') as zin:
+    blobs = {name: zin.read(name) for name in zin.namelist()}
+
+styles_xml = blobs.get('word/styles.xml')
+doc_xml = blobs.get('word/document.xml')
+if styles_xml is None or doc_xml is None:
+    raise SystemExit(1)
+
+styles_root = ET.fromstring(styles_xml)
+normal = styles_root.find(".//w:style[@w:styleId='Normal']", ns)
+if normal is not None:
+    rpr = normal.find('w:rPr', ns)
+    if rpr is None:
+        rpr = ET.SubElement(normal, W + 'rPr')
+    sz = rpr.find('w:sz', ns)
+    if sz is None:
+        sz = ET.SubElement(rpr, W + 'sz')
+    sz.set(W + 'val', '18')
+    szcs = rpr.find('w:szCs', ns)
+    if szcs is None:
+        szcs = ET.SubElement(rpr, W + 'szCs')
+    szcs.set(W + 'val', '18')
+
+doc_root = ET.fromstring(doc_xml)
+for sect in doc_root.findall('.//w:sectPr', ns):
+    cols = sect.find('w:cols', ns)
+    if cols is None:
+        cols = ET.SubElement(sect, W + 'cols')
+    cols.set(W + 'num', '2')
+    cols.set(W + 'space', '560')
+
+blobs['word/styles.xml'] = ET.tostring(styles_root, encoding='utf-8', xml_declaration=True)
+blobs['word/document.xml'] = ET.tostring(doc_root, encoding='utf-8', xml_declaration=True)
+
+fd, tmppath = tempfile.mkstemp(suffix='.docx')
+os.close(fd)
+try:
+    with zipfile.ZipFile(tmppath, 'w', compression=zipfile.ZIP_DEFLATED) as zout:
+        for name, data in blobs.items():
+            zout.writestr(name, data)
+    shutil.move(tmppath, path)
+finally:
+    if os.path.exists(tmppath):
+        os.remove(tmppath)
+PY
+  then
+    rm -f "$tmp_docx"
+    return
+  fi
+
+  FORM_REFERENCE_DOCX="$tmp_docx"
+}
+
+cleanup() {
+  if [ -n "$FORM_REFERENCE_DOCX" ] && [ -f "$FORM_REFERENCE_DOCX" ]; then
+    rm -f "$FORM_REFERENCE_DOCX"
+  fi
+}
+trap cleanup EXIT
+
+prepare_form_reference_docx
+if [ -n "$FORM_REFERENCE_DOCX" ]; then
+  echo "ℹ Using generated compact form DOCX reference template"
+fi
 
 # ── PDF build ─────────────────────────────────────────────────────────────────
 build_pdf() {
@@ -76,8 +170,8 @@ build_pdf() {
     pandoc_args+=(
       --lua-filter "$FORM_FILTER"
       -H "$FORM_LATEX_HEADER"
-      -V geometry:margin=1.15cm
-      -V fontsize=10pt
+      -V geometry:margin=1.0cm
+      -V fontsize=9pt
       -V linestretch=1.0
     )
   else
@@ -108,6 +202,11 @@ build_docx() {
     pandoc_args+=(
       --lua-filter "$FORM_FILTER"
     )
+    if [ -n "$FORM_REFERENCE_DOCX" ] && [ -f "$FORM_REFERENCE_DOCX" ]; then
+      pandoc_args+=(--reference-doc "$FORM_REFERENCE_DOCX")
+    elif [ "${#REFERENCE_DOC_OPT[@]}" -gt 0 ]; then
+      pandoc_args+=("${REFERENCE_DOC_OPT[@]}")
+    fi
   else
     pandoc_args+=(
       --toc
@@ -115,11 +214,11 @@ build_docx() {
       --metadata "title=$title"
       --metadata "author=$AUTHOR"
       --metadata "date=$BUILD_DATE"
+      "${REFERENCE_DOC_OPT[@]}"
     )
   fi
 
   pandoc "${pandoc_args[@]}" \
-    "${REFERENCE_DOC_OPT[@]}" \
     -o "$out_file"
 }
 
@@ -160,6 +259,7 @@ for dir in "${DOCUMENT_DIRS[@]}"; do
     if is_form_document "$md_file"; then
       is_form=true
     fi
+
     echo "▶  $md_file"
     echo "   Title: $title"
 

@@ -1,9 +1,9 @@
 # Field Trip Permission and Travel Agreement
 
 **Document Type:** Template — Permission Form
-**Version:** v1.1
+**Version:** v1.2
 **Status:** Draft
-**Last Reviewed:** 4 May 2025
+**Last Reviewed:** 13 May 2026
 **Approved By:** Pending — Safeguarding Lead + Programme Director
 **Applies To:** All Student Contributors — Off-Campus and On-Location Activities
 **Jurisdiction:** The Republic of The Gambia
@@ -159,9 +159,14 @@ By signing below, I confirm that:
 
 ---
 
+*For full details on privacy, data use, and all AIWA policies, visit **aiwestafrica.com***
+
+---
+
 ## Change Log
 
 | Version | Date | Changed By | Summary of Changes |
 |---|---|---|---|
 | v1.0 | 4 May 2025 | Programme Director | Initial template — field trip permission and travel agreement |
 | v1.1 | 5 May 2025 | Safeguarding Lead | Added supervisor vetting statement; added emergency contact details; added Cultural Respect and Community Protocols section; replaced duplicate media consent checkboxes with reference to Media and Photography Permission Form |
+| v1.2 | 13 May 2026 | Programme Team | Added aiwestafrica.com full details reference. |

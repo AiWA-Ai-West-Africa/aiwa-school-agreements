@@ -1,9 +1,9 @@
 # Media and Photography Permission Form — Parents and Guardians
 
 **Document Type:** Form — Media Consent (Parent/Guardian)
-**Version:** v1.1
+**Version:** v1.2
 **Status:** Draft
-**Last Reviewed:** 1 May 2025
+**Last Reviewed:** 13 May 2026
 **Approved By:** Pending — Safeguarding Lead + Programme Director
 **Applies To:** Parents and Guardians of Minor Participants
 **Jurisdiction:** The Republic of The Gambia
@@ -15,7 +15,6 @@
 
 **School:** [SCHOOL_NAME]
 **Programme:** [PROGRAM_NAME]
-**Academic Year:** [ACADEMIC_YEAR]
 
 ---
 
@@ -101,9 +100,14 @@ Consent level recorded: ______________________________________
 
 ---
 
+*For full details on privacy, data use, and all AIWA policies, visit **aiwestafrica.com***
+
+---
+
 ## Change Log
 
 | Version | Date | Changed By | Summary of Changes |
 |---|---|---|---|
 | v1.0 | 1 May 2025 | Safeguarding Lead | Initial template version |
 | v1.1 | 5 May 2025 | Programme Director | Added Audio Recordings consent option; updated Important notes to cover audio and confirm AI training exclusion |
+| v1.2 | 13 May 2026 | Programme Team | Added aiwestafrica.com full details reference. Removed Academic Year header field. |

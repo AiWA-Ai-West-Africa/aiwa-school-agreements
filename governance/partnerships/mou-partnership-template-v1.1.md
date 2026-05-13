@@ -1,9 +1,9 @@
 # Memorandum of Understanding — Template
 
 **Document Type:** Template — Memorandum of Understanding (MOU)
-**Version:** v1.0
+**Version:** v1.1
 **Status:** Draft
-**Last Reviewed:** 1 May 2025
+**Last Reviewed:** 13 May 2026
 **Approved By:** Programme Director
 **Applies To:** Institutional Partnerships
 **Jurisdiction:** The Republic of The Gambia
@@ -116,8 +116,11 @@ Date: ___________________________________
 
 ---
 
+*For full details on privacy, data use, and all AIWA policies, visit **aiwestafrica.com***
+
 ## Change Log
 
 | Version | Date | Changed By | Summary of Changes |
 |---|---|---|---|
 | v1.0 | 1 May 2025 | Programme Director | Initial template |
+| v1.1 | 13 May 2026 | Programme Team | Added aiwestafrica.com full details reference. |
