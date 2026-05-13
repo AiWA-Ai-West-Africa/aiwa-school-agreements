@@ -46,21 +46,21 @@ jobs:
       # ------------------------------------------------------------------ #
       # 2. Toolchain — Pandoc + XeLaTeX
       # ------------------------------------------------------------------ #
-      - name: Install and cache Pandoc and XeLaTeX packages
-        uses: awalsh128/cache-apt-pkgs-action@v1
-        with:
-          packages: >
-            pandoc
-            texlive-xetex
-            texlive-fonts-recommended
-            texlive-latex-extra
-            lmodern
+      - name: Install Pandoc and XeLaTeX packages
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            pandoc \
+            texlive-xetex \
+            texlive-fonts-recommended \
+            texlive-latex-extra \
+            lmodern \
             fonts-liberation
-          version: 1
 
       - name: Verify Pandoc installation
         run: |
           pandoc --version
+          xelatex --version
 
       # ------------------------------------------------------------------ #
       # 3. Optional Eisvogel PDF template (better PDF styling)
