@@ -49,6 +49,7 @@ fi
 AUTHOR="AI West Africa (AIWA)"
 BUILD_DATE="$(date '+%B %Y')"
 FORM_FILTER=".github/scripts/pandoc-form-compact.lua"
+FORM_LATEX_HEADER=".github/scripts/form-pdf-header.tex"
 
 is_form_document() {
   local md_file="$1"
@@ -62,9 +63,6 @@ build_pdf() {
     "$md_file"
     --standalone
     --pdf-engine=xelatex
-    --metadata "title=$title"
-    --metadata "author=$AUTHOR"
-    --metadata "date=$BUILD_DATE"
     -V colorlinks=true
     -V linkcolor=NavyBlue
     -V urlcolor=NavyBlue
@@ -77,14 +75,18 @@ build_pdf() {
   if [ "$is_form" = true ]; then
     pandoc_args+=(
       --lua-filter "$FORM_FILTER"
-      -V geometry:margin=1.4cm
+      -H "$FORM_LATEX_HEADER"
+      -V geometry:margin=1.15cm
       -V fontsize=10pt
-      -V linestretch=1.05
+      -V linestretch=1.0
     )
   else
     pandoc_args+=(
       --toc
       --toc-depth=3
+      --metadata "title=$title"
+      --metadata "author=$AUTHOR"
+      --metadata "date=$BUILD_DATE"
       -V geometry:margin=2.5cm
     )
   fi
@@ -100,9 +102,6 @@ build_docx() {
   local -a pandoc_args=(
     "$md_file"
     --standalone
-    --metadata "title=$title"
-    --metadata "author=$AUTHOR"
-    --metadata "date=$BUILD_DATE"
   )
 
   if [ "$is_form" = true ]; then
@@ -113,6 +112,9 @@ build_docx() {
     pandoc_args+=(
       --toc
       --toc-depth=3
+      --metadata "title=$title"
+      --metadata "author=$AUTHOR"
+      --metadata "date=$BUILD_DATE"
     )
   fi
 

@@ -23,7 +23,7 @@ on:
       - 'programs/**/*.md'
       - 'templates/**/*.md'
       - '.github/workflows/generate-documents.yml'
-      - '.github/scripts/build-documents.sh'
+      - '.github/scripts/**'
       - 'templates/reference/reference.docx'
   release:
     types: [published]
