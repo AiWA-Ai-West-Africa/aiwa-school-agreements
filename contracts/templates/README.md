@@ -7,7 +7,7 @@ and educational agreements.
 
 | File | Description | Version | Status |
 |---|---|---|---|
-| `contract-school-pilot-agreement-v1.1.md` | School pilot partnership agreement | v1.1 | Draft |
+| `contract-school-pilot-agreement-v1.2.md` | School pilot partnership agreement | v1.2 | Draft |
 | `contract-junior-publishing-program-v1.0.md` | Junior publishing program agreement | v1.0 | Draft |
 
 ## Usage
