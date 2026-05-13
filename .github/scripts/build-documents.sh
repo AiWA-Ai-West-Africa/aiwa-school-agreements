@@ -203,10 +203,10 @@ build_docx() {
     pandoc_args+=(
       --lua-filter "$FORM_FILTER"
     )
-    if [ -n "$FORM_REFERENCE_DOCX" ] && [ -f "$FORM_REFERENCE_DOCX" ]; then
-      pandoc_args+=(--reference-doc "$FORM_REFERENCE_DOCX")
-    else
+    if [ "${#REFERENCE_DOC_OPT[@]}" -gt 0 ]; then
       pandoc_args+=("${REFERENCE_DOC_OPT[@]}")
+    elif [ -n "$FORM_REFERENCE_DOCX" ] && [ -f "$FORM_REFERENCE_DOCX" ]; then
+      pandoc_args+=(--reference-doc "$FORM_REFERENCE_DOCX")
     fi
   else
     pandoc_args+=(
