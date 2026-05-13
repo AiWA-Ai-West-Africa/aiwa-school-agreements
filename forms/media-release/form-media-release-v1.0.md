@@ -1,7 +1,7 @@
 # Media and Photography Permission Form — Parents and Guardians
 
 **Document Type:** Form — Media Consent (Parent/Guardian)
-**Version:** v1.3
+**Version:** v1.0
 **Status:** Draft
 **Last Reviewed:** 13 May 2026
 **Approved By:** Pending — Safeguarding Lead + Programme Director
