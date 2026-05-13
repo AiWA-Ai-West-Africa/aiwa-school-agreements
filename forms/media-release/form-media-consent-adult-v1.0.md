@@ -1,7 +1,7 @@
 # Media and Photography Consent Form — Adults
 
 **Document Type:** Form — Media Consent (Adult)
-**Version:** v1.0
+**Version:** v1.3
 **Status:** Draft
 **Last Reviewed:** 13 May 2026
 **Approved By:** Pending — Safeguarding Lead + Programme Director
