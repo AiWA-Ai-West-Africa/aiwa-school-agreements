@@ -21,7 +21,6 @@ DOCUMENT_DIRS=(
   "policies"
   "governance"
   "programs"
-  "templates/certificates"
   "templates/letters"
 )
 
