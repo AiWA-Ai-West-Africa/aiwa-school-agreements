@@ -1,7 +1,7 @@
 # Memorandum of Understanding — Template
 
 **Document Type:** Template — Memorandum of Understanding (MOU)
-**Version:** v1.1
+**Version:** v1.0
 **Status:** Draft
 **Last Reviewed:** 13 May 2026
 **Approved By:** Programme Director
