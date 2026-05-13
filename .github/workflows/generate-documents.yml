@@ -165,9 +165,23 @@ jobs:
 
       - name: Attach documents to release
         run: |
-          echo "Attaching files to release: ${{ github.event.release.tag_name }}"
-          find dist -type f \( -name "*.pdf" -o -name "*.docx" \) | sort | \
-            xargs -I{} gh release upload "${{ github.event.release.tag_name }}" {} --clobber --repo "$GH_REPO"
+          set -euo pipefail
+      
+          TAG="${{ github.event.release.tag_name }}"
+          echo "Attaching files to release: $TAG"
+      
+          existing_assets="$(gh release view "$TAG" --repo "$GH_REPO" --json assets --jq '.assets[].name')"
+      
+          find dist -type f \( -name "*.pdf" -o -name "*.docx" \) | sort | while read -r file; do
+            name="$(basename "$file")"
+      
+            if printf '%s\n' "$existing_assets" | grep -Fxq "$name"; then
+              echo "Skipping existing asset on immutable release: $name"
+              continue
+            fi
+      
+            gh release upload "$TAG" "$file" --repo "$GH_REPO"
+          done
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
