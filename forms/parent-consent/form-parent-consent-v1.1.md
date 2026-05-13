@@ -60,8 +60,8 @@ permission first. AIWA and its affiliates, including Starisian Technologies, may
 work your child shares to help preserve languages, create educational materials, improve
 translation, support research, and develop language and AI tools.
 
-Your child's work still belongs to them unless you clearly agree in writing to transfer
-ownership.
+Your child's work still belongs to them. Any additional use must be based on your consent
+and applicable licensing terms, and does not transfer ownership.
 
 If you agree to extended use, AIWA may license your child's work for commercial or broader
 platform use through approved systems and partners, including the SPARXSTAR platform built
