@@ -54,28 +54,29 @@ This will not cause any problem at school.
 
 ### Your Child's Work and Technology
 
-You must only submit work that you created or that you have the right to use. Do not copy
-or plagiarise. Do not use books, songs, images, or cultural materials that belong to someone
-else — unless you have written permission to do so.
+Your child must only submit work they created or that they have the right to use. Do not
+allow them to copy or plagiarise. Do not use books, songs, images, or cultural materials
+that belong to someone else — unless you have written permission to do so.
 
-You keep ownership of everything you submit. AIWA using your work does not change that.
-If your work is published or shared publicly, you will be asked to give separate permission
-first. AIWA and its affiliates, including Starisian Technologies, may use the work you share
-to help preserve languages, create educational materials, improve translation, support
-research, and develop language and AI tools.
+Your child keeps ownership of everything they submit. AIWA using their work does not change
+that. If their work is published or shared publicly, you will be asked to give separate
+permission first. AIWA and its affiliates, including Starisian Technologies, may use the
+work your child shares to help preserve languages, create educational materials, improve
+translation, support research, and develop language and AI tools.
 
-Your work still belongs to you unless you clearly agree in writing to transfer ownership.
+Your child's work still belongs to them unless you clearly agree in writing to transfer
+ownership.
 
-If you agree to extended use, AIWA may license your work for commercial or broader platform
-use through approved systems and partners, including the SPARXSTAR platform built by Starisian
-Technologies. A license means your work may be used under agreed permissions — not sold or
-taken from you.
+If you agree to extended use, AIWA may license your child's work for commercial or broader
+platform use through approved systems and partners, including the SPARXSTAR platform built
+by Starisian Technologies. A license means their work may be used under agreed permissions
+— not sold or taken from them.
 
 AIWA keeps records showing who created the work, where it came from, and what rights and
 permissions apply.
 
-If licensed use of your work earns money, you may qualify for payment or royalties under
-separate rights and licensing agreements.
+If licensed use of your child's work earns money, they may qualify for payment or royalties
+under separate rights and licensing agreements.
 
 ---
 
