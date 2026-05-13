@@ -152,4 +152,4 @@ Recording reference (if applicable): _____________________________________
 | Version | Date | Changed By | Summary of Changes |
 |---|---|---|---|
 | v1.0 | 1 May 2025 | Safeguarding Lead | Initial template version |
-| v1.1 | 13 May 2026 | Programme Team | Added aiwestafrica.com full details reference. |
+| v1.0 | 13 May 2026 | Programme Team | Added aiwestafrica.com full details reference. |
