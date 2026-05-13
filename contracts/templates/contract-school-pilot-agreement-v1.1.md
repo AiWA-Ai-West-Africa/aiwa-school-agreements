@@ -1,7 +1,7 @@
 # School Partnership Agreement
 
 **Document Type:** Template — Contract
-**Version:** v1.2
+**Version:** v1.1
 **Status:** Draft
 **Last Reviewed:** 13 May 2026
 **Approved By:** Pending — Programme Director

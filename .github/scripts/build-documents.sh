@@ -65,7 +65,11 @@ prepare_form_reference_docx() {
   local tmp_docx
   tmp_docx="$(mktemp --suffix=.docx)"
 
-  if ! pandoc --print-default-data-file reference.docx > "$tmp_docx"; then
+  # Seed from the branded committed template when present so custom heading
+  # styles, margins, and fonts are preserved; fall back to Pandoc's default.
+  if [ -f "templates/reference/reference.docx" ]; then
+    cp "templates/reference/reference.docx" "$tmp_docx"
+  elif ! pandoc --print-default-data-file reference.docx > "$tmp_docx"; then
     rm -f "$tmp_docx"
     return
   fi

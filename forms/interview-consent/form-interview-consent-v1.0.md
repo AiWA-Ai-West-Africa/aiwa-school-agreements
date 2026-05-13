@@ -1,7 +1,7 @@
 # Media Documentation and Recording Release Form
 
 **Document Type:** Form — Media and Recording Release
-**Version:** v1.1
+**Version:** v1.0
 **Status:** Draft
 **Last Reviewed:** 13 May 2026
 **Approved By:** Pending — Safeguarding Lead + Programme Director

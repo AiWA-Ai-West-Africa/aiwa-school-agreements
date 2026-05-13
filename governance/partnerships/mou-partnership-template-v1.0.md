@@ -116,8 +116,6 @@ Date: ___________________________________
 
 ---
 
----
-
 *For full details on privacy, data use, and all AIWA policies, visit **aiwestafrica.com***
 
 ---
