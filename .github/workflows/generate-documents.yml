@@ -9,6 +9,7 @@ name: Generate Documents (PDF + DOCX)
 #
 # Outputs:
 #   • GitHub Actions artifacts (90-day retention) for every run.
+#   • "documents-latest" prerelease assets for push/workflow_dispatch runs.
 #   • Files attached to GitHub Releases when a release is published.
 
 on:
@@ -22,7 +23,7 @@ on:
       - 'programs/**/*.md'
       - 'templates/**/*.md'
       - '.github/workflows/generate-documents.yml'
-      - '.github/scripts/build-documents.sh'
+      - '.github/scripts/**'
       - 'templates/reference/reference.docx'
   release:
     types: [published]
@@ -30,6 +31,10 @@ on:
 
 permissions:
   contents: read
+
+concurrency:
+  group: ${{ format('{0}-{1}-{2}', github.workflow, github.event_name, github.event_name == 'release' && github.event.release.tag_name || github.ref) }}
+  cancel-in-progress: ${{ github.event_name != 'release' }}
 
 jobs:
   build:
@@ -160,5 +165,54 @@ jobs:
           echo "Attaching files to release: ${{ github.event.release.tag_name }}"
           find dist -type f \( -name "*.pdf" -o -name "*.docx" \) | sort | \
             xargs -I{} gh release upload "${{ github.event.release.tag_name }}" {} --clobber
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+  latest-release-upload:
+    name: Publish latest documents prerelease assets
+    if: github.event_name != 'release'
+    needs: build
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Download document artifacts
+        uses: actions/download-artifact@v4
+        with:
+          pattern: aiwa-documents-*-${{ github.run_number }}
+          merge-multiple: true
+          path: dist
+
+      - name: Create or update latest documents prerelease
+        run: |
+          set -euo pipefail
+
+          TAG_NAME="documents-latest"
+          RELEASE_TITLE="Latest AIWA Generated Documents"
+          NOTES_FILE="$(mktemp)"
+
+          cat >"$NOTES_FILE" <<EOF
+          Auto-updated document bundle from \`${{ github.sha }}\`.
+
+          Source run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          Generated on: $(date -u +"%Y-%m-%d %H:%M:%SZ")
+          EOF
+
+          if gh release view "$TAG_NAME" >/dev/null 2>&1; then
+            gh release edit "$TAG_NAME" \
+              --title "$RELEASE_TITLE" \
+              --notes-file "$NOTES_FILE" \
+              --prerelease
+          else
+            gh release create "$TAG_NAME" \
+              --title "$RELEASE_TITLE" \
+              --notes-file "$NOTES_FILE" \
+              --prerelease
+          fi
+
+          find dist -type f \( -name "*.pdf" -o -name "*.docx" \) | sort | \
+            xargs -I{} gh release upload "$TAG_NAME" {} --clobber
         env:
           GH_TOKEN: ${{ github.token }}

@@ -1,0 +1,37 @@
+\usepackage{titlesec}
+\usepackage{enumitem}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}
+\setlength{\emergencystretch}{4em}
+\raggedbottom
+
+\setlist[itemize]{leftmargin=1.25em,itemsep=1pt,topsep=2pt,parsep=0pt,partopsep=0pt}
+\setlist[enumerate]{leftmargin=1.35em,itemsep=1pt,topsep=2pt,parsep=0pt,partopsep=0pt}
+
+\titleformat{\section}
+  {\normalfont\bfseries\Large}
+  {}
+  {0pt}
+  {}
+
+\titleformat{\subsection}
+  {\normalfont\bfseries\normalsize\scshape}
+  {}
+  {0pt}
+  {}
+
+\titleformat{\subsubsection}[runin]
+  {\normalfont\bfseries\normalsize}
+  {}
+  {0pt}
+  {}
+  [.]
+
+\titlespacing*{\section}{0pt}{4pt}{5pt}
+\titlespacing*{\subsection}{0pt}{5pt}{3pt}
+\titlespacing*{\subsubsection}{0pt}{4pt}{0.5em}
+
+\makeatletter
+\renewcommand{\maketitle}{}
+\makeatother
