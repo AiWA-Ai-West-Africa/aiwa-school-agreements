@@ -1,7 +1,7 @@
 # Memorandum of Understanding — Template
 
 **Document Type:** Template — Memorandum of Understanding (MOU)
-**Version:** v1.0
+**Version:** v1.1
 **Status:** Draft
 **Last Reviewed:** 13 May 2026
 **Approved By:** Programme Director
@@ -123,4 +123,4 @@ Date: ___________________________________
 | Version | Date | Changed By | Summary of Changes |
 |---|---|---|---|
 | v1.0 | 1 May 2025 | Programme Director | Initial template |
-| v1.0 | 13 May 2026 | Programme Team | Added aiwestafrica.com full details reference. |
+| v1.1 | 13 May 2026 | Programme Team | Added aiwestafrica.com full details reference. |

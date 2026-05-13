@@ -2,7 +2,7 @@
 # AIWA Junior Publishing and Language Programme
 
 **Document Type:** Template — Contract
-**Version:** v1.0
+**Version:** v1.1
 **Status:** Draft
 **Last Reviewed:** 13 May 2026
 **Approved By:** Pending — Programme Director
@@ -417,8 +417,8 @@ purposes and relevant safeguards.
 ## 13. Educational Technology
 
 13.1 AIWA only uses digital tools built by Starisian Technologies. These tools are built
-specifically for AIWA programmes. No other electronic or computer tools are used with
-students.
+specifically for AIWA programmes. No other educational software or digital platforms are
+used with students.
 
 13.2 All data shared with Starisian Technologies through these tools is protected. It is
 handled under a sovereign knowledge governance agreement between AIWA and Starisian
@@ -674,4 +674,4 @@ before activities commence.*
 | Version | Date | Changed By | Summary of Changes |
 |---|---|---|---|
 | v1.0 | 1 May 2025 | Programme Team | Initial draft of the Junior Publishing Programme contract template; clarified that publication and attribution consent may be captured in the parent/guardian, student, or equivalent school forms without requiring a standalone publishing agreement; restored the required Change Log section; and strengthened AIWA governance/cultural-stewardship role language for contributor-rights framing. |
-| v1.0 | 13 May 2026 | Programme Team | Rewrote Clause 13 (Educational Technology) to confirm Starisian Technologies-only tools, data protection under sovereign knowledge governance agreement, and safeguarding controls. Added aiwestafrica.com full details reference. |
+| v1.1 | 13 May 2026 | Programme Team | Rewrote Clause 13 (Educational Technology) to confirm Starisian Technologies-only tools, data protection under sovereign knowledge governance agreement, and safeguarding controls. Added aiwestafrica.com full details reference. |

@@ -1,7 +1,7 @@
 # Student Participation Agreement — AIWA Programme
 
 **Document Type:** Form — Student Participation
-**Version:** v1.0
+**Version:** v2.0
 **Status:** Draft
 **Last Reviewed:** 13 May 2026
 **Approved By:** Pending — Safeguarding Lead + Programme Director
@@ -195,5 +195,5 @@ Form received by: _____________________________ Date: _______________
 | Version | Date | Changed By | Summary of Changes |
 |---|---|---|---|
 | v1.0 | 1 May 2025 | Programme Team | Initial template version. |
-| v1.0 | 11 May 2026 | Programme Team | Updated student wording for participation/technology language, restored Change Log section, clarified originality/licensing/royalty framing for contributed works, removed photo/video references (handled by separate media form), and specified Starisian-built student tools under sovereign knowledge governance. |
-| v1.0 | 13 May 2026 | Programme Team | Rewrote "Your Work and Technology" section with prescribed language on submission standards, ownership, publishing permission, AIWA/affiliate use, licensing (not transfer), records, royalties, Starisian-only tools, data protection under sovereign knowledge governance, and safeguarding controls. Added aiwestafrica.com full details reference. |
+| v1.1 | 11 May 2026 | Programme Team | Updated student wording for participation/technology language, restored Change Log section, clarified originality/licensing/royalty framing for contributed works, removed photo/video references (handled by separate media form), and specified Starisian-built student tools under sovereign knowledge governance. |
+| v2.0 | 13 May 2026 | Programme Team | Rewrote "Your Work and Technology" section with prescribed language on submission standards, ownership, publishing permission, AIWA/affiliate use, licensing (not transfer), records, royalties, Starisian-only tools, data protection under sovereign knowledge governance, and safeguarding controls. Added aiwestafrica.com full details reference. (Major version: substantive consent changes per VERSIONING.md §4.2.) |

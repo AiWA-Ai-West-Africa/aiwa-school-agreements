@@ -36,3 +36,18 @@
 \makeatletter
 \renewcommand{\maketitle}{}
 \makeatother
+
+% longtable is incompatible with twocolumn mode; redefine it as a minipage+tabular
+% so that the Change Log and tools-disclosure tables render correctly in form PDFs.
+\renewenvironment{longtable}[2][c]{%
+  \par\noindent\begin{minipage}{\columnwidth}%
+  \small%
+  \begin{tabular}{#2}%
+}{%
+  \end{tabular}%
+  \end{minipage}\par%
+}
+\def\endhead{}
+\def\endfirsthead{}
+\def\endfoot{}
+\def\endlastfoot{}
