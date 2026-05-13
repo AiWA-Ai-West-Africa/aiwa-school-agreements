@@ -79,7 +79,7 @@ When you join this programme, we ask you to:
 ### Your Work Belongs to You
 
 Anything you create during this programme belongs to you (for example: writing,
-drawings, photos, audio, or other original creative work).
+drawings, audio, or other original creative work).
 
 AIWA will never publish your work without asking you and your parent or guardian first.
 You will always be given full credit as the author of your work.
@@ -99,6 +99,10 @@ We want you to know exactly how your work may be used:
 - AIWA may process, transcribe, translate, annotate, analyse, and use contributed
   work for governed educational and AI-related functions, including authorised
   commercial and non-commercial systems.
+- The only electronic or computer tools used with students in this programme are
+  tools built by Starisian Technologies specifically for AIWA use.
+- Any governed data shared with Starisian Technologies through these tools is
+  handled under a sovereign knowledge governance agreement.
 - If you and your parent/guardian approve separate licensing, your work can be
   licensed (not transferred) to AIWA and authorised partners with attribution and
   provenance records.
@@ -107,15 +111,6 @@ We want you to know exactly how your work may be used:
 - AIWA will not publish your work publicly without separate permission from you and your
   parent or guardian.
 - Your ownership of your original work does not transfer to AIWA or technology partners.
-
----
-
-### Photos and Videos
-
-Your parent or guardian will be asked separately about photos and videos.
-
-If at any time you feel uncomfortable during a photo or video activity,
-please tell your teacher or an AIWA facilitator straight away.
 
 ---
 
@@ -183,4 +178,4 @@ Form received by: _____________________________ Date: _______________
 | Version | Date | Changed By | Summary of Changes |
 |---|---|---|---|
 | v1.0 | 1 May 2025 | Programme Team | Initial template version. |
-| v1.1 | 11 May 2026 | Programme Team | Updated student wording for participation/technology language, restored Change Log section, and clarified originality/licensing/royalty framing for contributed works. |
+| v1.1 | 11 May 2026 | Programme Team | Updated student wording for participation/technology language, restored Change Log section, clarified originality/licensing/royalty framing for contributed works, removed photo/video references (handled by separate media form), and specified Starisian-built student tools under sovereign knowledge governance. |

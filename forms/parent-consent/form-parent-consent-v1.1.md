@@ -52,15 +52,6 @@ This will not cause any problem at school.
 
 ---
 
-### Photos and Videos
-
-If AIWA wants to take photos or video of your child during programme activities,
-we will ask you separately before doing so.
-
-Your permission here does **not** cover photos or videos.
-
----
-
 ### Your Child's Written Work
 
 If your child writes something during the programme and AIWA wants to print or
@@ -102,6 +93,10 @@ Where educational technology tools are used in programme activities, AIWA will c
 the list below before this form is issued for signature.
 If tools change during the programme, parents and guardians will be notified in writing.
 All tools are used under AIWA safeguarding and data governance controls.
+The only electronic or computer tools used with students are tools built by Starisian
+Technologies specifically for AIWA programme use.
+Any governed data shared with Starisian Technologies through these tools is handled under
+a sovereign knowledge governance agreement.
 
 **Digital or technology tools used in [PROGRAM_NAME]:**
 
@@ -189,4 +184,4 @@ Signature: _____________________________ Date: _______________
 | Version | Date | Changed By | Summary of Changes |
 |---|---|---|---|
 | v1.0 | 1 May 2025 | Programme Team | Initial template version. |
-| v1.1 | 11 May 2026 | Programme Team | Updated read-aloud/witness consent wording, restored Change Log section, and clarified originality/provenance, contributor-owned licensing, governed AI-related use (including authorised partners), and royalties framing. |
+| v1.1 | 11 May 2026 | Programme Team | Updated read-aloud/witness consent wording, restored Change Log section, clarified originality/provenance, contributor-owned licensing, governed AI-related use (including authorised partners), royalties framing, removed photo/video references (handled by separate media form), and specified Starisian-built student tools under sovereign knowledge governance. |
