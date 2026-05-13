@@ -173,7 +173,6 @@ build_pdf() {
       -V geometry:margin=1.0cm
       -V fontsize=9pt
       -V linestretch=1.0
-      -V classoption=twocolumn
     )
   else
     pandoc_args+=(
