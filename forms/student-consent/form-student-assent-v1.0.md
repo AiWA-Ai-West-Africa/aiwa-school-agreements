@@ -1,7 +1,7 @@
 # Student Participation Agreement — AIWA Programme
 
 **Document Type:** Form — Student Participation
-**Version:** v1.2
+**Version:** v1.0
 **Status:** Draft
 **Last Reviewed:** 13 May 2026
 **Approved By:** Pending — Safeguarding Lead + Programme Director
