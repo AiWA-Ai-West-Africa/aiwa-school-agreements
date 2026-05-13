@@ -32,6 +32,10 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: ${{ format('{0}-{1}-{2}', github.workflow, github.event_name, github.event_name == 'release' && github.event.release.tag_name || github.ref) }}
+  cancel-in-progress: ${{ github.event_name != 'release' }}
+
 jobs:
   build:
     name: Build Documents
