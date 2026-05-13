@@ -1,9 +1,9 @@
 # Student Participation Agreement — AIWA Programme
 
 **Document Type:** Form — Student Participation
-**Version:** v1.1
+**Version:** v1.2
 **Status:** Draft
-**Last Reviewed:** 1 May 2025
+**Last Reviewed:** 13 May 2026
 **Approved By:** Pending — Safeguarding Lead + Programme Director
 **Applies To:** Student Participants
 **Jurisdiction:** The Republic of The Gambia
@@ -88,29 +88,37 @@ You will always be given full credit as the author of your work.
 
 ### Your Work and Technology
 
-We want you to know exactly how your work may be used:
+You must only submit work that you created yourself or that you have the right to use.
+Do not copy or plagiarise. Do not use books, songs, images, or cultural materials that
+belong to someone else — unless you have written permission to do so.
 
-- Your original work stays yours.
-- You must only submit work you created yourself or are allowed to contribute.
-- Do not submit copied, plagiarised, or unlicensed material from other people,
-  including copyrighted content, restricted folklore, or protected cultural heritage.
-- AIWA may use contributed work for language preservation, educational publishing,
-  linguistic research, and educational language tools for Gambian languages.
-- AIWA may process, transcribe, translate, annotate, analyse, and use contributed
-  work for governed educational and AI-related functions, including authorised
-  commercial and non-commercial systems.
-- The only electronic or computer tools used with students in this programme are
-  tools built by Starisian Technologies specifically for AIWA use.
-- Any governed data shared with Starisian Technologies through these tools is
-  handled under a sovereign knowledge governance agreement.
-- If you and your parent/guardian approve separate licensing, your work can be
-  licensed (not transferred) to AIWA and authorised partners with attribution and
-  provenance records.
-- If licensed use earns eligible revenue, royalty/payment terms are set in a
-  separate agreement.
-- AIWA will not publish your work publicly without separate permission from you and your
-  parent or guardian.
-- Your ownership of your original work does not transfer to AIWA or technology partners.
+Your work still belongs to you. AIWA using your work does not change that.
+If your work is published or shared publicly, you will be asked for separate permission
+first. AIWA and its affiliates, including Starisian Technologies, may use the work you
+share to help preserve languages, create educational materials, improve translation,
+support research, and develop language and AI tools.
+
+Your work still belongs to you unless you clearly agree in writing to transfer ownership.
+
+If you and your parent or guardian agree to extended use, AIWA may license your work for
+commercial or broader platform use through approved systems and partners, including the
+SPARXSTAR platform built by Starisian Technologies. A license means your work may be used
+under agreed permissions — not sold or taken from you.
+
+AIWA keeps records showing who created the work, where it came from, and what rights and
+permissions apply.
+
+If licensed use of your work earns money, you may qualify for payment or royalties under
+separate rights and licensing agreements.
+
+AIWA only uses digital tools built by Starisian Technologies. These tools are built
+specifically for AIWA programmes. No other electronic or computer tools are used with
+students.
+
+All data shared with Starisian Technologies through these tools is protected. It is handled
+under a sovereign knowledge governance agreement between AIWA and Starisian Technologies.
+
+All tools are used under AIWA safeguarding and data governance controls.
 
 ---
 
@@ -173,9 +181,14 @@ Form received by: _____________________________ Date: _______________
 
 ---
 
+*For full details on privacy, data use, and all AIWA policies, visit **aiwestafrica.com***
+
+---
+
 ## Change Log
 
 | Version | Date | Changed By | Summary of Changes |
 |---|---|---|---|
 | v1.0 | 1 May 2025 | Programme Team | Initial template version. |
 | v1.1 | 11 May 2026 | Programme Team | Updated student wording for participation/technology language, restored Change Log section, clarified originality/licensing/royalty framing for contributed works, removed photo/video references (handled by separate media form), and specified Starisian-built student tools under sovereign knowledge governance. |
+| v1.2 | 13 May 2026 | Programme Team | Rewrote "Your Work and Technology" section with prescribed language on submission standards, ownership, publishing permission, AIWA/affiliate use, licensing (not transfer), records, royalties, Starisian-only tools, data protection under sovereign knowledge governance, and safeguarding controls. Added aiwestafrica.com full details reference. |

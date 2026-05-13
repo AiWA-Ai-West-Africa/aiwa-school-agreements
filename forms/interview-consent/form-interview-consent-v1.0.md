@@ -1,9 +1,9 @@
 # Media Documentation and Recording Release Form
 
 **Document Type:** Form — Media and Recording Release
-**Version:** v1.0
+**Version:** v1.1
 **Status:** Draft
-**Last Reviewed:** 1 May 2025
+**Last Reviewed:** 13 May 2026
 **Approved By:** Pending — Safeguarding Lead + Programme Director
 **Applies To:** Programme Contributors, Teachers, School Representatives, and Community Subject Matter Experts
 **Jurisdiction:** The Republic of The Gambia
@@ -143,8 +143,13 @@ Recording reference (if applicable): _____________________________________
 
 ---
 
+*For full details on privacy, data use, and all AIWA policies, visit **aiwestafrica.com***
+
+---
+
 ## Change Log
 
 | Version | Date | Changed By | Summary of Changes |
 |---|---|---|---|
 | v1.0 | 1 May 2025 | Safeguarding Lead | Initial template version |
+| v1.1 | 13 May 2026 | Programme Team | Added aiwestafrica.com full details reference. |

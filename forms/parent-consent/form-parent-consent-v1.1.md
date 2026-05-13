@@ -1,9 +1,9 @@
 # Parent and Guardian Permission Form — AIWA Programme
 
 **Document Type:** Form — Parental Consent
-**Version:** v1.1
+**Version:** v1.2
 **Status:** Draft
-**Last Reviewed:** 1 May 2025
+**Last Reviewed:** 13 May 2026
 **Approved By:** Pending — Safeguarding Lead + Programme Director
 **Applies To:** Parents/Guardians of Student Contributors
 **Jurisdiction:** The Republic of The Gambia
@@ -52,57 +52,43 @@ This will not cause any problem at school.
 
 ---
 
-### Your Child's Written Work
-
-If your child writes something during the programme and AIWA wants to print or
-share it publicly, we will ask you again separately before doing anything.
-
-Your child's written work belongs to your child.
-
----
-
 ### Your Child's Work and Technology
 
-Student Contributors must submit original work they create or lawfully control.
-Contributions must not be copied, plagiarised, or taken from unlicensed third-party
-sources, including copyrighted books/songs/images, restricted folklore, or protected
-cultural heritage materials without documented permission.
+You must only submit work that you created or that you have the right to use. Do not copy
+or plagiarise. Do not use books, songs, images, or cultural materials that belong to someone
+else — unless you have written permission to do so.
 
-Student Contributors keep ownership of their original work.
-Publication or public sharing still requires separate permission.
+You keep ownership of everything you submit. AIWA using your work does not change that.
+If your work is published or shared publicly, you will be asked to give separate permission
+first. AIWA and its affiliates, including Starisian Technologies, may use the work you share
+to help preserve languages, create educational materials, improve translation, support
+research, and develop language and AI tools.
 
-AIWA may process, transcribe, translate, annotate, analyse, and use contributed works
-for educational, linguistic, publishing, language-preservation, and AI-related functions.
-This may include commercial and non-commercial systems operated under AIWA governance.
+Your work still belongs to you unless you clearly agree in writing to transfer ownership.
 
-Where you separately approve publication or extended use, Student Contributor works may
-be licensed (not transferred) to AIWA and authorised technology partners, including
-SPARXSTAR infrastructure developed by Starisian Technologies, for governed use with
-traceable attribution, provenance, and rights records.
+If you agree to extended use, AIWA may license your work for commercial or broader platform
+use through approved systems and partners, including the SPARXSTAR platform built by Starisian
+Technologies. A license means your work may be used under agreed permissions — not sold or
+taken from you.
 
-Where licensed use generates eligible revenue, royalties or other agreed economic
-participation are handled under separate rights/licensing terms.
+AIWA keeps records showing who created the work, where it came from, and what rights and
+permissions apply.
 
-If you have any questions about how work and data are used, please ask before signing.
+If licensed use of your work earns money, you may qualify for payment or royalties under
+separate rights and licensing agreements.
 
 ---
 
 ### Digital Tools Used in This Programme
 
-Where educational technology tools are used in programme activities, AIWA will complete
-the list below before this form is issued for signature.
-If tools change during the programme, parents and guardians will be notified in writing.
+AIWA only uses digital tools built by Starisian Technologies. These tools are built
+specifically for AIWA programmes. No other electronic or computer tools are used with
+students.
+
+All data shared with Starisian Technologies through these tools is protected. It is handled
+under a sovereign knowledge governance agreement between AIWA and Starisian Technologies.
+
 All tools are used under AIWA safeguarding and data governance controls.
-The only electronic or computer tools used with students are tools built by Starisian
-Technologies specifically for AIWA programme use.
-Any governed data shared with Starisian Technologies through these tools is handled under
-a sovereign knowledge governance agreement.
-
-**Digital or technology tools used in [PROGRAM_NAME]:**
-
-Enter “No external digital tools are used” or list the specific tools used.
-
-[DIGITAL_TOOLS_LIST]
 
 ---
 
@@ -179,9 +165,14 @@ Signature: _____________________________ Date: _______________
 
 ---
 
+*For full details on privacy, data use, and all AIWA policies, visit **aiwestafrica.com***
+
+---
+
 ## Change Log
 
 | Version | Date | Changed By | Summary of Changes |
 |---|---|---|---|
 | v1.0 | 1 May 2025 | Programme Team | Initial template version. |
 | v1.1 | 11 May 2026 | Programme Team | Updated read-aloud/witness consent wording, restored Change Log section, clarified originality/provenance, contributor-owned licensing, governed AI-related use (including authorised partners), royalties framing, removed photo/video references (handled by separate media form), and specified Starisian-built student tools under sovereign knowledge governance. |
+| v1.2 | 13 May 2026 | Programme Team | Rewrote "Your Child's Work and Technology" section with prescribed language on submission standards, ownership, publishing permission, AIWA/affiliate use, licensing (not transfer), records, and royalties. Rewrote "Digital Tools" section to confirm Starisian Technologies-only tools, data protection under sovereign knowledge governance, and safeguarding controls. Removed separate "Your Child's Written Work" section (content now covered in Work and Technology section). Removed digital tools list placeholder. Added aiwestafrica.com full details reference. |
