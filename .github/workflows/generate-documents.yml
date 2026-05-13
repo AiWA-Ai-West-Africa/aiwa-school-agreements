@@ -57,7 +57,7 @@ jobs:
             lmodern \
             fonts-liberation
 
-      - name: Verify Pandoc installation
+      - name: Verify Pandoc and XeLaTeX installation
         run: |
           pandoc --version
           xelatex --version
