@@ -678,11 +678,9 @@ before activities commence.*
 
 *For full details on privacy, data use, and all AIWA policies, visit **aiwestafrica.com***
 
----
-
 ## Change Log
 
 | Version | Date | Changed By | Summary of Changes |
 |---|---|---|---|
 | v1.1 | 4 May 2025 | Programme Team | Updated wording across the template; clarified technology scope for programme activities; and strengthened AIWA governance/cultural-stewardship role language for contributor-rights framing. |
-| v1.2 | 13 May 2026 | Programme Team | Rewrote Clause 13 (Educational Technology) to confirm Starisian Technologies-only tools, data protection under sovereign knowledge governance agreement, and safeguarding controls. Added aiwestafrica.com full details reference. |
+| v1.1 | 13 May 2026 | Programme Team | Rewrote Clause 13 (Educational Technology) to confirm Starisian Technologies-only tools, data protection under sovereign knowledge governance agreement, and safeguarding controls. Added aiwestafrica.com full details reference. |

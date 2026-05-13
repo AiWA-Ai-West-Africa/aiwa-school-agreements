@@ -118,11 +118,9 @@ Date: ___________________________________
 
 *For full details on privacy, data use, and all AIWA policies, visit **aiwestafrica.com***
 
----
-
 ## Change Log
 
 | Version | Date | Changed By | Summary of Changes |
 |---|---|---|---|
 | v1.0 | 1 May 2025 | Programme Director | Initial template |
-| v1.1 | 13 May 2026 | Programme Team | Added aiwestafrica.com full details reference. |
+| v1.0 | 13 May 2026 | Programme Team | Added aiwestafrica.com full details reference. |

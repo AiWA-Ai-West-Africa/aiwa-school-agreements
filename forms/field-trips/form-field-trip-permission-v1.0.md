@@ -169,4 +169,4 @@ By signing below, I confirm that:
 |---|---|---|---|
 | v1.0 | 4 May 2025 | Programme Director | Initial template — field trip permission and travel agreement |
 | v1.1 | 5 May 2025 | Safeguarding Lead | Added supervisor vetting statement; added emergency contact details; added Cultural Respect and Community Protocols section; replaced duplicate media consent checkboxes with reference to Media and Photography Permission Form |
-| v1.2 | 13 May 2026 | Programme Team | Added aiwestafrica.com full details reference. |
+| v1.0 | 13 May 2026 | Programme Team | Added aiwestafrica.com full details reference. |
