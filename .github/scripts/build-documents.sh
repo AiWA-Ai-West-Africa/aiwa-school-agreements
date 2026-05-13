@@ -168,7 +168,7 @@ build_pdf() {
       -H "$FORM_LATEX_HEADER"
       -V geometry:margin=1.0cm
       -V fontsize=9pt
-      -V linestretch=0.95
+      -V linestretch=1.0
       -V classoption=twocolumn
     )
   else
