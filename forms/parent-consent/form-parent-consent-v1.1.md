@@ -78,14 +78,18 @@ under separate rights and licensing agreements.
 
 ### Digital Tools Used in This Programme
 
-AIWA only uses digital tools built by Starisian Technologies. These tools are built
-specifically for AIWA programmes. No other electronic or computer tools are used with
-students.
+The only educational software and digital platforms used with students in this programme
+are built by Starisian Technologies specifically for AIWA use. AIWA does not require
+students to use personal accounts on third-party commercial platforms.
 
-All data shared with Starisian Technologies through these tools is protected. It is handled
-under a sovereign knowledge governance agreement between AIWA and Starisian Technologies.
+**Educational tools used in this programme:**
 
-All tools are used under AIWA safeguarding and data governance controls.
+| Tool | Educational Purpose | Safeguards |
+|---|---|---|
+| SPARXSTAR (Starisian Technologies) | Language learning, AI-assisted literacy, cultural knowledge documentation, and student publishing | Data protected under a sovereign knowledge governance agreement between AIWA and Starisian Technologies; no personal commercial accounts required |
+
+All tools are used under AIWA safeguarding and data governance controls. If tools used in
+the programme change, you will be notified in writing.
 
 ---
 
