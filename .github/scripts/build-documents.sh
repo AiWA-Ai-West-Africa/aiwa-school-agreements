@@ -48,43 +48,174 @@ fi
 # ── Common metadata ───────────────────────────────────────────────────────────
 AUTHOR="AI West Africa (AIWA)"
 BUILD_DATE="$(date '+%B %Y')"
+FORM_FILTER=".github/scripts/pandoc-form-compact.lua"
+FORM_LATEX_HEADER=".github/scripts/form-pdf-header.tex"
+FORM_REFERENCE_DOCX=""
+
+is_form_document() {
+  local md_file="$1"
+  [[ "$md_file" == forms/* ]]
+}
+
+prepare_form_reference_docx() {
+  if ! command -v pandoc >/dev/null 2>&1; then
+    return
+  fi
+
+  local tmp_docx
+  tmp_docx="$(mktemp --suffix=.docx)"
+
+  if ! pandoc --print-default-data-file reference.docx > "$tmp_docx"; then
+    rm -f "$tmp_docx"
+    return
+  fi
+
+  if ! python - "$tmp_docx" <<'PY'
+import os
+import shutil
+import tempfile
+import zipfile
+import xml.etree.ElementTree as ET
+
+path = os.path.abspath(__import__('sys').argv[1])
+ns = {'w': 'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}
+W = '{%s}' % ns['w']
+
+with zipfile.ZipFile(path, 'r') as zin:
+    blobs = {name: zin.read(name) for name in zin.namelist()}
+
+styles_xml = blobs.get('word/styles.xml')
+doc_xml = blobs.get('word/document.xml')
+if styles_xml is None or doc_xml is None:
+    raise SystemExit(1)
+
+styles_root = ET.fromstring(styles_xml)
+normal = styles_root.find(".//w:style[@w:styleId='Normal']", ns)
+if normal is not None:
+    rpr = normal.find('w:rPr', ns)
+    if rpr is None:
+        rpr = ET.SubElement(normal, W + 'rPr')
+    sz = rpr.find('w:sz', ns)
+    if sz is None:
+        sz = ET.SubElement(rpr, W + 'sz')
+    sz.set(W + 'val', '18')
+    szcs = rpr.find('w:szCs', ns)
+    if szcs is None:
+        szcs = ET.SubElement(rpr, W + 'szCs')
+    szcs.set(W + 'val', '18')
+
+doc_root = ET.fromstring(doc_xml)
+for sect in doc_root.findall('.//w:sectPr', ns):
+    cols = sect.find('w:cols', ns)
+    if cols is None:
+        cols = ET.SubElement(sect, W + 'cols')
+    cols.set(W + 'num', '2')
+    cols.set(W + 'space', '560')
+
+blobs['word/styles.xml'] = ET.tostring(styles_root, encoding='utf-8', xml_declaration=True)
+blobs['word/document.xml'] = ET.tostring(doc_root, encoding='utf-8', xml_declaration=True)
+
+fd, tmppath = tempfile.mkstemp(suffix='.docx')
+os.close(fd)
+try:
+    with zipfile.ZipFile(tmppath, 'w', compression=zipfile.ZIP_DEFLATED) as zout:
+        for name, data in blobs.items():
+            zout.writestr(name, data)
+    shutil.move(tmppath, path)
+finally:
+    if os.path.exists(tmppath):
+        os.remove(tmppath)
+PY
+  then
+    rm -f "$tmp_docx"
+    return
+  fi
+
+  FORM_REFERENCE_DOCX="$tmp_docx"
+}
+
+cleanup() {
+  if [ -n "$FORM_REFERENCE_DOCX" ] && [ -f "$FORM_REFERENCE_DOCX" ]; then
+    rm -f "$FORM_REFERENCE_DOCX"
+  fi
+}
+trap cleanup EXIT
+
+prepare_form_reference_docx
+if [ -n "$FORM_REFERENCE_DOCX" ]; then
+  echo "ℹ Using generated compact form DOCX reference template"
+fi
 
 # ── PDF build ─────────────────────────────────────────────────────────────────
 build_pdf() {
-  local md_file="$1" out_file="$2" title="$3"
+  local md_file="$1" out_file="$2" title="$3" is_form="$4"
+  local -a pandoc_args=(
+    "$md_file"
+    --standalone
+    --pdf-engine=xelatex
+    -V colorlinks=true
+    -V linkcolor=NavyBlue
+    -V urlcolor=NavyBlue
+    -V toccolor=NavyBlue
+    -V mainfont="Liberation Serif"
+    -V sansfont="Liberation Sans"
+    -V monofont="Liberation Mono"
+  )
 
-  pandoc "$md_file" \
-    --standalone \
-    --toc \
-    --toc-depth=3 \
-    --pdf-engine=xelatex \
-    --metadata "title=$title" \
-    --metadata "author=$AUTHOR" \
-    --metadata "date=$BUILD_DATE" \
-    -V geometry:margin=2.5cm \
-    -V colorlinks=true \
-    -V linkcolor=NavyBlue \
-    -V urlcolor=NavyBlue \
-    -V toccolor=NavyBlue \
-    -V mainfont="Liberation Serif" \
-    -V sansfont="Liberation Sans" \
-    -V monofont="Liberation Mono" \
+  if [ "$is_form" = true ]; then
+    pandoc_args+=(
+      --lua-filter "$FORM_FILTER"
+      -H "$FORM_LATEX_HEADER"
+      -V geometry:margin=1.0cm
+      -V fontsize=9pt
+      -V linestretch=0.95
+      -V classoption=twocolumn
+    )
+  else
+    pandoc_args+=(
+      --toc
+      --toc-depth=3
+      --metadata "title=$title"
+      --metadata "author=$AUTHOR"
+      --metadata "date=$BUILD_DATE"
+      -V geometry:margin=2.5cm
+    )
+  fi
+
+  pandoc "${pandoc_args[@]}" \
     "${EISVOGEL_OPT[@]}" \
     -o "$out_file"
 }
 
 # ── DOCX build ────────────────────────────────────────────────────────────────
 build_docx() {
-  local md_file="$1" out_file="$2" title="$3"
+  local md_file="$1" out_file="$2" title="$3" is_form="$4"
+  local -a pandoc_args=(
+    "$md_file"
+    --standalone
+  )
 
-  pandoc "$md_file" \
-    --standalone \
-    --toc \
-    --toc-depth=3 \
-    --metadata "title=$title" \
-    --metadata "author=$AUTHOR" \
-    --metadata "date=$BUILD_DATE" \
-    "${REFERENCE_DOC_OPT[@]}" \
+  if [ "$is_form" = true ]; then
+    pandoc_args+=(
+      --lua-filter "$FORM_FILTER"
+    )
+    if [ -n "$FORM_REFERENCE_DOCX" ] && [ -f "$FORM_REFERENCE_DOCX" ]; then
+      pandoc_args+=(--reference-doc "$FORM_REFERENCE_DOCX")
+    else
+      pandoc_args+=("${REFERENCE_DOC_OPT[@]}")
+    fi
+  else
+    pandoc_args+=(
+      --toc
+      --toc-depth=3
+      --metadata "title=$title"
+      --metadata "author=$AUTHOR"
+      --metadata "date=$BUILD_DATE"
+      "${REFERENCE_DOC_OPT[@]}"
+    )
+  fi
+
+  pandoc "${pandoc_args[@]}" \
     -o "$out_file"
 }
 
@@ -121,19 +252,24 @@ for dir in "${DOCUMENT_DIRS[@]}"; do
     mkdir -p "$(dirname "$out_base")"
 
     title="$(extract_title "$md_file")"
+    is_form=false
+    if is_form_document "$md_file"; then
+      is_form=true
+    fi
+
     echo "▶  $md_file"
     echo "   Title: $title"
 
     pdf_ok=true
     docx_ok=true
 
-    if ! build_pdf "$md_file" "${out_base}.pdf" "$title" \
+    if ! build_pdf "$md_file" "${out_base}.pdf" "$title" "$is_form" \
          2>"${out_base}.pdf.log"; then
       echo "   ⚠  PDF failed — see ${out_base}.pdf.log"
       pdf_ok=false
     fi
 
-    if ! build_docx "$md_file" "${out_base}.docx" "$title" \
+    if ! build_docx "$md_file" "${out_base}.docx" "$title" "$is_form" \
          2>"${out_base}.docx.log"; then
       echo "   ⚠  DOCX failed — see ${out_base}.docx.log"
       docx_ok=false
