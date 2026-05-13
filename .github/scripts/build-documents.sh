@@ -48,42 +48,75 @@ fi
 # ── Common metadata ───────────────────────────────────────────────────────────
 AUTHOR="AI West Africa (AIWA)"
 BUILD_DATE="$(date '+%B %Y')"
+FORM_FILTER=".github/scripts/pandoc-form-compact.lua"
+
+is_form_document() {
+  local md_file="$1"
+  [[ "$md_file" == forms/* ]]
+}
 
 # ── PDF build ─────────────────────────────────────────────────────────────────
 build_pdf() {
-  local md_file="$1" out_file="$2" title="$3"
+  local md_file="$1" out_file="$2" title="$3" is_form="$4"
+  local -a pandoc_args=(
+    "$md_file"
+    --standalone
+    --pdf-engine=xelatex
+    --metadata "title=$title"
+    --metadata "author=$AUTHOR"
+    --metadata "date=$BUILD_DATE"
+    -V colorlinks=true
+    -V linkcolor=NavyBlue
+    -V urlcolor=NavyBlue
+    -V toccolor=NavyBlue
+    -V mainfont="Liberation Serif"
+    -V sansfont="Liberation Sans"
+    -V monofont="Liberation Mono"
+  )
 
-  pandoc "$md_file" \
-    --standalone \
-    --toc \
-    --toc-depth=3 \
-    --pdf-engine=xelatex \
-    --metadata "title=$title" \
-    --metadata "author=$AUTHOR" \
-    --metadata "date=$BUILD_DATE" \
-    -V geometry:margin=2.5cm \
-    -V colorlinks=true \
-    -V linkcolor=NavyBlue \
-    -V urlcolor=NavyBlue \
-    -V toccolor=NavyBlue \
-    -V mainfont="Liberation Serif" \
-    -V sansfont="Liberation Sans" \
-    -V monofont="Liberation Mono" \
+  if [ "$is_form" = true ]; then
+    pandoc_args+=(
+      --lua-filter "$FORM_FILTER"
+      -V geometry:margin=1.4cm
+      -V fontsize=10pt
+      -V linestretch=1.05
+    )
+  else
+    pandoc_args+=(
+      --toc
+      --toc-depth=3
+      -V geometry:margin=2.5cm
+    )
+  fi
+
+  pandoc "${pandoc_args[@]}" \
     "${EISVOGEL_OPT[@]}" \
     -o "$out_file"
 }
 
 # ── DOCX build ────────────────────────────────────────────────────────────────
 build_docx() {
-  local md_file="$1" out_file="$2" title="$3"
+  local md_file="$1" out_file="$2" title="$3" is_form="$4"
+  local -a pandoc_args=(
+    "$md_file"
+    --standalone
+    --metadata "title=$title"
+    --metadata "author=$AUTHOR"
+    --metadata "date=$BUILD_DATE"
+  )
 
-  pandoc "$md_file" \
-    --standalone \
-    --toc \
-    --toc-depth=3 \
-    --metadata "title=$title" \
-    --metadata "author=$AUTHOR" \
-    --metadata "date=$BUILD_DATE" \
+  if [ "$is_form" = true ]; then
+    pandoc_args+=(
+      --lua-filter "$FORM_FILTER"
+    )
+  else
+    pandoc_args+=(
+      --toc
+      --toc-depth=3
+    )
+  fi
+
+  pandoc "${pandoc_args[@]}" \
     "${REFERENCE_DOC_OPT[@]}" \
     -o "$out_file"
 }
@@ -121,19 +154,23 @@ for dir in "${DOCUMENT_DIRS[@]}"; do
     mkdir -p "$(dirname "$out_base")"
 
     title="$(extract_title "$md_file")"
+    is_form=false
+    if is_form_document "$md_file"; then
+      is_form=true
+    fi
     echo "▶  $md_file"
     echo "   Title: $title"
 
     pdf_ok=true
     docx_ok=true
 
-    if ! build_pdf "$md_file" "${out_base}.pdf" "$title" \
+    if ! build_pdf "$md_file" "${out_base}.pdf" "$title" "$is_form" \
          2>"${out_base}.pdf.log"; then
       echo "   ⚠  PDF failed — see ${out_base}.pdf.log"
       pdf_ok=false
     fi
 
-    if ! build_docx "$md_file" "${out_base}.docx" "$title" \
+    if ! build_docx "$md_file" "${out_base}.docx" "$title" "$is_form" \
          2>"${out_base}.docx.log"; then
       echo "   ⚠  DOCX failed — see ${out_base}.docx.log"
       docx_ok=false
