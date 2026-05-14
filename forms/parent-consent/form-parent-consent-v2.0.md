@@ -141,7 +141,7 @@ at the bottom of this form.*
 
 ---
 
-*Verbal/oral consent given or third-party witness/teacher (if parent/guardian cannot read independently):*
+*Oral consent given or third-party witness/teacher (if parent/guardian cannot read independently):*
 Name: _____________________________ Role: _____________________________
 Signature: _____________________________ Date: _______________
 
