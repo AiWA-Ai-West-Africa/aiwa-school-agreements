@@ -167,6 +167,11 @@ def set_bold(rpr):
     ensure_child(rpr, 'b')
     ensure_child(rpr, 'bCs')
 
+def clear_paragraph_border(ppr):
+    border = ppr.find('w:pBdr', ns)
+    if border is not None:
+        ppr.remove(border)
+
 doc_defaults = styles_root.find('w:docDefaults', ns)
 if doc_defaults is None:
     doc_defaults = ET.SubElement(styles_root, W + 'docDefaults')
@@ -197,12 +202,12 @@ for style_id, size, before, after, line, color in [
     set_spacing(style_ppr, before=before, after=after, line=line)
 
 for style_id, size, before, after, color in [
-    ('Title', 30, 0, 120, '17365D'),
-    ('Heading1', 28, 120, 70, '17365D'),
-    ('Heading2', 24, 100, 50, '2C5C85'),
-    ('Heading3', 22, 80, 40, '2C5C85'),
-    ('Heading4', 20, 70, 30, '2C5C85'),
-    ('Subtitle', 22, 0, 70, '2C5C85'),
+    ('Title', 28, 0, 100, '000000'),
+    ('Heading1', 24, 100, 60, '000000'),
+    ('Heading2', 22, 80, 40, '000000'),
+    ('Heading3', 20, 60, 30, '000000'),
+    ('Heading4', 20, 50, 24, '000000'),
+    ('Subtitle', 20, 0, 50, '000000'),
 ]:
     style = find_style(style_id)
     if style is None:
@@ -213,6 +218,7 @@ for style_id, size, before, after, color in [
     set_bold(style_rpr)
     set_color(style_rpr, color)
     style_ppr = ensure_child(style, 'pPr')
+    clear_paragraph_border(style_ppr)
     ensure_child(style_ppr, 'keepNext')
     set_spacing(style_ppr, before=before, after=after, line=240)
 
@@ -297,6 +303,7 @@ build_pdf() {
   if [ "$is_form" = true ]; then
     pandoc_args+=(
       --lua-filter "$FORM_FILTER"
+      --lua-filter "$FORM_DOCX_FILTER"
       -H "$FORM_LATEX_HEADER"
       -V mainfont="$FORM_MAINFONT"
       -V sansfont="$FORM_MAINFONT"

@@ -112,19 +112,6 @@ permissions apply.
 If licensed use of your work earns money, you may qualify for payment or royalties under
 separate rights and licensing agreements.
 
-The only educational software and digital platforms used with students in this programme
-are built by Starisian Technologies specifically for AIWA use. AIWA does not require
-students to use personal accounts on third-party commercial platforms.
-
-**Educational tools used in this programme:**
-
-| Tool | Educational Purpose | Safeguards |
-|---|---|---|
-| SPARXSTAR (Starisian Technologies) | Language learning, AI-assisted literacy, cultural knowledge documentation, and student publishing | Data protected under a sovereign knowledge governance agreement between AIWA and Starisian Technologies; no personal commercial accounts required |
-
-All tools are used under AIWA safeguarding and data governance controls. If tools used in
-the programme change, you will be told in writing.
-
 ---
 
 ### Questions and Concerns
@@ -155,15 +142,11 @@ Please read and tick each box if you agree:
 ☐ I confirm the work I submit is my own or I have permission to contribute it, and is
   not copied or taken from unlicensed protected sources
 
-☐ I am happy to join **[PROGRAM_NAME]** and I will do my best
+☐ I am happy to join this programme and I will do my best
 
 ---
 
 **My Name:** ___________________________________
-
-**My Class:** ___________________________________
-
-**My School:** [SCHOOL_NAME]
 
 **My Signature or Mark:** ______________________________
 
@@ -177,16 +160,6 @@ presence of a teacher. The teacher should note this below.*
 Teacher confirmation (if verbal agreement given): ___________________________
 
 Teacher name: ___________________________ Date: _______________
-
----
-
-*For AIWA Use Only*
-
-Form received by: _____________________________ Date: _______________
-
----
-
-*For full details on privacy, data use, and all AIWA policies, visit **aiwestafrica.com***
 
 ---
 

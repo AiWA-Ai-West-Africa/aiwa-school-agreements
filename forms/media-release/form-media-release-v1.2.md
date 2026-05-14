@@ -13,9 +13,6 @@
 ## MEDIA AND PHOTOGRAPHY PERMISSION FORM
 ### For Parents and Guardians
 
-**School:** [SCHOOL_NAME]
-**Programme:** [PROGRAM_NAME]
-
 ---
 
 Dear Parent / Guardian,
@@ -77,6 +74,7 @@ AIWA may make audio recordings during programme activities, including oral story
 - Your child's creative or oral work will **never** be used to train artificial intelligence (AI) systems.
 - You may change your decision at any time by contacting AIWA.
 - Separate permission will always be requested for major publications or special projects.
+- For full details on privacy, data use, and all AIWA policies, visit **aiwestafrica.com**
 
 ---
 
@@ -97,10 +95,6 @@ AIWA may make audio recordings during programme activities, including oral story
 Form received by: _____________________________ Date: _______________
 
 Consent level recorded: ______________________________________
-
----
-
-*For full details on privacy, data use, and all AIWA policies, visit **aiwestafrica.com***
 
 ---
 

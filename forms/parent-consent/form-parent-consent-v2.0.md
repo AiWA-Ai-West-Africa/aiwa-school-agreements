@@ -13,9 +13,6 @@
 ## AIWA PROGRAMME PERMISSION FORM
 ### For Parents and Guardians
 
-**School:** [SCHOOL_NAME]
-**Programme:** [PROGRAM_NAME]
-
 ---
 
 Dear Parent / Guardian,
@@ -111,22 +108,16 @@ If you ever have any concern about your child's welfare, please contact us:
 We will keep your child's name, class, and your contact details.
 This information is used only to run the programme safely.
 It is not shared with other organisations.
+For full details on privacy, data use, and all AIWA policies, visit **aiwestafrica.com**.
 
 ---
 
 ### Permission
 
-*Please complete the section below and return to the school. If you need this form explained
-in another language, or if you would prefer to give your permission by speaking with an AIWA
-facilitator directly, please contact us at [AIWA_CONTACT_PHONE] and we will arrange this.*
-
 *If a parent or guardian cannot read this form independently, it must be read aloud and
 explained in a language they understand by a third-party witness (for example, a teacher
 or school representative). In this case, both the parent/guardian and the witness must sign
 at the bottom of this form.*
-
-*If you gave permission verbally with a facilitator rather than in writing, the facilitator
-will note this at the bottom of this form.*
 
 ---
 
@@ -150,23 +141,9 @@ will note this at the bottom of this form.*
 
 ---
 
-*For AIWA Use Only*
-
-Form received by: _____________________________ Date: _______________
-
-Entered in register: ☐ Yes   Reference: _____________________________
-
-Verbal/oral consent given (if applicable):
-Facilitator name: _____________________________ Date: _______________
-Language used for explanation: _____________________________
-
-Third-party witness/teacher (if parent/guardian cannot read independently):
+*Verbal/oral consent given, Third-party witness/teacher (if parent/guardian cannot read independently):*
 Name: _____________________________ Role: _____________________________
 Signature: _____________________________ Date: _______________
-
----
-
-*For full details on privacy, data use, and all AIWA policies, visit **aiwestafrica.com***
 
 ---
 
