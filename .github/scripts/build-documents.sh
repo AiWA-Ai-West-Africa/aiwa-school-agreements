@@ -101,7 +101,8 @@ prepare_form_reference_docx() {
     fi
   fi
 
-  if ! python - "$tmp_docx" <<'PY'
+  if ! FORM_DOCX_FONT="$FORM_MAINFONT" FORM_DOCX_MONOFONT="$FORM_MONOFONT" \
+    python - "$tmp_docx" <<'PY'
 import os
 import shutil
 import tempfile
@@ -111,6 +112,8 @@ import xml.etree.ElementTree as ET
 path = os.path.abspath(__import__('sys').argv[1])
 ns = {'w': 'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}
 W = '{%s}' % ns['w']
+FORM_FONT = os.environ.get('FORM_DOCX_FONT', 'Noto Sans')
+FORM_MONOFONT = os.environ.get('FORM_DOCX_MONOFONT', 'Noto Sans Mono')
 
 with zipfile.ZipFile(path, 'r') as zin:
     blobs = {name: zin.read(name) for name in zin.namelist()}
@@ -171,7 +174,7 @@ rpr_default = doc_defaults.find('w:rPrDefault', ns)
 if rpr_default is None:
     rpr_default = ET.SubElement(doc_defaults, W + 'rPrDefault')
 rpr = ensure_child(rpr_default, 'rPr')
-set_fonts(rpr, 'Noto Sans')
+set_fonts(rpr, FORM_FONT)
 set_size(rpr, 20)
 
 for style_id, size, before, after, line, color in [
@@ -186,7 +189,7 @@ for style_id, size, before, after, line, color in [
     if style is None:
         continue
     style_rpr = ensure_child(style, 'rPr')
-    set_fonts(style_rpr, 'Noto Sans')
+    set_fonts(style_rpr, FORM_FONT)
     set_size(style_rpr, size)
     if color:
         set_color(style_rpr, color)
@@ -205,7 +208,7 @@ for style_id, size, before, after, color in [
     if style is None:
         continue
     style_rpr = ensure_child(style, 'rPr')
-    set_fonts(style_rpr, 'Noto Sans')
+    set_fonts(style_rpr, FORM_FONT)
     set_size(style_rpr, size)
     set_bold(style_rpr)
     set_color(style_rpr, color)
@@ -218,7 +221,7 @@ for style_id in ('SourceCode', 'VerbatimChar', 'CodeBlock'):
     if style is None:
         continue
     style_rpr = ensure_child(style, 'rPr')
-    set_fonts(style_rpr, 'Noto Sans Mono', monofont=True)
+    set_fonts(style_rpr, FORM_MONOFONT, monofont=True)
 
 for sect in doc_root.findall('.//w:sectPr', ns):
     pg_sz = ensure_child(sect, 'pgSz')

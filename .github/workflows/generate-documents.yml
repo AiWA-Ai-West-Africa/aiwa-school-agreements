@@ -241,7 +241,7 @@ jobs:
           EOF
 
           if gh release view "$TAG_NAME" --repo "$GH_REPO" >/dev/null 2>&1; then
-            echo "Recreating immutable prerelease: $TAG_NAME"
+            echo "Refreshing persistent prerelease: $TAG_NAME"
             gh release delete "$TAG_NAME" --yes --cleanup-tag --repo "$GH_REPO"
           fi
 
