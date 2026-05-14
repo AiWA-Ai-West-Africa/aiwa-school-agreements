@@ -60,7 +60,7 @@ You do not have to give consent. Refusing will not affect your involvement in th
 - Your creative or oral contributions will **never** be used to train artificial intelligence (AI) systems.
 - You may withdraw this consent at any time by contacting [AIWA_CONTACT_EMAIL].
 - Separate consent will be requested for major publications or special projects.
-- For full details on privacy, data use, and all AIWA policies, visit **aiwestafrica.com**
+- For full details on privacy, data use, and all AIWA policies, visit **aiwestafrica.com**.
 
 ---
 
