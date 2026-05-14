@@ -81,7 +81,7 @@ function Pandoc(doc)
     elseif is_adult_media_form and text == "Audio Recordings" then
       skip_until_text = "My Name"
       include_matching_block = true
-    elseif is_media_form and block.t == "Header" and text:lower():match("^media and photography") then
+    elseif block.t == "Header" and text:lower():match("^media and photography") then
       -- The document title already provides this label.
     elseif is_parent_programme_form and text:match("^Please complete the section below and return to the school") then
       -- Drop facilitator/process instructions from the signer-facing output.
@@ -107,7 +107,7 @@ function Pandoc(doc)
         .. doc_title
         .. "': "
         .. skip_until_text
-        .. ". The form structure may have changed."
+        .. ". The form structure may have changed; please verify that the expected section heading still exists."
     )
   end
 
