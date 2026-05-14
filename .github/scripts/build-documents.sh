@@ -289,9 +289,6 @@ build_pdf() {
     -V linkcolor=NavyBlue
     -V urlcolor=NavyBlue
     -V toccolor=NavyBlue
-    -V mainfont="Liberation Serif"
-    -V sansfont="Liberation Sans"
-    -V monofont="Liberation Mono"
   )
 
   if [ "$is_form" = true ]; then
@@ -312,6 +309,9 @@ build_pdf() {
       --metadata "title=$title"
       --metadata "author=$AUTHOR"
       --metadata "date=$BUILD_DATE"
+      -V mainfont="Liberation Serif"
+      -V sansfont="Liberation Sans"
+      -V monofont="Liberation Mono"
       -V geometry:margin=2.5cm
     )
   fi
