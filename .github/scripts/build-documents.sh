@@ -49,8 +49,33 @@ fi
 AUTHOR="AI West Africa (AIWA)"
 BUILD_DATE="$(date '+%B %Y')"
 FORM_FILTER=".github/scripts/pandoc-form-compact.lua"
+FORM_DOCX_FILTER=".github/scripts/pandoc-form-docx.lua"
 FORM_LATEX_HEADER=".github/scripts/form-pdf-header.tex"
 FORM_REFERENCE_DOCX=""
+
+font_available() {
+  local font_name="$1"
+
+  if ! command -v fc-match >/dev/null 2>&1; then
+    return 1
+  fi
+
+  [ "$(fc-match -f '%{family[0]}\n' "$font_name" 2>/dev/null | head -n1)" = "$font_name" ]
+}
+
+pick_font() {
+  local preferred="$1"
+  local fallback="$2"
+
+  if font_available "$preferred"; then
+    echo "$preferred"
+  else
+    echo "$fallback"
+  fi
+}
+
+FORM_MAINFONT="$(pick_font "Noto Sans" "Liberation Sans")"
+FORM_MONOFONT="$(pick_font "Noto Sans Mono" "Liberation Mono")"
 
 is_form_document() {
   local md_file="$1"
@@ -65,13 +90,15 @@ prepare_form_reference_docx() {
   local tmp_docx
   tmp_docx="$(mktemp --suffix=.docx)"
 
-  # Seed from the branded committed template when present so custom heading
-  # styles, margins, and fonts are preserved; fall back to Pandoc's default.
-  if [ -f "templates/reference/reference.docx" ]; then
-    cp "templates/reference/reference.docx" "$tmp_docx"
-  elif ! pandoc --print-default-data-file reference.docx > "$tmp_docx"; then
-    rm -f "$tmp_docx"
-    return
+  # Start from Pandoc's default reference document so form-specific styles
+  # such as Body Text, Compact, and list variants remain available.
+  if ! pandoc --print-default-data-file reference.docx > "$tmp_docx"; then
+    if [ -f "templates/reference/reference.docx" ]; then
+      cp "templates/reference/reference.docx" "$tmp_docx"
+    else
+      rm -f "$tmp_docx"
+      return
+    fi
   fi
 
   if ! python - "$tmp_docx" <<'PY'
@@ -94,27 +121,125 @@ if styles_xml is None or doc_xml is None:
     raise SystemExit(1)
 
 styles_root = ET.fromstring(styles_xml)
-normal = styles_root.find(".//w:style[@w:styleId='Normal']", ns)
-if normal is not None:
-    rpr = normal.find('w:rPr', ns)
-    if rpr is None:
-        rpr = ET.SubElement(normal, W + 'rPr')
-    sz = rpr.find('w:sz', ns)
-    if sz is None:
-        sz = ET.SubElement(rpr, W + 'sz')
-    sz.set(W + 'val', '18')
-    szcs = rpr.find('w:szCs', ns)
-    if szcs is None:
-        szcs = ET.SubElement(rpr, W + 'szCs')
-    szcs.set(W + 'val', '18')
-
 doc_root = ET.fromstring(doc_xml)
+
+def ensure_child(parent, tag):
+    child = parent.find(f'w:{tag}', ns)
+    if child is None:
+        child = ET.SubElement(parent, W + tag)
+    return child
+
+def find_style(style_id):
+    return styles_root.find(f".//w:style[@w:styleId='{style_id}']", ns)
+
+def set_fonts(rpr, font_name, monofont=False):
+    fonts = ensure_child(rpr, 'rFonts')
+    fonts.set(W + 'ascii', font_name)
+    fonts.set(W + 'hAnsi', font_name)
+    fonts.set(W + 'cs', font_name)
+    if monofont:
+        fonts.set(W + 'eastAsia', font_name)
+
+def set_size(rpr, size):
+    sz = ensure_child(rpr, 'sz')
+    sz.set(W + 'val', str(size))
+    szcs = ensure_child(rpr, 'szCs')
+    szcs.set(W + 'val', str(size))
+
+def set_spacing(ppr, before=None, after=None, line=None):
+    spacing = ensure_child(ppr, 'spacing')
+    if before is not None:
+        spacing.set(W + 'before', str(before))
+    if after is not None:
+        spacing.set(W + 'after', str(after))
+    if line is not None:
+        spacing.set(W + 'line', str(line))
+        spacing.set(W + 'lineRule', 'auto')
+
+def set_color(rpr, color):
+    color_el = ensure_child(rpr, 'color')
+    color_el.set(W + 'val', color)
+
+def set_bold(rpr):
+    ensure_child(rpr, 'b')
+    ensure_child(rpr, 'bCs')
+
+doc_defaults = styles_root.find('w:docDefaults', ns)
+if doc_defaults is None:
+    doc_defaults = ET.SubElement(styles_root, W + 'docDefaults')
+rpr_default = doc_defaults.find('w:rPrDefault', ns)
+if rpr_default is None:
+    rpr_default = ET.SubElement(doc_defaults, W + 'rPrDefault')
+rpr = ensure_child(rpr_default, 'rPr')
+set_fonts(rpr, 'Noto Sans')
+set_size(rpr, 20)
+
+for style_id, size, before, after, line, color in [
+    ('Normal', 20, 0, 40, 264, None),
+    ('BodyText', 20, 0, 40, 264, None),
+    ('BodyText2', 20, 0, 40, 264, None),
+    ('FirstParagraph', 20, 0, 40, 264, None),
+    ('ListParagraph', 20, 0, 20, 240, None),
+    ('Compact', 18, 0, 10, 220, None),
+]:
+    style = find_style(style_id)
+    if style is None:
+        continue
+    style_rpr = ensure_child(style, 'rPr')
+    set_fonts(style_rpr, 'Noto Sans')
+    set_size(style_rpr, size)
+    if color:
+        set_color(style_rpr, color)
+    style_ppr = ensure_child(style, 'pPr')
+    set_spacing(style_ppr, before=before, after=after, line=line)
+
+for style_id, size, before, after, color in [
+    ('Title', 30, 0, 120, '17365D'),
+    ('Heading1', 28, 120, 70, '17365D'),
+    ('Heading2', 24, 100, 50, '2C5C85'),
+    ('Heading3', 22, 80, 40, '2C5C85'),
+    ('Heading4', 20, 70, 30, '2C5C85'),
+    ('Subtitle', 22, 0, 70, '2C5C85'),
+]:
+    style = find_style(style_id)
+    if style is None:
+        continue
+    style_rpr = ensure_child(style, 'rPr')
+    set_fonts(style_rpr, 'Noto Sans')
+    set_size(style_rpr, size)
+    set_bold(style_rpr)
+    set_color(style_rpr, color)
+    style_ppr = ensure_child(style, 'pPr')
+    ensure_child(style_ppr, 'keepNext')
+    set_spacing(style_ppr, before=before, after=after, line=240)
+
+for style_id in ('SourceCode', 'VerbatimChar', 'CodeBlock'):
+    style = find_style(style_id)
+    if style is None:
+        continue
+    style_rpr = ensure_child(style, 'rPr')
+    set_fonts(style_rpr, 'Noto Sans Mono', monofont=True)
+
 for sect in doc_root.findall('.//w:sectPr', ns):
-    cols = sect.find('w:cols', ns)
-    if cols is None:
-        cols = ET.SubElement(sect, W + 'cols')
-    cols.set(W + 'num', '2')
-    cols.set(W + 'space', '560')
+    pg_sz = ensure_child(sect, 'pgSz')
+    pg_sz.set(W + 'w', '11906')
+    pg_sz.set(W + 'h', '16838')
+
+    pg_mar = ensure_child(sect, 'pgMar')
+    for attr, value in {
+        'top': '709',
+        'right': '709',
+        'bottom': '709',
+        'left': '709',
+        'header': '340',
+        'footer': '340',
+        'gutter': '0',
+    }.items():
+        pg_mar.set(W + attr, value)
+
+    cols = ensure_child(sect, 'cols')
+    cols.set(W + 'num', '1')
+    cols.set(W + 'space', '360')
 
 blobs['word/styles.xml'] = ET.tostring(styles_root, encoding='utf-8', xml_declaration=True)
 blobs['word/document.xml'] = ET.tostring(doc_root, encoding='utf-8', xml_declaration=True)
@@ -147,8 +272,11 @@ trap cleanup EXIT
 
 prepare_form_reference_docx
 if [ -n "$FORM_REFERENCE_DOCX" ]; then
-  echo "ℹ Using generated compact form DOCX reference template"
+  echo "ℹ Using generated form DOCX reference template"
 fi
+
+echo "ℹ Form PDF font: $FORM_MAINFONT"
+echo "ℹ Form monospace font: $FORM_MONOFONT"
 
 # ── PDF build ─────────────────────────────────────────────────────────────────
 build_pdf() {
@@ -170,9 +298,12 @@ build_pdf() {
     pandoc_args+=(
       --lua-filter "$FORM_FILTER"
       -H "$FORM_LATEX_HEADER"
-      -V geometry:margin=1.0cm
-      -V fontsize=9pt
-      -V linestretch=1.0
+      -V mainfont="$FORM_MAINFONT"
+      -V sansfont="$FORM_MAINFONT"
+      -V monofont="$FORM_MONOFONT"
+      -V geometry:margin=1.25cm
+      -V fontsize=10pt
+      -V linestretch=1.05
     )
   else
     pandoc_args+=(
@@ -201,6 +332,7 @@ build_docx() {
   if [ "$is_form" = true ]; then
     pandoc_args+=(
       --lua-filter "$FORM_FILTER"
+      --lua-filter "$FORM_DOCX_FILTER"
     )
     if [ -n "$FORM_REFERENCE_DOCX" ] && [ -f "$FORM_REFERENCE_DOCX" ]; then
       pandoc_args+=(--reference-doc "$FORM_REFERENCE_DOCX")
