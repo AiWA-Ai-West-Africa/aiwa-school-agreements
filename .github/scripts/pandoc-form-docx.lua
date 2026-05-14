@@ -40,6 +40,7 @@ function Pandoc(doc)
   local skipping_internal = false
   local dropping_tail = false
   local skip_until_text = nil
+  local include_matching_block = false
 
   local is_media_form = doc_title:match("Media and Photography")
   local is_adult_media_form = doc_title:match("Adults")
@@ -54,7 +55,10 @@ function Pandoc(doc)
     elseif skip_until_text ~= nil then
       if text == skip_until_text then
         skip_until_text = nil
-        table.insert(cleaned, block)
+        if include_matching_block then
+          table.insert(cleaned, block)
+        end
+        include_matching_block = false
       end
     elseif skipping_internal then
       if block.t == "HorizontalRule" then
@@ -74,6 +78,7 @@ function Pandoc(doc)
       skipping_internal = true
     elseif is_adult_media_form and text == "Audio Recordings" then
       skip_until_text = "My Name"
+      include_matching_block = true
     elseif is_media_form and block.t == "Header" and text:match("^MEDIA AND PHOTOGRAPHY") then
       -- The document title already provides this label.
     elseif is_parent_programme_form and text:match("^Please complete the section below and return to the school") then
@@ -82,6 +87,7 @@ function Pandoc(doc)
       -- Keep only the witness signature lines below.
     elseif is_student_form and block.t == "Header" and text == "Digital Tools Used in This Programme" then
       skip_until_text = "Questions and Concerns"
+      include_matching_block = true
     elseif is_student_form and starts_with_any(text, { "My Class:", "My School:" }) then
       -- Drop redundant student fields from the public form.
     elseif block.t == "Header" and text == "Change Log" then
@@ -91,6 +97,10 @@ function Pandoc(doc)
     else
       table.insert(cleaned, block)
     end
+  end
+
+  if skip_until_text ~= nil then
+    error("Form cleanup expected to resume at block: " .. skip_until_text)
   end
 
   return pandoc.Pandoc(cleaned, doc.meta)

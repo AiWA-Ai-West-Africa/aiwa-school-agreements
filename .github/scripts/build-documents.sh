@@ -168,6 +168,8 @@ def set_bold(rpr):
     ensure_child(rpr, 'bCs')
 
 def clear_paragraph_border(ppr):
+    # Pandoc's default Title style includes a bottom border that makes forms
+    # look like reports instead of fillable handouts, so remove it here.
     border = ppr.find('w:pBdr', ns)
     if border is not None:
         ppr.remove(border)
@@ -182,45 +184,53 @@ rpr = ensure_child(rpr_default, 'rPr')
 set_fonts(rpr, FORM_FONT)
 set_size(rpr, 20)
 
-for style_id, size, before, after, line, color in [
-    ('Normal', 20, 0, 40, 264, None),
-    ('BodyText', 20, 0, 40, 264, None),
-    ('BodyText2', 20, 0, 40, 264, None),
-    ('FirstParagraph', 20, 0, 40, 264, None),
-    ('ListParagraph', 20, 0, 20, 240, None),
-    ('Compact', 18, 0, 10, 220, None),
+for style_config in [
+    {'id': 'Normal', 'font_size': 20, 'spacing_before': 0, 'spacing_after': 40, 'line_spacing': 264},
+    {'id': 'BodyText', 'font_size': 20, 'spacing_before': 0, 'spacing_after': 40, 'line_spacing': 264},
+    {'id': 'BodyText2', 'font_size': 20, 'spacing_before': 0, 'spacing_after': 40, 'line_spacing': 264},
+    {'id': 'FirstParagraph', 'font_size': 20, 'spacing_before': 0, 'spacing_after': 40, 'line_spacing': 264},
+    {'id': 'ListParagraph', 'font_size': 20, 'spacing_before': 0, 'spacing_after': 20, 'line_spacing': 240},
+    {'id': 'Compact', 'font_size': 18, 'spacing_before': 0, 'spacing_after': 10, 'line_spacing': 220},
 ]:
-    style = find_style(style_id)
+    style = find_style(style_config['id'])
     if style is None:
         continue
     style_rpr = ensure_child(style, 'rPr')
     set_fonts(style_rpr, FORM_FONT)
-    set_size(style_rpr, size)
-    if color:
-        set_color(style_rpr, color)
+    set_size(style_rpr, style_config['font_size'])
     style_ppr = ensure_child(style, 'pPr')
-    set_spacing(style_ppr, before=before, after=after, line=line)
+    set_spacing(
+        style_ppr,
+        before=style_config['spacing_before'],
+        after=style_config['spacing_after'],
+        line=style_config['line_spacing'],
+    )
 
-for style_id, size, before, after, color in [
-    ('Title', 28, 0, 100, '000000'),
-    ('Heading1', 24, 100, 60, '000000'),
-    ('Heading2', 22, 80, 40, '000000'),
-    ('Heading3', 20, 60, 30, '000000'),
-    ('Heading4', 20, 50, 24, '000000'),
-    ('Subtitle', 20, 0, 50, '000000'),
+for style_config in [
+    {'id': 'Title', 'font_size': 28, 'spacing_before': 0, 'spacing_after': 100, 'color': '000000'},
+    {'id': 'Heading1', 'font_size': 24, 'spacing_before': 100, 'spacing_after': 60, 'color': '000000'},
+    {'id': 'Heading2', 'font_size': 22, 'spacing_before': 80, 'spacing_after': 40, 'color': '000000'},
+    {'id': 'Heading3', 'font_size': 20, 'spacing_before': 60, 'spacing_after': 30, 'color': '000000'},
+    {'id': 'Heading4', 'font_size': 20, 'spacing_before': 50, 'spacing_after': 24, 'color': '000000'},
+    {'id': 'Subtitle', 'font_size': 20, 'spacing_before': 0, 'spacing_after': 50, 'color': '000000'},
 ]:
-    style = find_style(style_id)
+    style = find_style(style_config['id'])
     if style is None:
         continue
     style_rpr = ensure_child(style, 'rPr')
     set_fonts(style_rpr, FORM_FONT)
-    set_size(style_rpr, size)
+    set_size(style_rpr, style_config['font_size'])
     set_bold(style_rpr)
-    set_color(style_rpr, color)
+    set_color(style_rpr, style_config['color'])
     style_ppr = ensure_child(style, 'pPr')
     clear_paragraph_border(style_ppr)
     ensure_child(style_ppr, 'keepNext')
-    set_spacing(style_ppr, before=before, after=after, line=240)
+    set_spacing(
+        style_ppr,
+        before=style_config['spacing_before'],
+        after=style_config['spacing_after'],
+        line=240,
+    )
 
 for style_id in ('SourceCode', 'VerbatimChar', 'CodeBlock'):
     style = find_style(style_id)
