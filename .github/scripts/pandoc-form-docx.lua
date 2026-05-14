@@ -102,7 +102,13 @@ function Pandoc(doc)
   end
 
   if skip_until_text ~= nil then
-    error("Expected block not found during form cleanup: " .. skip_until_text)
+    error(
+      "Expected block not found during form cleanup for '"
+        .. doc_title
+        .. "': "
+        .. skip_until_text
+        .. ". The form structure may have changed."
+    )
   end
 
   return pandoc.Pandoc(cleaned, doc.meta)

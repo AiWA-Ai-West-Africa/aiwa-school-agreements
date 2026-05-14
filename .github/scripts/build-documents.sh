@@ -114,6 +114,7 @@ ns = {'w': 'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}
 W = '{%s}' % ns['w']
 FORM_FONT = os.environ.get('FORM_DOCX_FONT', 'Noto Sans')
 FORM_MONOFONT = os.environ.get('FORM_DOCX_MONOFONT', 'Noto Sans Mono')
+DEFAULT_TEXT_COLOR = '000000'
 
 with zipfile.ZipFile(path, 'r') as zin:
     blobs = {name: zin.read(name) for name in zin.namelist()}
@@ -167,9 +168,10 @@ def set_bold(rpr):
     ensure_child(rpr, 'b')
     ensure_child(rpr, 'bCs')
 
-def remove_style_paragraph_border(ppr):
+def remove_heading_style_paragraph_border(ppr):
     # Pandoc's default Title style includes a bottom border that makes forms
-    # look like reports instead of fillable handouts, so remove it here.
+    # look like reports instead of fillable handouts, so remove it from the
+    # form heading styles here.
     border = ppr.find('w:pBdr', ns)
     if border is not None:
         ppr.remove(border)
@@ -207,12 +209,12 @@ for style_config in [
     )
 
 for style_config in [
-    {'id': 'Title', 'font_size': 28, 'spacing_before': 0, 'spacing_after': 100, 'color': '000000'},
-    {'id': 'Heading1', 'font_size': 24, 'spacing_before': 100, 'spacing_after': 60, 'color': '000000'},
-    {'id': 'Heading2', 'font_size': 22, 'spacing_before': 80, 'spacing_after': 40, 'color': '000000'},
-    {'id': 'Heading3', 'font_size': 20, 'spacing_before': 60, 'spacing_after': 30, 'color': '000000'},
-    {'id': 'Heading4', 'font_size': 20, 'spacing_before': 50, 'spacing_after': 24, 'color': '000000'},
-    {'id': 'Subtitle', 'font_size': 20, 'spacing_before': 0, 'spacing_after': 50, 'color': '000000'},
+    {'id': 'Title', 'font_size': 28, 'spacing_before': 0, 'spacing_after': 100, 'color': DEFAULT_TEXT_COLOR},
+    {'id': 'Heading1', 'font_size': 24, 'spacing_before': 100, 'spacing_after': 60, 'color': DEFAULT_TEXT_COLOR},
+    {'id': 'Heading2', 'font_size': 22, 'spacing_before': 80, 'spacing_after': 40, 'color': DEFAULT_TEXT_COLOR},
+    {'id': 'Heading3', 'font_size': 20, 'spacing_before': 60, 'spacing_after': 30, 'color': DEFAULT_TEXT_COLOR},
+    {'id': 'Heading4', 'font_size': 20, 'spacing_before': 50, 'spacing_after': 24, 'color': DEFAULT_TEXT_COLOR},
+    {'id': 'Subtitle', 'font_size': 20, 'spacing_before': 0, 'spacing_after': 50, 'color': DEFAULT_TEXT_COLOR},
 ]:
     style = find_style(style_config['id'])
     if style is None:
@@ -223,7 +225,7 @@ for style_config in [
     set_bold(style_rpr)
     set_color(style_rpr, style_config['color'])
     style_ppr = ensure_child(style, 'pPr')
-    remove_style_paragraph_border(style_ppr)
+    remove_heading_style_paragraph_border(style_ppr)
     ensure_child(style_ppr, 'keepNext')
     set_spacing(
         style_ppr,
