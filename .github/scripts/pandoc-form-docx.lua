@@ -30,6 +30,8 @@ function Pandoc(doc)
   local cleaned = {}
   local doc_title = pandoc.utils.stringify(doc.meta.title or "")
   if doc_title == "" then
+    -- Form sources rely on the first H1 rather than explicit YAML metadata, so
+    -- fall back to that heading when Pandoc metadata title is empty.
     for _, block in ipairs(doc.blocks) do
       if block.t == "Header" and block.level == 1 then
         doc_title = pandoc.utils.stringify(block)
@@ -79,7 +81,7 @@ function Pandoc(doc)
     elseif is_adult_media_form and text == "Audio Recordings" then
       skip_until_text = "My Name"
       include_matching_block = true
-    elseif is_media_form and block.t == "Header" and text:match("^MEDIA AND PHOTOGRAPHY") then
+    elseif is_media_form and block.t == "Header" and text:lower():match("^media and photography") then
       -- The document title already provides this label.
     elseif is_parent_programme_form and text:match("^Please complete the section below and return to the school") then
       -- Drop facilitator/process instructions from the signer-facing output.
@@ -100,7 +102,7 @@ function Pandoc(doc)
   end
 
   if skip_until_text ~= nil then
-    error("Form cleanup expected to resume at block: " .. skip_until_text)
+    error("Expected block not found during form cleanup: " .. skip_until_text)
   end
 
   return pandoc.Pandoc(cleaned, doc.meta)

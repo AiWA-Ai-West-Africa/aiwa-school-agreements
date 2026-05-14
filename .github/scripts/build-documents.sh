@@ -167,7 +167,7 @@ def set_bold(rpr):
     ensure_child(rpr, 'b')
     ensure_child(rpr, 'bCs')
 
-def clear_paragraph_border(ppr):
+def remove_style_paragraph_border(ppr):
     # Pandoc's default Title style includes a bottom border that makes forms
     # look like reports instead of fillable handouts, so remove it here.
     border = ppr.find('w:pBdr', ns)
@@ -223,7 +223,7 @@ for style_config in [
     set_bold(style_rpr)
     set_color(style_rpr, style_config['color'])
     style_ppr = ensure_child(style, 'pPr')
-    clear_paragraph_border(style_ppr)
+    remove_style_paragraph_border(style_ppr)
     ensure_child(style_ppr, 'keepNext')
     set_spacing(
         style_ppr,
