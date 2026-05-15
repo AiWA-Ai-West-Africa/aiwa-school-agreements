@@ -68,8 +68,8 @@ function Pandoc(doc)
           table.insert(cleaned, pandoc.RawBlock("latex", "\\end{aiwaadminbox}"))
         end
         inside_aiwa_use_only = false
-        -- The AIWA-use-only box is the final signer-facing block in every format,
-        -- so once it closes we also drop the trailing changelog/admin tail.
+        -- In the current signer-facing forms, the AIWA-use-only box is the final
+        -- participant-visible block, so once it closes we also drop the tail.
         dropping_tail = true
       else
         table.insert(cleaned, block)
