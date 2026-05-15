@@ -39,7 +39,7 @@ function Pandoc(doc)
       end
     end
   end
-  local skipping_internal = false
+  local inside_aiwa_use_only = false
   local dropping_tail = false
   local skip_until_text = nil
   local include_matching_block = false
@@ -62,9 +62,15 @@ function Pandoc(doc)
         end
         include_matching_block = false
       end
-    elseif skipping_internal then
+    elseif inside_aiwa_use_only then
       if block.t == "HorizontalRule" then
-        skipping_internal = false
+        if FORMAT:match("latex") then
+          table.insert(cleaned, pandoc.RawBlock("latex", "\\end{aiwaadminbox}"))
+        end
+        inside_aiwa_use_only = false
+        dropping_tail = true
+      else
+        table.insert(cleaned, block)
       end
     elseif starts_with_metadata_label(text) then
       -- Drop internal document-management metadata from participant-facing DOCX files.
@@ -77,10 +83,33 @@ function Pandoc(doc)
     }) then
       -- Drop header/footer admin lines that do not help the signer.
     elseif block.t == "Para" and text == "For AIWA Use Only" then
-      skipping_internal = true
+      if FORMAT:match("latex") then
+        table.insert(cleaned, pandoc.RawBlock("latex", "\\begin{aiwaadminbox}"))
+      else
+        table.insert(
+          cleaned,
+          pandoc.Para({
+            pandoc.Strong({
+              pandoc.Str("For"),
+              pandoc.Space(),
+              pandoc.Str("AIWA"),
+              pandoc.Space(),
+              pandoc.Str("Use"),
+              pandoc.Space(),
+              pandoc.Str("Only"),
+            }),
+          })
+        )
+      end
+      inside_aiwa_use_only = true
     elseif is_adult_media_form and text == "Audio Recordings" then
       skip_until_text = "My Name"
       include_matching_block = true
+    elseif block.t == "Header" and block.level == 1 then
+      table.insert(cleaned, block)
+      if FORMAT:match("latex") then
+        table.insert(cleaned, pandoc.RawBlock("latex", "\\formheaderrule"))
+      end
     elseif block.t == "Header" and text:lower():match("^media and photography") then
       -- The document title already provides this label.
     elseif is_parent_programme_form and block.t == "Header" and text == "AIWA PROGRAMME PERMISSION FORM" then
@@ -113,6 +142,10 @@ function Pandoc(doc)
         .. skip_until_text
         .. ". The form structure may have changed; please verify that the expected section heading still exists."
     )
+  end
+
+  if inside_aiwa_use_only and FORMAT:match("latex") then
+    table.insert(cleaned, pandoc.RawBlock("latex", "\\end{aiwaadminbox}"))
   end
 
   return pandoc.Pandoc(cleaned, doc.meta)

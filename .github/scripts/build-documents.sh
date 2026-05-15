@@ -314,16 +314,16 @@ build_pdf() {
 
   if [ "$is_form" = true ]; then
     pandoc_args+=(
-      --lua-filter "$FORM_FILTER"
       --lua-filter "$FORM_DOCX_FILTER"
+      --lua-filter "$FORM_FILTER"
       -H "$FORM_LATEX_HEADER"
       -V mainfont="$FORM_MAINFONT"
       -V sansfont="$FORM_MAINFONT"
       -V monofont="$FORM_MONOFONT"
       -V geometry:a4paper
-      -V geometry:margin=1.25cm
-      -V fontsize=10pt
-      -V linestretch=1.05
+      -V geometry:margin=12.7mm
+      -V fontsize=9pt
+      -V linestretch=1.03
     )
   else
     pandoc_args+=(
@@ -354,8 +354,8 @@ build_docx() {
 
   if [ "$is_form" = true ]; then
     pandoc_args+=(
-      --lua-filter "$FORM_FILTER"
       --lua-filter "$FORM_DOCX_FILTER"
+      --lua-filter "$FORM_FILTER"
     )
     if [ -n "$FORM_REFERENCE_DOCX" ] && [ -f "$FORM_REFERENCE_DOCX" ]; then
       pandoc_args+=(--reference-doc "$FORM_REFERENCE_DOCX")
