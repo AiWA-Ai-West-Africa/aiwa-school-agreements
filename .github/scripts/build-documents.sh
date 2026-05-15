@@ -320,6 +320,7 @@ build_pdf() {
       -V mainfont="$FORM_MAINFONT"
       -V sansfont="$FORM_MAINFONT"
       -V monofont="$FORM_MONOFONT"
+      -V geometry:a4paper
       -V geometry:margin=1.25cm
       -V fontsize=10pt
       -V linestretch=1.05
