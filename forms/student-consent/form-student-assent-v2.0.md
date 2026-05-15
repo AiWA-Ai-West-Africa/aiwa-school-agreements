@@ -16,111 +16,41 @@
 
 ---
 
-### Welcome to the Programme!
-
-AI West Africa (AIWA) is working with your school to run a programme called
-**[PROGRAM_NAME]**.
-
-This programme is for students who want to develop their skills, confidence, and creativity.
+AI West Africa (AIWA) is working with your school to run **[PROGRAM_NAME]**. This programme
+helps students build confidence, creativity, and communication skills.
 
 ---
 
-### What Is This Programme?
+### What You Will Do
 
-In **[PROGRAM_NAME]**, you will:
-
-- Improve your reading and writing skills
-- Write your own stories, poems, and creative pieces
-- Learn about storytelling and Gambian languages
-- Discover how books and publications are made
-- Help preserve and document Gambian languages and oral traditions
-- Learn how educational language tools can support literacy and publishing
-- Work together with other students on creative projects
-- Build your confidence in speaking and sharing ideas
+- Read, write, and share stories, poems, and other creative work
+- Learn about storytelling, Gambian languages, and how books are made
+- Work with other students and build confidence in speaking and sharing ideas
 
 ---
 
-### What Do You Get?
+### Important Points
 
-Students who complete the programme will:
+- Joining is your choice. You can leave at any time without getting into trouble at school.
+- Attend sessions, do your best, treat others with respect, and tell a teacher or AIWA
+  facilitator if anything worries you.
+- Your original work belongs to you. AIWA will not publish or publicly share it without asking
+  you and your parent or guardian first.
+- Only submit work you created yourself or have permission to use.
+- If you and your parent or guardian separately agree to extended use, AIWA and its
+  affiliates, including Starisian Technologies, may use your work for language preservation,
+  educational materials, translation, research, and approved language or AI tools. This is by
+  licence only and does not take ownership away from you.
+- If licensed use of your work earns money, payment or royalties are handled under separate
+  rights and licensing agreements.
+- Students only use AIWA-approved tools built by Starisian Technologies for AIWA. Personal
+  commercial third-party accounts are not required.
 
-- Receive a **Certificate of Participation**
-- Have the chance to be published in an AIWA educational publication
-  (only if you want, and with your parent's or guardian's permission)
-- Build real skills in writing, storytelling, and communication
-- Be part of something that supports Gambian education and culture
-
----
-
-### It Is Your Choice to Join
-
-You do not have to join this programme.
-
-If you decide to join and later change your mind, you can leave at any time.
-Leaving will not cause any problem for you at school.
-
-**If you want to leave:** tell your teacher, the AIWA facilitator, or any trusted adult.
-You do not need to explain why. You will not be questioned or pressured to stay.
-
----
-
-### How We Work Together
-
-When you join this programme, we ask you to:
-
-- Attend sessions regularly and try your best
-- Treat other students and facilitators with respect
-- Contribute to a positive and welcoming group for everyone
-- Be honest and kind in your feedback to other students' work
-- Let a teacher or AIWA facilitator know if you have any concerns
-
----
-
-### Your Work Belongs to You
-
-Anything you create during this programme belongs to you (for example: writing,
-drawings, audio, or other original creative work).
-
-AIWA will never publish your work without asking you and your parent or guardian first.
-You will always be given full credit as the author of your work.
-
----
-
-### Your Work and Technology
-
-You must only submit work that you created yourself or that you have the right to use.
-Do not copy or plagiarise. Do not use books, songs, images, or cultural materials that
-belong to someone else — unless you have written permission to do so.
-
-Your work still belongs to you. AIWA using your work does not change that.
-If your work is published or shared publicly, you will be asked for separate permission
-first. AIWA and its affiliates, including Starisian Technologies, may use the work you
-share to help preserve languages, create educational materials, improve translation,
-support research, and develop language and AI tools.
-
-Your work still belongs to you. Any additional use must be based on your consent
-and applicable licensing terms, and does not transfer ownership.
-
-If you and your parent or guardian agree to extended use, AIWA may license your work for
-commercial or broader platform use through approved systems and partners, including the
-SPARXSTAR platform built by Starisian Technologies. A license means your work may be used
-under agreed permissions — not sold or taken from you.
-
-AIWA keeps records showing who created the work, where it came from, and what rights and
-permissions apply.
-
-If licensed use of your work earns money, you may qualify for payment or royalties under
-separate rights and licensing agreements.
-
----
-
-### Questions and Concerns
-
-If you have any questions or worries at any time, please talk to:
+### Questions or Concerns
 
 - Your class teacher
 - The AIWA facilitator at your school
-- AIWA directly at: [AIWA_CONTACT_EMAIL] | [AIWA_CONTACT_PHONE]
+- AIWA directly: [AIWA_CONTACT_EMAIL] | [AIWA_CONTACT_PHONE]
 
 ---
 
@@ -132,15 +62,11 @@ Please read and tick each box if you agree:
 
 ☐ I know that joining is my choice and I can leave at any time without any problem
 
-☐ I will treat other students and facilitators with respect
+☐ I will treat others with respect and ask for help if I am worried
 
-☐ I know that my original work belongs to me and will not be published without my permission
+☐ I know that my original work belongs to me and will not be published without permission
 
-☐ I understand AIWA may use my work for language preservation, educational publishing,
-  educational language tools, and governed AI-related use, as explained in this form
-
-☐ I confirm the work I submit is my own or I have permission to contribute it, and is
-  not copied or taken from unlicensed protected sources
+☐ I will only submit work that is my own or that I have permission to use
 
 ☐ I am happy to join this programme and I will do my best
 

@@ -83,6 +83,10 @@ function Pandoc(doc)
       include_matching_block = true
     elseif block.t == "Header" and text:lower():match("^media and photography") then
       -- The document title already provides this label.
+    elseif is_parent_programme_form and block.t == "Header" and text == "AIWA PROGRAMME PERMISSION FORM" then
+      -- The document title already provides this label.
+    elseif is_student_form and block.t == "Header" and text == "AIWA STUDENT PARTICIPATION AGREEMENT" then
+      -- The document title already provides this label.
     elseif is_parent_programme_form and text:match("^Please complete the section below and return to the school") then
       -- Drop facilitator/process instructions from the signer-facing output.
     elseif is_parent_programme_form and text:match("^If you gave permission verbally with a facilitator") then
