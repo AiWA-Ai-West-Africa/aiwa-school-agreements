@@ -368,6 +368,7 @@ published works that engage significantly with specific community cultural conte
 Programme activities.
 
 11.2 AIWA will provide the School with a copy of its **Student Safeguarding Policy**
+(as published within the AIWA Policy Framework at https://github.com/Ai-West-Africa/aiwa-policy)
 before the Programme commences. Both parties agree to comply with this policy during
 all Programme activities.
 
@@ -410,6 +411,7 @@ and safeguarding purposes, and not shared with third parties without consent, ex
 required by the laws of The Republic of The Gambia.
 
 12.3 Personal data will be retained in accordance with AIWA's **Data Privacy Policy**
+(as published within the AIWA Policy Framework at https://github.com/Ai-West-Africa/aiwa-policy)
 retention schedule. Parents and guardians may request access to or deletion of data held
 about their child by contacting AIWA at [AIWA_CONTACT_EMAIL].
 
@@ -676,7 +678,7 @@ before activities commence.*
 
 ---
 
-*For full details on privacy, data use, and all AIWA policies, visit **aiwestafrica.com***
+*This document aligns with the AIWA Policy Framework: **https://github.com/Ai-West-Africa/aiwa-policy** (including AIWA-POL-04, AIWA-POL-05, and AIWA-POL-09).*
 
 ## Change Log
 

@@ -96,7 +96,7 @@ Consent level recorded: ______________________________________
 
 ---
 
-*For full details on privacy, data use, and all AIWA policies, visit **aiwestafrica.com***
+*This document aligns with the AIWA Policy Framework: **https://github.com/Ai-West-Africa/aiwa-policy** (including AIWA-POL-04, AIWA-POL-05, and AIWA-POL-09).*
 
 ---
 
