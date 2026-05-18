@@ -1,3 +1,5 @@
+
+<img width="1319" height="743" alt="Screenshot 2026-05-17 10 55 27 PM" src="https://github.com/user-attachments/assets/13e47caa-1567-4bcb-b285-a73fa165f3c1" />
 # AI West Africa (AIWA) — School Pilot Framework
 
 [![Copilot cloud agent](https://github.com/AiWA-Ai-West-Africa/aiwa-school-agreements/actions/workflows/copilot-swe-agent/copilot/badge.svg)](https://github.com/AiWA-Ai-West-Africa/aiwa-school-agreements/actions/workflows/copilot-swe-agent/copilot)   [![Copilot code review](https://github.com/AiWA-Ai-West-Africa/aiwa-school-agreements/actions/workflows/copilot-pull-request-reviewer/copilot-pull-request-reviewer/badge.svg)](https://github.com/AiWA-Ai-West-Africa/aiwa-school-agreements/actions/workflows/copilot-pull-request-reviewer/copilot-pull-request-reviewer)
