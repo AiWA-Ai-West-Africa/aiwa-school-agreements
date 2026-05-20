@@ -90,15 +90,20 @@ prepare_form_reference_docx() {
   local tmp_docx
   tmp_docx="$(mktemp --suffix=.docx)"
 
-  # Start from Pandoc's default reference document so form-specific styles
-  # such as Body Text, Compact, and list variants remain available.
-  if ! pandoc --print-default-data-file reference.docx > "$tmp_docx"; then
-    if [ -f "templates/reference/reference.docx" ]; then
-      cp "templates/reference/reference.docx" "$tmp_docx"
-    else
-      rm -f "$tmp_docx"
-      return
+  # Prefer the branded reference document when available so generated form
+  # DOCX files retain the committed header/footer and other Word branding.
+  # Fall back to Pandoc's default reference document only when the branded
+  # template is absent or cannot be copied.
+  if [ -f "templates/reference/reference.docx" ]; then
+    if ! cp "templates/reference/reference.docx" "$tmp_docx"; then
+      if ! pandoc --print-default-data-file reference.docx > "$tmp_docx"; then
+        rm -f "$tmp_docx"
+        return
+      fi
     fi
+  elif ! pandoc --print-default-data-file reference.docx > "$tmp_docx"; then
+    rm -f "$tmp_docx"
+    return
   fi
 
   if ! FORM_DOCX_FONT="$FORM_MAINFONT" FORM_DOCX_MONOFONT="$FORM_MONOFONT" \
