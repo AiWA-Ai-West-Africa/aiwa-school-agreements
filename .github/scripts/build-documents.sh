@@ -49,8 +49,33 @@ fi
 AUTHOR="AI West Africa (AIWA)"
 BUILD_DATE="$(date '+%B %Y')"
 FORM_FILTER=".github/scripts/pandoc-form-compact.lua"
+FORM_DOCX_FILTER=".github/scripts/pandoc-form-docx.lua"
 FORM_LATEX_HEADER=".github/scripts/form-pdf-header.tex"
 FORM_REFERENCE_DOCX=""
+
+font_available() {
+  local font_name="$1"
+
+  if ! command -v fc-match >/dev/null 2>&1; then
+    return 1
+  fi
+
+  [ "$(fc-match -f '%{family[0]}\n' "$font_name" 2>/dev/null | head -n1)" = "$font_name" ]
+}
+
+pick_font() {
+  local preferred="$1"
+  local fallback="$2"
+
+  if font_available "$preferred"; then
+    echo "$preferred"
+  else
+    echo "$fallback"
+  fi
+}
+
+FORM_MAINFONT="$(pick_font "Noto Sans" "Liberation Sans")"
+FORM_MONOFONT="$(pick_font "Noto Sans Mono" "Liberation Mono")"
 
 is_form_document() {
   local md_file="$1"
@@ -65,16 +90,24 @@ prepare_form_reference_docx() {
   local tmp_docx
   tmp_docx="$(mktemp --suffix=.docx)"
 
-  # Seed from the branded committed template when present so custom heading
-  # styles, margins, and fonts are preserved; fall back to Pandoc's default.
+  # Prefer the branded reference document when available so generated form
+  # DOCX files retain the committed header/footer and other Word branding.
+  # Fall back to Pandoc's default reference document only when the branded
+  # template is absent or cannot be copied.
   if [ -f "templates/reference/reference.docx" ]; then
-    cp "templates/reference/reference.docx" "$tmp_docx"
+    if ! cp "templates/reference/reference.docx" "$tmp_docx"; then
+      if ! pandoc --print-default-data-file reference.docx > "$tmp_docx"; then
+        rm -f "$tmp_docx"
+        return
+      fi
+    fi
   elif ! pandoc --print-default-data-file reference.docx > "$tmp_docx"; then
     rm -f "$tmp_docx"
     return
   fi
 
-  if ! python - "$tmp_docx" <<'PY'
+  if ! FORM_DOCX_FONT="$FORM_MAINFONT" FORM_DOCX_MONOFONT="$FORM_MONOFONT" \
+    python - "$tmp_docx" <<'PY'
 import os
 import shutil
 import tempfile
@@ -84,6 +117,9 @@ import xml.etree.ElementTree as ET
 path = os.path.abspath(__import__('sys').argv[1])
 ns = {'w': 'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}
 W = '{%s}' % ns['w']
+FORM_FONT = os.environ.get('FORM_DOCX_FONT', 'Noto Sans')
+FORM_MONOFONT = os.environ.get('FORM_DOCX_MONOFONT', 'Noto Sans Mono')
+DEFAULT_TEXT_COLOR = '000000'
 
 with zipfile.ZipFile(path, 'r') as zin:
     blobs = {name: zin.read(name) for name in zin.namelist()}
@@ -94,27 +130,142 @@ if styles_xml is None or doc_xml is None:
     raise SystemExit(1)
 
 styles_root = ET.fromstring(styles_xml)
-normal = styles_root.find(".//w:style[@w:styleId='Normal']", ns)
-if normal is not None:
-    rpr = normal.find('w:rPr', ns)
-    if rpr is None:
-        rpr = ET.SubElement(normal, W + 'rPr')
-    sz = rpr.find('w:sz', ns)
-    if sz is None:
-        sz = ET.SubElement(rpr, W + 'sz')
-    sz.set(W + 'val', '18')
-    szcs = rpr.find('w:szCs', ns)
-    if szcs is None:
-        szcs = ET.SubElement(rpr, W + 'szCs')
-    szcs.set(W + 'val', '18')
-
 doc_root = ET.fromstring(doc_xml)
+
+def ensure_child(parent, tag):
+    child = parent.find(f'w:{tag}', ns)
+    if child is None:
+        child = ET.SubElement(parent, W + tag)
+    return child
+
+def find_style(style_id):
+    return styles_root.find(f".//w:style[@w:styleId='{style_id}']", ns)
+
+def set_fonts(rpr, font_name, monofont=False):
+    fonts = ensure_child(rpr, 'rFonts')
+    fonts.set(W + 'ascii', font_name)
+    fonts.set(W + 'hAnsi', font_name)
+    fonts.set(W + 'cs', font_name)
+    if monofont:
+        fonts.set(W + 'eastAsia', font_name)
+
+def set_size(rpr, size):
+    sz = ensure_child(rpr, 'sz')
+    sz.set(W + 'val', str(size))
+    szcs = ensure_child(rpr, 'szCs')
+    szcs.set(W + 'val', str(size))
+
+def set_spacing(ppr, before=None, after=None, line=None):
+    spacing = ensure_child(ppr, 'spacing')
+    if before is not None:
+        spacing.set(W + 'before', str(before))
+    if after is not None:
+        spacing.set(W + 'after', str(after))
+    if line is not None:
+        spacing.set(W + 'line', str(line))
+        spacing.set(W + 'lineRule', 'auto')
+
+def set_color(rpr, color):
+    color_el = ensure_child(rpr, 'color')
+    color_el.set(W + 'val', color)
+
+def set_bold(rpr):
+    ensure_child(rpr, 'b')
+    ensure_child(rpr, 'bCs')
+
+def remove_heading_style_paragraph_border(ppr):
+    # Pandoc's default Title style includes a bottom border that makes forms
+    # look like reports instead of fillable handouts, so remove it from the
+    # form heading styles here.
+    border = ppr.find('w:pBdr', ns)
+    if border is not None:
+        ppr.remove(border)
+
+doc_defaults = styles_root.find('w:docDefaults', ns)
+if doc_defaults is None:
+    doc_defaults = ET.SubElement(styles_root, W + 'docDefaults')
+rpr_default = doc_defaults.find('w:rPrDefault', ns)
+if rpr_default is None:
+    rpr_default = ET.SubElement(doc_defaults, W + 'rPrDefault')
+rpr = ensure_child(rpr_default, 'rPr')
+set_fonts(rpr, FORM_FONT)
+set_size(rpr, 20)
+
+for style_config in [
+    {'id': 'Normal', 'font_size': 20, 'spacing_before': 0, 'spacing_after': 40, 'line_spacing': 264},
+    {'id': 'BodyText', 'font_size': 20, 'spacing_before': 0, 'spacing_after': 40, 'line_spacing': 264},
+    {'id': 'BodyText2', 'font_size': 20, 'spacing_before': 0, 'spacing_after': 40, 'line_spacing': 264},
+    {'id': 'FirstParagraph', 'font_size': 20, 'spacing_before': 0, 'spacing_after': 40, 'line_spacing': 264},
+    {'id': 'ListParagraph', 'font_size': 20, 'spacing_before': 0, 'spacing_after': 20, 'line_spacing': 240},
+    {'id': 'Compact', 'font_size': 18, 'spacing_before': 0, 'spacing_after': 10, 'line_spacing': 220},
+]:
+    style = find_style(style_config['id'])
+    if style is None:
+        continue
+    style_rpr = ensure_child(style, 'rPr')
+    set_fonts(style_rpr, FORM_FONT)
+    set_size(style_rpr, style_config['font_size'])
+    style_ppr = ensure_child(style, 'pPr')
+    set_spacing(
+        style_ppr,
+        before=style_config['spacing_before'],
+        after=style_config['spacing_after'],
+        line=style_config['line_spacing'],
+    )
+
+for style_config in [
+    {'id': 'Title', 'font_size': 28, 'spacing_before': 0, 'spacing_after': 100, 'color': DEFAULT_TEXT_COLOR},
+    {'id': 'Heading1', 'font_size': 24, 'spacing_before': 100, 'spacing_after': 60, 'color': DEFAULT_TEXT_COLOR},
+    {'id': 'Heading2', 'font_size': 22, 'spacing_before': 80, 'spacing_after': 40, 'color': DEFAULT_TEXT_COLOR},
+    {'id': 'Heading3', 'font_size': 20, 'spacing_before': 60, 'spacing_after': 30, 'color': DEFAULT_TEXT_COLOR},
+    {'id': 'Heading4', 'font_size': 20, 'spacing_before': 50, 'spacing_after': 24, 'color': DEFAULT_TEXT_COLOR},
+    {'id': 'Subtitle', 'font_size': 20, 'spacing_before': 0, 'spacing_after': 50, 'color': DEFAULT_TEXT_COLOR},
+]:
+    style = find_style(style_config['id'])
+    if style is None:
+        continue
+    style_rpr = ensure_child(style, 'rPr')
+    set_fonts(style_rpr, FORM_FONT)
+    set_size(style_rpr, style_config['font_size'])
+    set_bold(style_rpr)
+    set_color(style_rpr, style_config['color'])
+    style_ppr = ensure_child(style, 'pPr')
+    remove_heading_style_paragraph_border(style_ppr)
+    ensure_child(style_ppr, 'keepNext')
+    set_spacing(
+        style_ppr,
+        before=style_config['spacing_before'],
+        after=style_config['spacing_after'],
+        line=240,
+    )
+
+for style_id in ('SourceCode', 'VerbatimChar', 'CodeBlock'):
+    style = find_style(style_id)
+    if style is None:
+        continue
+    style_rpr = ensure_child(style, 'rPr')
+    set_fonts(style_rpr, FORM_MONOFONT, monofont=True)
+
 for sect in doc_root.findall('.//w:sectPr', ns):
-    cols = sect.find('w:cols', ns)
-    if cols is None:
-        cols = ET.SubElement(sect, W + 'cols')
-    cols.set(W + 'num', '2')
-    cols.set(W + 'space', '560')
+    pg_sz = ensure_child(sect, 'pgSz')
+    pg_sz.set(W + 'w', '11906')
+    pg_sz.set(W + 'h', '16838')
+
+    pg_mar = ensure_child(sect, 'pgMar')
+    for attr, value in {
+        'top': '709',
+        'right': '709',
+        'bottom': '709',
+        'left': '709',
+        'header': '340',
+        'footer': '340',
+        'gutter': '0',
+    }.items():
+        pg_mar.set(W + attr, value)
+
+    cols = ensure_child(sect, 'cols')
+    cols.set(W + 'num', '1')
+    cols.set(W + 'space', '360')
 
 blobs['word/styles.xml'] = ET.tostring(styles_root, encoding='utf-8', xml_declaration=True)
 blobs['word/document.xml'] = ET.tostring(doc_root, encoding='utf-8', xml_declaration=True)
@@ -147,8 +298,11 @@ trap cleanup EXIT
 
 prepare_form_reference_docx
 if [ -n "$FORM_REFERENCE_DOCX" ]; then
-  echo "ℹ Using generated compact form DOCX reference template"
+  echo "ℹ Using generated form DOCX reference template"
 fi
+
+echo "ℹ Form PDF font: $FORM_MAINFONT"
+echo "ℹ Form monospace font: $FORM_MONOFONT"
 
 # ── PDF build ─────────────────────────────────────────────────────────────────
 build_pdf() {
@@ -161,18 +315,20 @@ build_pdf() {
     -V linkcolor=NavyBlue
     -V urlcolor=NavyBlue
     -V toccolor=NavyBlue
-    -V mainfont="Liberation Serif"
-    -V sansfont="Liberation Sans"
-    -V monofont="Liberation Mono"
   )
 
   if [ "$is_form" = true ]; then
     pandoc_args+=(
+      --lua-filter "$FORM_DOCX_FILTER"
       --lua-filter "$FORM_FILTER"
       -H "$FORM_LATEX_HEADER"
-      -V geometry:margin=1.0cm
+      -V mainfont="$FORM_MAINFONT"
+      -V sansfont="$FORM_MAINFONT"
+      -V monofont="$FORM_MONOFONT"
+      -V geometry:a4paper
+      -V geometry:margin=12.7mm
       -V fontsize=9pt
-      -V linestretch=1.0
+      -V linestretch=1.03
     )
   else
     pandoc_args+=(
@@ -181,6 +337,9 @@ build_pdf() {
       --metadata "title=$title"
       --metadata "author=$AUTHOR"
       --metadata "date=$BUILD_DATE"
+      -V mainfont="Liberation Serif"
+      -V sansfont="Liberation Sans"
+      -V monofont="Liberation Mono"
       -V geometry:margin=2.5cm
     )
   fi
@@ -200,6 +359,7 @@ build_docx() {
 
   if [ "$is_form" = true ]; then
     pandoc_args+=(
+      --lua-filter "$FORM_DOCX_FILTER"
       --lua-filter "$FORM_FILTER"
     )
     if [ -n "$FORM_REFERENCE_DOCX" ] && [ -f "$FORM_REFERENCE_DOCX" ]; then

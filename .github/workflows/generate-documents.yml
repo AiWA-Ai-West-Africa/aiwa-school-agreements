@@ -166,25 +166,46 @@ jobs:
       - name: Attach documents to release
         run: |
           set -euo pipefail
-      
-          TAG="${{ github.event.release.tag_name }}"
-          echo "Attaching files to release: $TAG"
-      
-          existing_assets="$(gh release view "$TAG" --repo "$GH_REPO" --json assets --jq '.assets[].name')"
-      
-          find dist -type f \( -name "*.pdf" -o -name "*.docx" \) | sort | while read -r file; do
-            name="$(basename "$file")"
-      
-            if printf '%s\n' "$existing_assets" | grep -Fxq "$name"; then
-              echo "Skipping existing asset on immutable release: $name"
-              continue
-            fi
-      
-            gh release upload "$TAG" "$file" --repo "$GH_REPO"
-          done
+
+          TAG="$RELEASE_TAG"
+          TARGET_COMMITISH="$RELEASE_TARGET_COMMITISH"
+          RELEASE_TITLE="$RELEASE_TITLE_VALUE"
+          NOTES_FILE="$(mktemp)"
+
+          printf '%s\n' "$RELEASE_BODY" >"$NOTES_FILE"
+
+          mapfile -d '' ASSETS < <(find dist -type f \( -name "*.pdf" -o -name "*.docx" \) -print0 | sort -z)
+          if [ "${#ASSETS[@]}" -eq 0 ]; then
+            echo "No release assets were generated." >&2
+            exit 1
+          fi
+
+          if gh release view "$TAG" --repo "$GH_REPO" >/dev/null 2>&1; then
+            echo "Recreating immutable release: $TAG"
+            gh release delete "$TAG" --yes --cleanup-tag --repo "$GH_REPO"
+          fi
+
+          create_args=(
+            "$TAG"
+            --title "$RELEASE_TITLE"
+            --notes-file "$NOTES_FILE"
+            --target "$TARGET_COMMITISH"
+            --repo "$GH_REPO"
+          )
+
+          if [ "$RELEASE_PRERELEASE" = "true" ]; then
+            create_args+=(--prerelease)
+          fi
+
+          gh release create "${create_args[@]}" "${ASSETS[@]}"
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
+          RELEASE_TAG: ${{ github.event.release.tag_name }}
+          RELEASE_TARGET_COMMITISH: ${{ github.event.release.target_commitish }}
+          RELEASE_TITLE_VALUE: ${{ github.event.release.name || github.event.release.tag_name }}
+          RELEASE_BODY: ${{ github.event.release.body || '' }}
+          RELEASE_PRERELEASE: ${{ github.event.release.prerelease }}
 
   latest-release-upload:
     name: Publish latest documents prerelease assets
@@ -211,6 +232,12 @@ jobs:
           RELEASE_TITLE="Latest AIWA Generated Documents"
           NOTES_FILE="$(mktemp)"
 
+          mapfile -d '' ASSETS < <(find dist -type f \( -name "*.pdf" -o -name "*.docx" \) -print0 | sort -z)
+          if [ "${#ASSETS[@]}" -eq 0 ]; then
+            echo "No prerelease assets were generated." >&2
+            exit 1
+          fi
+
           cat >"$NOTES_FILE" <<EOF
           Auto-updated document bundle from \`${{ github.sha }}\`.
 
@@ -219,21 +246,17 @@ jobs:
           EOF
 
           if gh release view "$TAG_NAME" --repo "$GH_REPO" >/dev/null 2>&1; then
-            gh release edit "$TAG_NAME" \
-              --title "$RELEASE_TITLE" \
-              --notes-file "$NOTES_FILE" \
-              --prerelease \
-              --repo "$GH_REPO"
-          else
-            gh release create "$TAG_NAME" \
-              --title "$RELEASE_TITLE" \
-              --notes-file "$NOTES_FILE" \
-              --prerelease \
-              --repo "$GH_REPO"
+            echo "Refreshing persistent prerelease: $TAG_NAME"
+            gh release delete "$TAG_NAME" --yes --cleanup-tag --repo "$GH_REPO"
           fi
 
-          find dist -type f \( -name "*.pdf" -o -name "*.docx" \) | sort | \
-            xargs -I{} gh release upload "$TAG_NAME" {} --clobber --repo "$GH_REPO"
+          gh release create "$TAG_NAME" \
+            "${ASSETS[@]}" \
+            --title "$RELEASE_TITLE" \
+            --notes-file "$NOTES_FILE" \
+            --target "${{ github.sha }}" \
+            --prerelease \
+            --repo "$GH_REPO"
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
