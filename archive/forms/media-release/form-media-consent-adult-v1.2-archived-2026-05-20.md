@@ -13,6 +13,9 @@
 ## MEDIA AND PHOTOGRAPHY CONSENT FORM
 ### For Adult Participants
 
+**School / Organisation:** [SCHOOL_NAME]
+**Programme:** [PROGRAM_NAME]
+
 ---
 
 AI West Africa (AIWA) sometimes takes photos or short videos at programme events and activities.
@@ -46,6 +49,16 @@ You do not have to give consent. Refusing will not affect your involvement in th
 
 ---
 
+**Audio Recordings**
+
+AIWA may make audio recordings during programme activities, including oral storytelling, language documentation sessions, spoken-word performances, or educational discussions in which I take part.
+
+☐ **YES** — AIWA may make and use audio recordings that include my voice
+
+☐ **NO** — I do not want audio recordings of me made or used
+
+---
+
 **My Name**
 
 ☐ **YES** — AIWA may use my name alongside photos, videos, or audio recordings
@@ -60,7 +73,6 @@ You do not have to give consent. Refusing will not affect your involvement in th
 - Your creative or oral contributions will **never** be used to train artificial intelligence (AI) systems.
 - You may withdraw this consent at any time by contacting [AIWA_CONTACT_EMAIL].
 - Separate consent will be requested for major publications or special projects.
-- For full details on privacy, data use, and all AIWA policies, visit **aiwestafrica.com**.
 
 ---
 
@@ -81,6 +93,10 @@ You do not have to give consent. Refusing will not affect your involvement in th
 Form received by: _____________________________ Date: _______________
 
 Consent level recorded: ______________________________________
+
+---
+
+*For full details on privacy, data use, and all AIWA policies, visit **aiwestafrica.com***
 
 ---
 

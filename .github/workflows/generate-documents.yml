@@ -167,12 +167,12 @@ jobs:
         run: |
           set -euo pipefail
 
-          TAG="${{ github.event.release.tag_name }}"
-          TARGET_COMMITISH="${{ github.event.release.target_commitish }}"
-          RELEASE_TITLE="${{ github.event.release.name || github.event.release.tag_name }}"
+          TAG="$RELEASE_TAG"
+          TARGET_COMMITISH="$RELEASE_TARGET_COMMITISH"
+          RELEASE_TITLE="$RELEASE_TITLE_VALUE"
           NOTES_FILE="$(mktemp)"
 
-          printf '%s\n' "${{ github.event.release.body }}" >"$NOTES_FILE"
+          printf '%s\n' "$RELEASE_BODY" >"$NOTES_FILE"
 
           mapfile -d '' ASSETS < <(find dist -type f \( -name "*.pdf" -o -name "*.docx" \) -print0 | sort -z)
           if [ "${#ASSETS[@]}" -eq 0 ]; then
@@ -193,7 +193,7 @@ jobs:
             --repo "$GH_REPO"
           )
 
-          if [ "${{ github.event.release.prerelease }}" = "true" ]; then
+          if [ "$RELEASE_PRERELEASE" = "true" ]; then
             create_args+=(--prerelease)
           fi
 
@@ -201,6 +201,11 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
+          RELEASE_TAG: ${{ github.event.release.tag_name }}
+          RELEASE_TARGET_COMMITISH: ${{ github.event.release.target_commitish }}
+          RELEASE_TITLE_VALUE: ${{ github.event.release.name || github.event.release.tag_name }}
+          RELEASE_BODY: ${{ github.event.release.body || '' }}
+          RELEASE_PRERELEASE: ${{ github.event.release.prerelease }}
 
   latest-release-upload:
     name: Publish latest documents prerelease assets

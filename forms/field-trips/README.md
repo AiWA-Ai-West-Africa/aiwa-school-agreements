@@ -21,5 +21,5 @@ A Field Trip Permission and Travel Agreement must be collected from a student's 
 
 - `contracts/templates/contract-school-pilot-agreement-v1.2.md` — Clause 4.2 and 5.4 (field trip consent requirement)
 - `contracts/templates/contract-junior-publishing-program-v1.1.md` — Programme activities overview
-- `forms/parent-consent/form-parent-consent-v2.0.md` — General programme permission form
+- `forms/parent-consent/form-parent-consent-v2.1.md` — General programme permission form
 - `AIWA Student Safeguarding Policy` — Supervisor ratios and off-campus safeguarding requirements

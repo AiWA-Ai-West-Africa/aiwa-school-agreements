@@ -1,9 +1,9 @@
 # Parent and Guardian Permission Form — AIWA Programme
 
 **Document Type:** Form — Parental Consent
-**Version:** v2.0
+**Version:** v2.1
 **Status:** Draft
-**Last Reviewed:** 13 May 2026
+**Last Reviewed:** 20 May 2026
 **Approved By:** Pending — Safeguarding Lead + Programme Director
 **Applies To:** Parents/Guardians of Student Contributors
 **Jurisdiction:** The Republic of The Gambia
@@ -101,3 +101,4 @@ Reference: ___________________________________
 | v1.0 | 1 May 2025 | Programme Team | Initial template version. |
 | v1.1 | 11 May 2026 | Programme Team | Updated read-aloud/witness consent wording, restored Change Log section, clarified originality/provenance, contributor-owned licensing, governed AI-related use (including authorised partners), royalties framing, removed photo/video references (handled by separate media form), and specified Starisian-built student tools under sovereign knowledge governance. |
 | v2.0 | 13 May 2026 | Programme Team | Rewrote "Your Child's Work and Technology" section with prescribed language on submission standards, ownership, publishing permission, AIWA/affiliate use, licensing (not transfer), records, and royalties. Rewrote "Digital Tools" section to confirm Starisian Technologies-only tools, data protection under sovereign knowledge governance, and safeguarding controls. Removed separate "Your Child's Written Work" section (content now covered in Work and Technology section). Removed digital tools list placeholder. Removed Academic Year header field and programme start/end/schedule dates from form header. Added aiwestafrica.com full details reference. (Major version: substantive consent changes per VERSIONING.md §4.2.) |
+| v2.1 | 20 May 2026 | Programme Team | Simplified parent-facing wording and structure, including clearer witness/oral-consent instructions; version incremented to document this update. |
